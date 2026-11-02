@@ -1,25 +1,18 @@
-# Credenciales y configuración privada
+# Credenciales
 .env
 .env.*
-!.env.example
 
-# Entornos virtuales de Python
+# Python
 venv/
 .venv/
-
-# Caché de Python
 __pycache__/
 *.py[cod]
 
-# Datos privados del proyecto
+# Datos privados y resultados
 seleccion.json
-
-# Archivos generados
 cargadores_encontrados.csv
 
-# Vercel
+# Vercel y sistema
 .vercel/
-
-# Sistema
 .DS_Store
 Thumbs.db

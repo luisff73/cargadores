@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Cargadores Iberdrola</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f6f8;
+            color: #24313d;
+        }
+
+        header {
+            background: #073b32;
+            color: white;
+            padding: 28px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 8px;
+            font-size: 26px;
+        }
+
+        header p {
+            margin: 0;
+            color: #d5e8e2;
+        }
+
+        main {
+            max-width: 1050px;
+            margin: 30px auto;
+            padding: 0 16px;
+        }
+
+        .buscador {
+            background: white;
+            padding: 22px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px #0000000d;
+        }
+
+        .buscador label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .controles {
+            display: flex;
+            gap: 10px;
+        }
+
+        input {
+            flex: 1;
+            min-width: 0;
+            padding: 13px;
+            border: 1px solid #ccd5d9;
+            border-radius: 7px;
+            font-size: 16px;
+        }
+
+        button {
+            border: 0;
+            border-radius: 7px;
+            padding: 13px 20px;
+            background: #087b58;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #065e43;
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: wait;
+        }
+
+        .resumen {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 22px 0;
+        }
+
+        .indicador {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .indicador strong {
+            display: block;
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        .indicador span {
+            color: #64727c;
+            font-size: 14px;
+        }
+
+        .filtros {
+            display: flex;
+            gap: 8px;
+            margin: 22px 0;
+            flex-wrap: wrap;
+        }
+
+        .filtros button {
+            background: #e1e9e7;
+            color: #24443b;
+        }
+
+        .filtros button.activo {
+            background: #087b58;
+            color: white;
+        }
+
+        #resultados {
+            display: grid;
+            gap: 14px;
+        }
+
+        .cargador {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            border-left: 5px solid #89959b;
+            box-shadow: 0 2px 8px #00000008;
+        }
+
+        .cargador.disponible {
+            border-left-color: #15945e;
+        }
+
+        .cargador.ocupado {
+            border-left-color: #d64b4b;
+        }
+
+        .cargador h3 {
+            margin: 0 0 10px;
+        }
+
+        .direccion {
+            color: #64727c;
+            margin-bottom: 14px;
+        }
+
+        .estado {
+            display: inline-block;
+            padding: 6px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .estado.disponible {
+            background: #d9f4e6;
+            color: #087443;
+        }
+
+        .estado.ocupado {
+            background: #fde3e3;
+            color: #a72e2e;
+        }
+
+        .estado.desconocido {
+            background: #edf0f2;
+            color: #58646c;
+        }
+
+        .detalle {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .mensaje {
+            background: white;
+            padding: 22px;
+            border-radius: 10px;
+            text-align: center;
+            color: #64727c;
+        }
+
+        .error {
+            color: #a72e2e;
+            background: #fde3e3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 15px;
+            color: #7b878e;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 21px;
+            }
+
+            .controles {
+                flex-direction: column;
+            }
+
+            .resumen {
+                gap: 8px;
+            }
+
+            .indicador {
+                padding: 14px 5px;
+            }
+
+            .indicador strong {
+                font-size: 24px;
+            }
+
+            .indicador span {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Buscador de Cargadores</h1>
+        <p>Consulta los puntos de recarga de Iberdrola</p>
+    </header>
+
+    <main>
+
+        <section class="buscador">
+            <label for="localidad">¿Dónde quieres buscar?</label>
+
+            <div class="controles">
+                <input type="text" id="localidad" placeholder="Ejemplo: Ontinyent" value="Ontinyent">
+
+                <button id="btnBuscar" onclick="buscarCargadores()">
+                    Buscar cargadores
+                </button>
+            </div>
+        </section>
+
+        <section class="resumen">
+            <div class="indicador">
+                <strong id="total">0</strong>
+                <span>Cargadores encontrados</span>
+            </div>
+
+            <div class="indicador">
+                <strong id="disponibles">0</strong>
+                <span>Con tomas libres</span>
+            </div>
+
+            <div class="indicador">
+                <strong id="ocupados">0</strong>
+                <span>Sin tomas libres</span>
+            </div>
+        </section>
+
+        <section class="filtros">
+            <button class="activo" onclick="filtrar('todos', this)">Todos</button>
+            <button onclick="filtrar('disponibles', this)">Disponibles</button>
+            <button onclick="filtrar('ocupados', this)">Ocupados</button>
+        </section>
+
+        <section id="resultados">
+            <div class="mensaje">
+                Introduce una localidad para comenzar la búsqueda.
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        Buscador de puntos de recarga · Datos de Iberdrola
+    </footer>
+
+    <script>
+        let cargadores = [];
+        let filtroActual = "todos";
+
+        async function buscarCargadores() {
+
+            const localidad = document.getElementById("localidad")
+                .value.trim();
+
+            const boton = document.getElementById("btnBuscar");
+            const resultados = document.getElementById("resultados");
+
+            if (!localidad) {
+                alert("Introduce una localidad.");
+                return;
+            }
+
+            boton.disabled = true;
+            boton.textContent = "Buscando...";
+
+            resultados.innerHTML =
+                '<div class="mensaje">Consultando Iberdrola y buscando cargadores...</div>';
+
+            try {
+
+                const respuesta = await fetch(
+                    "/api/cargadores?localidad=" + encodeURIComponent(localidad)
+                );
+
+                const datos = await respuesta.json();
+
+                if (!respuesta.ok) {
+                    throw new Error(datos.detail || "Error en la búsqueda.");
+                }
+
+                cargadores = datos.cargadores || [];
+                filtroActual = "todos";
+
+                document.querySelectorAll(".filtros button")
+                    .forEach((b, i) => {
+                        b.classList.toggle("activo", i === 0);
+                    });
+
+                actualizarResumen();
+                mostrarCargadores();
+
+            } catch (error) {
+
+                resultados.innerHTML =
+                    '<div class="mensaje error">' +
+                    error.message +
+                    '</div>';
+
+            } finally {
+
+                boton.disabled = false;
+                boton.textContent = "Buscar cargadores";
+            }
+        }
+
+        function actualizarResumen() {
+
+            document.getElementById("total").textContent =
+                cargadores.length;
+
+            document.getElementById("disponibles").textContent =
+                cargadores.filter(c => c.disponible === true).length;
+
+            document.getElementById("ocupados").textContent =
+                cargadores.filter(c => c.disponible === false).length;
+        }
+
+        function filtrar(tipo, boton) {
+
+            filtroActual = tipo;
+
+            document.querySelectorAll(".filtros button")
+                .forEach(b => b.classList.remove("activo"));
+
+            boton.classList.add("activo");
+
+            mostrarCargadores();
+        }
+
+        function mostrarCargadores() {
+
+            const contenedor = document.getElementById("resultados");
+
+            let lista = cargadores;
+
+            if (filtroActual === "disponibles") {
+                lista = cargadores.filter(c => c.disponible === true);
+            }
+
+            if (filtroActual === "ocupados") {
+                lista = cargadores.filter(c => c.disponible === false);
+            }
+
+            if (lista.length === 0) {
+                contenedor.innerHTML =
+                    '<div class="mensaje">No hay cargadores en esta categoría.</div>';
+                return;
+            }
+
+            contenedor.innerHTML = lista.map(c => {
+
+                let estado = "desconocido";
+                let etiqueta = "ESTADO DESCONOCIDO";
+
+                if (c.disponible === true) {
+                    estado = "disponible";
+                    etiqueta = "DISPONIBLE";
+                } else if (c.disponible === false) {
+                    estado = "ocupado";
+                    etiqueta = "OCUPADO";
+                }
+
+                return `
+                <article class="cargador ${estado}">
+                    <h3>${escapar(c.nombre)}</h3>
+
+                    <div class="direccion">
+                        ${escapar(c.direccion || c.localidad || "")}
+                    </div>
+
+                    <span class="estado ${estado}">
+                        ${etiqueta}
+                    </span>
+
+                    <div class="detalle">
+                        <strong>Tomas totales:</strong> ${c.tomas ?? 0}<br>
+                        <strong>Tomas libres:</strong> ${c.tomas_disponibles ?? 0}<br>
+                        <strong>Tomas ocupadas:</strong> ${c.tomas_ocupadas ?? 0}<br>
+                        <strong>Detalle:</strong> ${escapar(c.resumen || "")}
+                    </div>
+                </article>
+            `;
+
+            }).join("");
+        }
+
+        function escapar(valor) {
+            return String(valor ?? "").replace(/[&<>"']/g, caracter => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#039;"
+            })[caracter]);
+        }
+
+        document.getElementById("localidad")
+            .addEventListener("keydown", evento => {
+                if (evento.key === "Enter") {
+                    buscarCargadores();
+                }
+            });
+
+    </script>
+
+</body>
+
+</html>
