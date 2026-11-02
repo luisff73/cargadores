@@ -62,45 +62,52 @@ def buscar(
             detail="Debes indicar una localidad."
         )
 
-    try:
-        # 1. Obtener coordenadas
+        try:
+        print("[LOG] 1. Obteniendo coordenadas...", flush=True)
         latitud, longitud = obtener_coordenadas(localidad)
+        print("[LOG] 1. Coordenadas obtenidas correctamente", flush=True)
 
-        # 2. Crear área de búsqueda
+        print("[LOG] 2. Creando límites...", flush=True)
         limites = crear_limites(
             latitud,
             longitud,
             RADIO_KM
         )
+        print("[LOG] 2. Límites creados correctamente", flush=True)
 
-        # 3. Conectar con Iberdrola
+        print("[LOG] 3. Creando sesión con Iberdrola...", flush=True)
         sesion = crear_sesion()
+        print("[LOG] 3. Sesión creada correctamente", flush=True)
 
-        # 4. Buscar cargadores
+        print("[LOG] 4. Buscando cargadores...", flush=True)
         cargadores = buscar_cargadores(
             sesion,
             limites
         )
+        print(f"[LOG] 4. Cargadores encontrados: {len(cargadores)}", flush=True)
 
-        # 5. Consultar disponibilidad
+        print("[LOG] 5. Consultando disponibilidad...", flush=True)
         cargadores = consultar_disponibilidad(
             sesion,
             cargadores
         )
+        print("[LOG] 5. Disponibilidad consultada", flush=True)
 
-        # 6. Normalizar resultados
+        print("[LOG] 6. Normalizando resultados...", flush=True)
         resultados = [
             extraer_datos(cargador)
             for cargador in cargadores
         ]
 
-        # 7. Ordenar: disponibles primero
+        print("[LOG] 7. Ordenando resultados...", flush=True)
         resultados.sort(
             key=lambda c: (
                 c["disponible"] is not True,
                 -c["tomas_disponibles"]
             )
         )
+
+        print("[LOG] Búsqueda finalizada correctamente", flush=True)
 
         return {
             "localidad": localidad,
@@ -109,6 +116,26 @@ def buscar(
             "cargadores": resultados
         }
 
+    except requests.RequestException as error:
+        print(f"[ERROR] Error de conexión: {repr(error)}", flush=True)
+        raise HTTPException(
+            status_code=502,
+            detail="No ha sido posible conectar con los servicios externos."
+        )
+
+    except (ValueError, RuntimeError) as error:
+        print(f"[ERROR] Error de datos o ejecución: {repr(error)}", flush=True)
+        raise HTTPException(
+            status_code=502,
+            detail=str(error)
+        )
+
+    except Exception as error:
+        print(f"[ERROR] Error inesperado: {repr(error)}", flush=True)
+        raise HTTPException(
+            status_code=500,
+            detail="Error interno al buscar cargadores."
+        )
     except requests.RequestException:
         raise HTTPException(
             status_code=502,
