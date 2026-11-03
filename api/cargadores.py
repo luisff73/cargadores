@@ -62,7 +62,7 @@ def buscar(
             detail="Debes indicar una localidad."
         )
 
-        try:
+    try:
         print("[LOG] 1. Obteniendo coordenadas...", flush=True)
         latitud, longitud = obtener_coordenadas(localidad)
         print("[LOG] 1. Coordenadas obtenidas correctamente", flush=True)
