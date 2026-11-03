@@ -173,7 +173,15 @@ def consultar_disponibilidad(sesion, cargadores):
 
     # Obtener cookies de Iberdrola antes de consultar
     pagina = sesion.get(URL_WEB, timeout=30)
+
+    print("[IBERDROLA] Estado HTTP:", pagina.status_code, flush=True)
+    print("[IBERDROLA] URL final:", pagina.url, flush=True)
+    print("[IBERDROLA] Servidor:", pagina.headers.get("Server"), flush=True)
+    print("[IBERDROLA] Cookies:", list(sesion.cookies.keys()), flush=True)
+    print("[IBERDROLA] Tipo de contenido:", pagina.headers.get("Content-Type"), flush=True)
+
     pagina.raise_for_status()
+
 
     cupr_ids = []
 
