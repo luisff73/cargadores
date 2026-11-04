@@ -31,6 +31,8 @@ RADIO_KM = 5
 # Identificación del programa para el servicio de geocodificación
 USER_AGENT = "BuscadorCargadoresIberdrola/1.0"
 
+# Tiempos máximos de conexión y respuesta
+TIMEOUT_HTTP = (10, 30)
 
 # --------------------------------------------------
 # CONEXIÓN CON IBERDROLA
@@ -53,7 +55,7 @@ def crear_sesion():
     })
 
     # Visitar primero la web para obtener las cookies necesarias
-    respuesta = sesion.get(URL_WEB, timeout=30)
+    respuesta = sesion.get(URL_WEB, timeout=TIMEOUT_HTTP)
     respuesta.raise_for_status()
 
     return sesion
@@ -74,7 +76,7 @@ def obtener_coordenadas(localidad):
             "limit": 1
         },
         headers={"User-Agent": USER_AGENT},
-        timeout=20
+        timeout=TIMEOUT_HTTP
     )
 
     respuesta.raise_for_status()
@@ -131,7 +133,7 @@ def buscar_cargadores(sesion, limites):
     respuesta = sesion.post(
         URL_API,
         json=payload,
-        timeout=30
+        timeout=TIMEOUT_HTTP
     )
 
     respuesta.raise_for_status()
@@ -171,18 +173,6 @@ def consultar_disponibilidad(sesion, cargadores):
     if not cargadores:
         return cargadores
 
-    # Obtener cookies de Iberdrola antes de consultar
-    pagina = sesion.get(URL_WEB, timeout=30)
-
-    print("[IBERDROLA] Estado HTTP:", pagina.status_code, flush=True)
-    print("[IBERDROLA] URL final:", pagina.url, flush=True)
-    print("[IBERDROLA] Servidor:", pagina.headers.get("Server"), flush=True)
-    print("[IBERDROLA] Cookies:", list(sesion.cookies.keys()), flush=True)
-    print("[IBERDROLA] Tipo de contenido:", pagina.headers.get("Content-Type"), flush=True)
-
-    pagina.raise_for_status()
-
-
     cupr_ids = []
 
     for cargador in cargadores:
@@ -202,7 +192,7 @@ def consultar_disponibilidad(sesion, cargadores):
     respuesta = sesion.post(
         URL_API_ESTADO,
         json=payload,
-        timeout=30
+        timeout=TIMEOUT_HTTP
     )
 
     print("Consulta de disponibilidad:", respuesta.status_code)

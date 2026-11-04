@@ -1,9 +1,11 @@
 
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request, Depends
 from fastapi.responses import FileResponse
 import requests
+import time
+from threading import Lock, BoundedSemaphore
 
 from buscador import (
     RADIO_KM,
@@ -18,12 +20,86 @@ from buscador import (
 app = FastAPI(
     title="Buscador de Cargadores Iberdrola",
     description="Consulta de puntos de recarga y disponibilidad.",
-    version="1.0.0"
+    version="1.0.0",
+    docs_url=None,
+    redoc_url=None,
+    openapi_url=None
 )
+
+# --------------------------------------------------
+# CABECERAS DE SEGURIDAD HTTP
+# --------------------------------------------------
+
+@app.middleware("http")
+async def cabeceras_seguridad(request: Request, call_next):
+    response = await call_next(request)
+
+    response.headers["X-Content-Type-Options"] = "nosniff"
+    response.headers["X-Frame-Options"] = "DENY"
+    response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
+    response.headers["Permissions-Policy"] = (
+        "camera=(), microphone=(), geolocation=()"
+    )
+
+    return response
+
 
 # Ruta de la página web
 FRONTEND = Path(__file__).resolve().parent.parent / "public"
 
+# --------------------------------------------------
+# PROTECCIÓN DE LA API
+# --------------------------------------------------
+
+MAX_PETICIONES = 10
+VENTANA_SEGUNDOS = 60
+
+peticiones_por_ip = {}
+limite_lock = Lock()
+
+busquedas_semaforo = BoundedSemaphore(1)
+
+
+def comprobar_limite(ip):
+    ahora = time.monotonic()
+
+    with limite_lock:
+        historial = peticiones_por_ip.get(ip, [])
+
+        # Conservar únicamente las peticiones del último minuto
+        historial = [
+            momento for momento in historial
+            if ahora - momento < VENTANA_SEGUNDOS
+        ]
+
+        if len(historial) >= MAX_PETICIONES:
+            peticiones_por_ip[ip] = historial
+            return False
+
+        historial.append(ahora)
+        peticiones_por_ip[ip] = historial
+
+        return True
+
+def proteger_busqueda(request: Request):
+    ip = request.client.host if request.client else "desconocida"
+
+    if not comprobar_limite(ip):
+        raise HTTPException(
+            status_code=429,
+            detail="Has superado el límite de búsquedas. Espera un minuto."
+        )
+
+    if not busquedas_semaforo.acquire(blocking=False):
+        raise HTTPException(
+            status_code=429,
+            detail="Ya hay otra búsqueda en curso. Inténtalo de nuevo."
+        )
+
+    try:
+        yield
+    finally:
+        busquedas_semaforo.release()
 
 # --------------------------------------------------
 # MOSTRAR LA PÁGINA WEB
@@ -52,14 +128,28 @@ def buscar(
         ...,
         min_length=2,
         max_length=100
-    )
+    ),
+    _: None = Depends(proteger_busqueda)
 ):
+    
     localidad = localidad.strip()
 
     if not localidad:
         raise HTTPException(
             status_code=400,
             detail="Debes indicar una localidad."
+        )
+
+    if len(localidad) > 25:
+        raise HTTPException(
+            status_code=400,
+            detail="El nombre de la localidad es demasiado largo."
+        )
+
+    if any(ord(caracter) < 32 or ord(caracter) == 127 for caracter in localidad):
+        raise HTTPException(
+            status_code=400,
+            detail="El nombre de la localidad contiene caracteres no permitidos."
         )
 
     try:
@@ -122,12 +212,12 @@ def buscar(
             status_code=502,
             detail="No ha sido posible conectar con los servicios externos."
         )
-
+        
     except (ValueError, RuntimeError) as error:
         print(f"[ERROR] Error de datos o ejecución: {repr(error)}", flush=True)
         raise HTTPException(
             status_code=502,
-            detail=str(error)
+            detail="No se ha podido procesar la búsqueda. Inténtalo de nuevo."
         )
 
     except Exception as error:
@@ -136,20 +226,4 @@ def buscar(
             status_code=500,
             detail="Error interno al buscar cargadores."
         )
-    except requests.RequestException:
-        raise HTTPException(
-            status_code=502,
-            detail="No ha sido posible conectar con los servicios externos."
-        )
 
-    except (ValueError, RuntimeError) as error:
-        raise HTTPException(
-            status_code=502,
-            detail=str(error)
-        )
-
-    except Exception:
-        raise HTTPException(
-            status_code=500,
-            detail="Error interno al buscar cargadores."
-        )
