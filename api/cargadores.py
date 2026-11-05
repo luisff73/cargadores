@@ -6,6 +6,7 @@ from fastapi.responses import FileResponse
 import requests
 import time
 from threading import Lock, BoundedSemaphore
+from pydantic import BaseModel
 
 from buscador import (
     RADIO_KM,
@@ -16,6 +17,10 @@ from buscador import (
     consultar_disponibilidad,
     extraer_datos
 )
+from vigilancia import (
+    iniciar_vigilancia,
+    esta_vigilado
+)
 
 app = FastAPI(
     title="Buscador de Cargadores Iberdrola",
@@ -25,6 +30,11 @@ app = FastAPI(
     redoc_url=None,
     openapi_url=None
 )
+class SolicitudVigilancia(BaseModel):
+    cuprId: int
+    nombre: str
+    direccion: str = ""
+    localidad: str = ""
 
 # --------------------------------------------------
 # CABECERAS DE SEGURIDAD HTTP
@@ -225,5 +235,37 @@ def buscar(
         raise HTTPException(
             status_code=500,
             detail="Error interno al buscar cargadores."
+        )
+    
+@app.post("/api/vigilancia")
+        
+
+def activar_vigilancia(solicitud: SolicitudVigilancia):
+
+    try:
+        iniciada = iniciar_vigilancia(
+            solicitud.cuprId,
+            solicitud.nombre,
+            solicitud.direccion,
+            solicitud.localidad
+        )
+
+        if not iniciada:
+            return {
+                "ok": True,
+                "mensaje": "Este cargador ya está siendo vigilado."
+            }
+
+        return {
+            "ok": True,
+            "mensaje": "Vigilancia iniciada correctamente."
+        }
+
+    except (ValueError, RuntimeError) as error:
+        print(f"[ERROR] Vigilancia: {error}", flush=True)
+
+        raise HTTPException(
+            status_code=503,
+            detail="No se ha podido iniciar la vigilancia."
         )
 

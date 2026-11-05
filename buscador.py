@@ -357,6 +357,27 @@ def extraer_datos(cargador):
 
     # Obtener disponibilidad actual
     datos_estado = cargador.get("datosDisponibilidad")
+    
+        # Extraer información de precio, potencia y conector
+    tomas_detalle = []
+
+    if datos_estado:
+
+        for logical in datos_estado.get("logicalSocket") or []:
+
+            for toma in logical.get("physicalSocket") or []:
+
+                tarifa = toma.get("appliedRate") or {}
+                recarga = tarifa.get("recharge") or {}
+                conector = toma.get("socketType") or {}
+                estado = toma.get("status") or {}
+
+                tomas_detalle.append({
+                    "conector": conector.get("socketName", "Desconocido"),
+                    "precio": recarga.get("finalPrice"),
+                    "potencia": toma.get("maxPower"),
+                    "estado": estado.get("statusCode", "DESCONOCIDO")
+                })
 
     if datos_estado:
         disponibilidad = analizar_disponibilidad(datos_estado)
@@ -395,6 +416,7 @@ def extraer_datos(cargador):
         "tomas_iber": cargador.get("socketNum", 0),
         "tomas_disponibles": disponibilidad["tomas_disponibles"],
         "tomas_ocupadas": disponibilidad["tomas_ocupadas"],
+        "tomas_detalle": tomas_detalle,
         "latitud": location.get("latitude", ""),
         "longitud": location.get("longitude", "")
     }

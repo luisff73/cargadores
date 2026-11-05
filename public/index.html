@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscador de Cargadores Iberdrola</title>
+    <title>Buscador de Cargadores Electricos Iberdrola</title>
 
     <style>
         * {
@@ -184,10 +184,82 @@
             color: #58646c;
         }
 
+        /* Estado del cargador y acceso a Google Maps */
+
+        .enlace-maps {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 7px 12px;
+            border-radius: 6px;
+            background: #e8eef7;
+            color: #315b91;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+            border: 1px solid #cbd8e8;
+            transition: background 0.2s;
+        }
+
+        .enlace-maps:hover {
+            background: #d5e2f2;
+        }
+
         .detalle {
             font-size: 14px;
             line-height: 1.6;
         }
+
+        /* Información individual de cada toma */
+        .tomas-lista {
+            margin-top: 16px;
+            display: grid;
+            gap: 10px;
+        }
+
+        .toma {
+            padding: 14px;
+            border: 1px solid #dce5e1;
+            border-radius: 8px;
+            background: #f8faf9;
+        }
+
+        .toma.gratuita {
+            border: 1px solid #15945e;
+            background: #f0faf4;
+        }
+
+        .toma-cabecera {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .precio {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .precio.gratis {
+            color: #087443;
+        }
+
+        .etiqueta-gratis {
+            background: #d9f4e6;
+            color: #087443;
+            padding: 5px 9px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        .toma-datos {
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
 
         .mensaje {
             background: white;
@@ -195,6 +267,41 @@
             border-radius: 10px;
             text-align: center;
             color: #64727c;
+        }
+
+        .cabecera-cargador {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+
+        .cabecera-cargador h3 {
+            margin: 0;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .cabecera-cargador .estado {
+            flex-shrink: 0;
+        }
+
+        .fila-direccion {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+
+        .fila-direccion .direccion {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .fila-direccion .enlace-maps {
+            flex-shrink: 0;
         }
 
         .error {
@@ -207,6 +314,19 @@
             padding: 30px 15px;
             color: #7b878e;
             font-size: 13px;
+        }
+
+        .fila-vigilancia {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 10px;
+        }
+
+        .boton-vigilancia {
+            width: auto;
+            display: inline-block;
+            padding: 9px 14px;
+            cursor: pointer;
         }
 
         @media (max-width: 600px) {
@@ -233,6 +353,7 @@
             .indicador span {
                 font-size: 12px;
             }
+
         }
     </style>
 </head>
@@ -272,6 +393,11 @@
             <div class="indicador">
                 <strong id="ocupados">0</strong>
                 <span>Sin tomas libres</span>
+            </div>
+
+            <div class="indicador">
+                <strong id="desconocidos">0</strong>
+                <span>Estado desconocido</span>
             </div>
         </section>
 
@@ -381,7 +507,22 @@
 
             const contenedor = document.getElementById("resultados");
 
-            let lista = cargadores;
+            let lista = [...cargadores];
+
+            lista.sort((a, b) => {
+
+                // Disponibles primero
+                if (a.disponible === true && b.disponible !== true) return -1;
+                if (a.disponible !== true && b.disponible === true) return 1;
+
+                // Desconocidos al final
+                if (a.disponible === null && b.disponible === false) return 1;
+                if (a.disponible === false && b.disponible === null) return -1;
+
+                // Entre disponibles, más tomas libres primero
+                return (b.tomas_disponibles ?? 0) -
+                    (a.tomas_disponibles ?? 0);
+            });
 
             if (filtroActual === "disponibles") {
                 lista = cargadores.filter(c => c.disponible === true);
@@ -410,28 +551,153 @@
                     etiqueta = "OCUPADO";
                 }
 
+                const htmlTomas = (c.tomas_detalle || []).map((toma, index) => {
+
+                    const precioDisponible =
+                        toma.precio !== null &&
+                        toma.precio !== undefined &&
+                        toma.precio !== "";
+
+                    const gratuita = precioDisponible && Number(toma.precio) === 0;
+
+                    const precioTexto = precioDisponible
+                        ? `${Number(toma.precio).toFixed(2).replace(".", ",")} €/kWh`
+                        : "Precio no disponible";
+
+                    const estadoCodigo = String(toma.estado || "").toUpperCase();
+
+                    const estadoToma = estadoCodigo === "AVAILABLE"
+                        ? "Disponible"
+                        : estadoCodigo === "OCCUPIED"
+                            ? "Ocupada"
+                            : "Estado desconocido";
+
+                    const potenciaTexto = toma.potencia != null
+                        ? `${escapar(toma.potencia)} kW`
+                        : "No disponible";
+
+                    return `
+        <div class="toma ${gratuita ? "gratuita" : ""}">
+            <div class="toma-cabecera">
+                <strong>Toma ${index + 1} - ${escapar(toma.conector || "Conector desconocido")}</strong>
+                ${gratuita ? '<span class="etiqueta-gratis">GRATUITA</span>' : ""}
+            </div>
+
+            <div class="toma-datos">
+                <strong>Precio:</strong>
+                <span class="precio ${gratuita ? "gratis" : ""}">
+                    ${precioTexto}
+                </span><br>
+
+                <strong>Potencia:</strong> ${potenciaTexto}<br>
+                <strong>Estado:</strong> ${estadoToma}
+            </div>
+        </div>
+    `;
+                }).join("");
+                const botonVigilancia = c.disponible === false
+                    ? `
+                    <button class="boton-vigilancia"
+                        onclick="activarVigilancia(${JSON.stringify(c.cuprId)}, this)">
+                        Avisarme cuando haya una libre
+                    </button>
+                `
+                    : "";
+                const destinoMaps =
+                    c.latitud != null && c.longitud != null
+                        ? `${c.latitud},${c.longitud}`
+                        : (c.direccion || c.nombre || c.localidad || "");
+
+                const urlMaps =
+                    `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destinoMaps)}`;
+
                 return `
-                <article class="cargador ${estado}">
-                    <h3>${escapar(c.nombre)}</h3>
+            <article class="cargador ${estado}">
+                <div class="cabecera-cargador">
+                <h3>${escapar(c.nombre)}</h3>
+                    <span class="estado ${estado}">${etiqueta}</span>
+                </div>
 
-                    <div class="direccion">
-                        ${escapar(c.direccion || c.localidad || "")}
+                    <div class="fila-direccion">
+                        <div class="direccion">
+                            ${escapar(c.direccion || c.localidad || "")}
+                        </div>
+
+                        <a href="${urlMaps}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="enlace-maps">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>
+                        <circle cx="12" cy="10" r="2.5"/>
+                        </svg>
+                        Cómo llegar
+                        </a>
                     </div>
+                <div class="fila-vigilancia">
+                    ${botonVigilancia}
+                </div>
+                <div class="detalle">
+                    <strong>Tomas totales:</strong> ${c.tomas ?? 0}<br>
+                    <strong>Tomas libres:</strong> ${c.tomas_disponibles ?? 0}<br>
+                    <strong>Tomas ocupadas:</strong> ${c.tomas_ocupadas ?? 0}<br>
+                    <strong>Detalle:</strong> ${escapar(c.resumen || "")}
+                </div>
 
-                    <span class="estado ${estado}">
-                        ${etiqueta}
-                    </span>
-
-                    <div class="detalle">
-                        <strong>Tomas totales:</strong> ${c.tomas ?? 0}<br>
-                        <strong>Tomas libres:</strong> ${c.tomas_disponibles ?? 0}<br>
-                        <strong>Tomas ocupadas:</strong> ${c.tomas_ocupadas ?? 0}<br>
-                        <strong>Detalle:</strong> ${escapar(c.resumen || "")}
-                    </div>
-                </article>
+                ${htmlTomas ? `<div class="tomas-lista">${htmlTomas}</div>` : ""}
+                
+            </article>
             `;
 
             }).join("");
+        }
+        async function activarVigilancia(cuprId, boton) {
+
+            const cargador = cargadores.find(
+                c => String(c.cuprId) === String(cuprId)
+            );
+
+            if (!cargador) {
+                alert("No se han podido obtener los datos del cargador.");
+                return;
+            }
+
+            boton.disabled = true;
+            boton.textContent = "Iniciando vigilancia...";
+
+            try {
+
+                const respuesta = await fetch("/api/vigilancia", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        cuprId: cargador.cuprId,
+                        nombre: cargador.nombre,
+                        direccion: cargador.direccion || "",
+                        localidad: cargador.localidad || ""
+                    })
+                });
+
+                const datos = await respuesta.json();
+
+                if (!respuesta.ok) {
+                    throw new Error(datos.detail || "No se pudo iniciar la vigilancia.");
+                }
+
+                boton.textContent = "Vigilancia activada";
+                alert(datos.mensaje);
+
+            } catch (error) {
+
+                boton.disabled = false;
+                boton.textContent = "Avisarme cuando haya una libre";
+
+                alert("Error: " + error.message);
+            }
         }
 
         function escapar(valor) {
