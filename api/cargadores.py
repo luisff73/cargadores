@@ -7,29 +7,26 @@ import requests
 import time
 from threading import Lock, BoundedSemaphore
 from pydantic import BaseModel
+from api.fenie import router as fenie_router
+from fastapi.staticfiles import StaticFiles
+from buscador import (RADIO_KM,crear_sesion,obtener_coordenadas,crear_limites,buscar_cargadores,consultar_disponibilidad,extraer_datos)
+from vigilancia import (iniciar_vigilancia,esta_vigilado)
 
-from buscador import (
-    RADIO_KM,
-    crear_sesion,
-    obtener_coordenadas,
-    crear_limites,
-    buscar_cargadores,
-    consultar_disponibilidad,
-    extraer_datos
-)
-from vigilancia import (
-    iniciar_vigilancia,
-    esta_vigilado
-)
+# Ruta de la página web
+FRONTEND = Path(__file__).resolve().parent.parent / "public"
 
 app = FastAPI(
-    title="Buscador de Cargadores Iberdrola",
+    title="Buscador de Cargadores Iberdrola y Feníe Energía",
     description="Consulta de puntos de recarga y disponibilidad.",
-    version="1.0.0",
+    version="2.0.0",
     docs_url=None,
     redoc_url=None,
     openapi_url=None
 )
+app.include_router(fenie_router)
+app.mount("/iconos",StaticFiles(directory=str(FRONTEND / "iconos")),name="iconos")
+
+
 class SolicitudVigilancia(BaseModel):
     cuprId: int
     nombre: str
@@ -54,8 +51,7 @@ async def cabeceras_seguridad(request: Request, call_next):
     return response
 
 
-# Ruta de la página web
-FRONTEND = Path(__file__).resolve().parent.parent / "public"
+
 
 # --------------------------------------------------
 # PROTECCIÓN DE LA API

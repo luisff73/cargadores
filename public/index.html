@@ -413,15 +413,17 @@
             </div>
         </section>
 
+
     </main>
 
     <footer>
-        Buscador de puntos de recarga · Datos de Iberdrola
+        Buscador de puntos de recarga · Datos de Iberdrola y Feníe Energía
     </footer>
 
     <script>
         let cargadores = [];
         let filtroActual = "todos";
+
 
         async function buscarCargadores() {
 
@@ -440,21 +442,113 @@
             boton.textContent = "Buscando...";
 
             resultados.innerHTML =
-                '<div class="mensaje">Consultando Iberdrola y buscando cargadores...</div>';
+                '<div class="mensaje">Consultando Iberdrola y Feníe Energía...</div>';
 
             try {
 
-                const respuesta = await fetch(
-                    "/api/cargadores?localidad=" + encodeURIComponent(localidad)
-                );
+                const consultar = async (url) => {
+                    const respuesta = await fetch(url);
+                    const datos = await respuesta.json();
 
-                const datos = await respuesta.json();
+                    if (!respuesta.ok) {
+                        throw new Error(datos.detail || "Error en la búsqueda.");
+                    }
 
-                if (!respuesta.ok) {
-                    throw new Error(datos.detail || "Error en la búsqueda.");
+                    return datos;
+                };
+
+                // Consultamos los dos operadores simultáneamente.
+                const [resultadoIberdrola, resultadoFenie] =
+                    await Promise.allSettled([
+                        consultar(
+                            "/api/cargadores?localidad=" +
+                            encodeURIComponent(localidad)
+                        ),
+                        consultar(
+                            "/api/fenie?localidad=" +
+                            encodeURIComponent(localidad)
+                        )
+                    ]);
+
+                if (
+                    resultadoIberdrola.status === "rejected" &&
+                    resultadoFenie.status === "rejected"
+                ) {
+                    throw new Error("No se pudo consultar ninguno de los operadores.");
                 }
 
-                cargadores = datos.cargadores || [];
+                cargadores = [];
+
+                // Datos de Iberdrola.
+                if (resultadoIberdrola.status === "fulfilled") {
+
+                    const puntos =
+                        resultadoIberdrola.value.cargadores || [];
+
+                    cargadores.push(
+                        ...puntos.map(c => ({
+                            ...c,
+                            operador: "iberdrola"
+                        }))
+                    );
+
+                } else {
+                    console.error(
+                        "Error consultando Iberdrola:",
+                        resultadoIberdrola.reason
+                    );
+                }
+
+                // Datos de Feníe Energía.
+                if (resultadoFenie.status === "fulfilled") {
+
+                    const puntos =
+                        resultadoFenie.value.cargadores || [];
+
+                    cargadores.push(
+                        ...puntos.map(c => {
+
+                            const conectores = c.conectores || [];
+
+                            return {
+                                ...c,
+                                operador: "fenie",
+
+                                // Adaptamos los conectores al formato
+                                // que utiliza actualmente Iberdrola.
+                                tomas_detalle: conectores.map(toma => ({
+                                    conector: toma.tipo,
+                                    potencia: toma.potencia,
+                                    precio: c.gratuito === true
+                                        ? 0
+                                        : c.precio_kwh,
+                                    estado: toma.estado
+                                })),
+
+                                tomas_ocupadas: conectores.filter(toma =>
+                                    [
+                                        "Occupied",
+                                        "Charging",
+                                        "Finishing",
+                                        "Preparing",
+                                        "Reserved",
+                                        "SuspendedEV",
+                                        "SuspendedEVSE"
+                                    ].includes(toma.estado)
+                                ).length,
+
+                                resumen: "Feníe Energía"
+                            };
+                        })
+                    );
+
+                } else {
+                    console.error(
+                        "Error consultando Feníe:",
+                        resultadoFenie.reason
+                    );
+                }
+
                 filtroActual = "todos";
 
                 document.querySelectorAll(".filtros button")
@@ -469,7 +563,7 @@
 
                 resultados.innerHTML =
                     '<div class="mensaje error">' +
-                    error.message +
+                    escapar(error.message) +
                     '</div>';
 
             } finally {
@@ -478,6 +572,7 @@
                 boton.textContent = "Buscar cargadores";
             }
         }
+
 
         function actualizarResumen() {
 
@@ -551,6 +646,12 @@
                     etiqueta = "OCUPADO";
                 }
 
+                const esFenie = c.operador === "fenie";
+
+                const logoOperador = esFenie
+                    ? "/iconos/fenie.png"
+                    : "/iconos/iberdrola.png";
+
                 const htmlTomas = (c.tomas_detalle || []).map((toma, index) => {
 
                     const precioDisponible =
@@ -562,15 +663,20 @@
 
                     const precioTexto = precioDisponible
                         ? `${Number(toma.precio).toFixed(2).replace(".", ",")} €/kWh`
-                        : "Precio no disponible";
+                        : (esFenie ? "Sin tarifa registrada" : "Precio no disponible");
 
                     const estadoCodigo = String(toma.estado || "").toUpperCase();
 
                     const estadoToma = estadoCodigo === "AVAILABLE"
                         ? "Disponible"
-                        : estadoCodigo === "OCCUPIED"
+                        : ["OCCUPIED", "CHARGING", "FINISHING", "PREPARING",
+                            "RESERVED", "SUSPENDEDEV", "SUSPENDEDEVSE"].includes(estadoCodigo)
                             ? "Ocupada"
-                            : "Estado desconocido";
+                            : estadoCodigo === "FAULTED"
+                                ? "Averiada"
+                                : estadoCodigo === "UNAVAILABLE"
+                                    ? "No disponible"
+                                    : "Estado desconocido";
 
                     const potenciaTexto = toma.potencia != null
                         ? `${escapar(toma.potencia)} kW`
@@ -595,14 +701,15 @@
         </div>
     `;
                 }).join("");
-                const botonVigilancia = c.disponible === false
-                    ? `
-                    <button class="boton-vigilancia"
-                        onclick="activarVigilancia(${JSON.stringify(c.cuprId)}, this)">
-                        Avisarme cuando haya una libre
-                    </button>
-                `
-                    : "";
+                const botonVigilancia =
+                    c.operador !== "fenie" && c.disponible === false
+                        ? `
+                        <button class="boton-vigilancia"
+                            onclick="activarVigilancia(${JSON.stringify(c.cuprId)}, this)">
+                            Avisarme cuando haya una libre
+                        </button>
+                    `
+                        : "";
                 const destinoMaps =
                     c.latitud != null && c.longitud != null
                         ? `${c.latitud},${c.longitud}`
@@ -614,9 +721,22 @@
                 return `
             <article class="cargador ${estado}">
                 <div class="cabecera-cargador">
-                <h3>${escapar(c.nombre)}</h3>
+                    <div class="identidad-cargador">
+                        <img
+                            src="${logoOperador}"
+                            alt="${esFenie ? "Feníe Energía" : "Iberdrola"}"
+                            style="width: 30px; height: 30px; object-fit: contain;">
+                        <div>
+                            <h4>${escapar(c.nombre)} | 
+                            
+                                ${esFenie
+                        ? `Feníe Energía · iD: ${escapar(c.codigo)}`
+                        : `Iberdrola · ID: ${escapar(c.cuprId)}`}
+                            </h4>
+                        </div>
+                    </div>
                     <span class="estado ${estado}">${etiqueta}</span>
-                </div>
+                    </div>
 
                     <div class="fila-direccion">
                         <div class="direccion">
