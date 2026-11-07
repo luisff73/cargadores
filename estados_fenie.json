@@ -1,0 +1,7030 @@
+﻿[
+    {
+        "conector":  "1",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "100",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1000",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1001",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1002",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1003",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1004",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1005",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1006",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1007",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1008",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1009",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "101",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1010",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1011",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1012",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1013",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1014",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1018",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1019",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "102",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1020",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1021",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1022",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1023",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1024",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1025",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1026",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1027",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1028",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1029",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "103",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1035",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1036",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1037",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1038",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1039",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1040",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1041",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1042",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1043",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1044",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1048",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1049",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1050",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1051",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1052",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1053",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1054",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1055",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1056",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1057",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1058",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1059",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "106",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1061",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1062",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1064",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1065",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "107",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1071",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1072",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1074",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1075",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1079",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1080",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1081",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "1082",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "1085",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1086",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1088",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1091",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1092",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1093",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1094",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1095",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1096",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1097",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1098",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1099",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "11",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "110",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1100",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1101",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1102",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1103",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1104",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1109",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "111",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1110",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1111",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1112",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1113",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1114",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1115",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1116",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1117",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1118",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1119",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "112",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1120",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1121",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1122",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1123",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1124",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1129",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "113",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1131",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1132",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1133",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1134",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1135",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1136",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1137",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1138",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1139",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "114",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1140",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1141",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1142",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1143",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "115",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1150",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1151",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1153",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1154",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1157",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1158",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1159",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "116",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1160",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1161",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1162",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1164",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1165",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1166",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1167",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1168",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "117",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1170",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1171",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1172",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1173",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1174",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1175",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1176",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1177",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1178",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1179",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1180",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1181",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1182",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1183",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1184",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1185",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1186",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1188",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1189",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1193",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1194",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1195",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1196",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1198",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1199",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "12",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "120",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1200",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1201",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1209",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "121",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1210",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1211",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1212",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1213",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1214",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1215",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1216",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1217",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1218",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1219",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "122",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1220",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1221",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1224",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1225",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1226",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1228",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1229",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "123",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1230",
+        "estado":  "Finishing"
+    },
+    {
+        "conector":  "1232",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1234",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1235",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1236",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1237",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1238",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1239",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "124",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1240",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1241",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1242",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1243",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1246",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1247",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1248",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1249",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "125",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1250",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1251",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1252",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1253",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1254",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1255",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1256",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1257",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1258",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1259",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1260",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1261",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1262",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1263",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1264",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1266",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1267",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1268",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1269",
+        "estado":  "SuspendedEVSE"
+    },
+    {
+        "conector":  "1270",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1271",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1274",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1276",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1277",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1282",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1283",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1284",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1285",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1288",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1289",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "129",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1290",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1291",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1292",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "1293",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1294",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "1295",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1296",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1297",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1298",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1299",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "13",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "130",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1300",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1301",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1302",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1303",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "131",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1315",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1316",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1317",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1318",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1319",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "132",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1320",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1321",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1322",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1323",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "1324",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1325",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1326",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1327",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1328",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1329",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "133",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1330",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1331",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1332",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1333",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1336",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1337",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1338",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1339",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "134",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1340",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1342",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1343",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "1344",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1345",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "1346",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1347",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "1348",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1349",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "135",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1350",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1351",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1352",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1353",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1354",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1355",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1356",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1357",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1358",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1359",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "136",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1360",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1363",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1364",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1366",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1367",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1368",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1369",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1371",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1372",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1373",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1374",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1375",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1376",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1377",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1378",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1379",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1380",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1381",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "1382",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1383",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1384",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1385",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1386",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1387",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1388",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1389",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "139",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1390",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1391",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1392",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1393",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1394",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1395",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1396",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1397",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1398",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1399",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "14",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "140",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1400",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1401",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1402",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1403",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1404",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1405",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1406",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1407",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1408",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1409",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "141",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1410",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1411",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1412",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1413",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1414",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "1416",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1417",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1418",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1419",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "142",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1420",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1422",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1423",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1424",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1425",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1426",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1427",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1428",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1429",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "143",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1430",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1431",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1432",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1433",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1435",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1438",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1439",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "144",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1440",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1441",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1442",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1443",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1444",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1445",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1446",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1447",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1448",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1449",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "145",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1450",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1451",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1452",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1453",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1454",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1455",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1456",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1457",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1458",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "146",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1460",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1463",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "1464",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1467",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1468",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1469",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "147",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1470",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1471",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1472",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1473",
+        "estado":  "Finishing"
+    },
+    {
+        "conector":  "1474",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1475",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1476",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1479",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "148",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1480",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1481",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1482",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1483",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1484",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1485",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1486",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1487",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1488",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1489",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "149",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1490",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1491",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1492",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "15",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "150",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1502",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "1503",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1504",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1505",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1506",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1507",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1508",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1509",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "151",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1510",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1511",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1512",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1513",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1514",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1515",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1516",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1517",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1518",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1519",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "152",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1520",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1521",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1522",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1523",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1524",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1525",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1526",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1527",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1528",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1529",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "153",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1530",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "1531",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1532",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1533",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1534",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1535",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1536",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1537",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1538",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "154",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1541",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1542",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1544",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1545",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1546",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1547",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1548",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1549",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "155",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1550",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1551",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1553",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1554",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1555",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1556",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1557",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1558",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1559",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1560",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1569",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "157",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1570",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1571",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "158",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1581",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1582",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1583",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1584",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1585",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1586",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1587",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1588",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1589",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "159",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1590",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1591",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1592",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1593",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1594",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1595",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1596",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1597",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1598",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1599",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "16",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "160",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1600",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1605",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1606",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1607",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1608",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "161",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1611",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1612",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1613",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1614",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1615",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1616",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1619",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "162",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1620",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1621",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1622",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1623",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1624",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1625",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1628",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1629",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "163",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1630",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1631",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1632",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1633",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "1634",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1635",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1636",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1637",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1638",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1639",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "164",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1640",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1641",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1642",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1643",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1644",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1645",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1646",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1647",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1650",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1651",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1652",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1653",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1654",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1655",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1656",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1657",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1658",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1659",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1660",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1661",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "1662",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1663",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1664",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1665",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1666",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1667",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1668",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1669",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "167",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1670",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1671",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1672",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1673",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1674",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1675",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1676",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1677",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1678",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1679",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "168",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1680",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1681",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1684",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1685",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1688",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1689",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "169",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1690",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1691",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1692",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "1693",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "1694",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1695",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1696",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1697",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1698",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1699",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "17",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "170",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1700",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1701",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1702",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1703",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1704",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1705",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1706",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1707",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1708",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1709",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "171",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1710",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1711",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1712",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1715",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1716",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1717",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1718",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1719",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1720",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1721",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1722",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1723",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1724",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1725",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1726",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1727",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1728",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1729",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "173",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1730",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1731",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1733",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "1734",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1735",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1736",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1737",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1738",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1739",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "174",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1740",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "175",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1759",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "176",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1760",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1761",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1762",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1763",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1764",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1765",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1766",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1768",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1769",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "177",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1770",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1771",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1772",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1773",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1774",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1775",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1776",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1777",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1778",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "178",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1780",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1781",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1782",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1783",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1784",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1785",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1786",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1787",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1788",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1789",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "179",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1792",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "1793",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1794",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1795",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1796",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1797",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1798",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "18",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1800",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1801",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1802",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1803",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1804",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1805",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1806",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1807",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1808",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1809",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "181",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1810",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1813",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1814",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1815",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1816",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1817",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1818",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1819",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "182",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1820",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1821",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1822",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1823",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1826",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1827",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1828",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1829",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "183",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1830",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1831",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1832",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1833",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1834",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1835",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1836",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1837",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1838",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1839",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "184",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1840",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1841",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1842",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1843",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1844",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1845",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1846",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1847",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1848",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1849",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "185",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1851",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1852",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1853",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1854",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1855",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1856",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1857",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1858",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1859",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "186",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "1860",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1861",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1862",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1863",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1864",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1865",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1866",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1867",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "1868",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1869",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1870",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1871",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1872",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1873",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1876",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1877",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1878",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1879",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "1880",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1881",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1882",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1883",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1884",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1885",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1886",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1887",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1888",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1889",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "189",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1890",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1891",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1892",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1893",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1896",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1897",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1898",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1899",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "19",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "190",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1900",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1901",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1902",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1903",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "1904",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1905",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1906",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1907",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1908",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1909",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "191",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1910",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1911",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1912",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1913",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1914",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1915",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1916",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1917",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "1918",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1919",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "192",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1920",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1921",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1922",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1923",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1924",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1925",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1926",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1927",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1928",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1929",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "193",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1930",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1931",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1932",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1933",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "1934",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1935",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1936",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1937",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1938",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1939",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "194",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1940",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1941",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1942",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1943",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1944",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1945",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1946",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1947",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1948",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1949",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "195",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1950",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1951",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1952",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1953",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1954",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1955",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1956",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1957",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1958",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1959",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "196",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1960",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1961",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1962",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1963",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1964",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1965",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1966",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1967",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1968",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1969",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "197",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1970",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1971",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1972",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1973",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1974",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1975",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1976",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1977",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1978",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1979",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "198",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1980",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1981",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1982",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1983",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1984",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1985",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1986",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1987",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1988",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1989",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "199",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "1990",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1991",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1992",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1993",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1994",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1995",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1996",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1997",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1998",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "1999",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "20",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "200",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "2000",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "2001",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "2002",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2003",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2004",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2005",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2006",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2007",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2008",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2009",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "201",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2010",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2011",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2012",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "2013",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "2014",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "2015",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2016",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2017",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2018",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2019",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "202",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2020",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2021",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "2022",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "2023",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2025",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2026",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2027",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2028",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2029",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "203",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2030",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2031",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2032",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2033",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2034",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2035",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2036",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2037",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2038",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2039",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "204",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2040",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2041",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2042",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2043",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2044",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2045",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2046",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2048",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2049",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "205",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "2050",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2051",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2052",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2053",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2054",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2055",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2056",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2057",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2058",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2059",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "206",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "2060",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2061",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2062",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2063",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2064",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2065",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2066",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2067",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2068",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "207",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2071",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "2072",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2073",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2074",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2075",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2076",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2077",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2078",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2079",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "208",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2080",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2081",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2082",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2083",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2084",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2085",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2086",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2087",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2088",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2089",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "209",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2090",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "2091",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2092",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2093",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2094",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2095",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2096",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2097",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2098",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2099",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "21",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "210",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2100",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2101",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "2102",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "211",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "212",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "214",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "215",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "216",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "219",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "22",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "220",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "221",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "222",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "223",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "224",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "225",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "226",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "227",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "228",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "229",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "23",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "230",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "231",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "232",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "233",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "234",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "235",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "236",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "237",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "238",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "24",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "243",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "244",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "245",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "246",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "247",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "248",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "249",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "25",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "250",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "251",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "252",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "253",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "254",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "255",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "256",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "257",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "258",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "259",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "26",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "260",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "261",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "262",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "263",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "264",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "265",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "266",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "267",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "268",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "269",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "27",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "270",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "271",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "272",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "273",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "274",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "275",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "276",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "277",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "278",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "279",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "28",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "280",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "281",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "282",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "287",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "288",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "289",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "29",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "290",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "291",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "292",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "293",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "294",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "295",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "296",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "297",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "298",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "299",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "3",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "30",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "300",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "301",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "302",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "303",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "304",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "305",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "306",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "307",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "308",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "309",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "31",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "310",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "311",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "312",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "313",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "314",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "315",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "316",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "317",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "318",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "319",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "32",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "320",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "321",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "322",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "323",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "324",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "325",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "326",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "327",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "328",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "329",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "33",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "330",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "331",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "332",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "333",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "334",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "335",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "336",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "337",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "338",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "34",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "341",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "342",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "343",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "344",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "345",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "346",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "347",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "348",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "349",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "35",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "350",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "351",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "352",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "353",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "354",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "355",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "356",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "357",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "358",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "359",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "36",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "360",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "361",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "362",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "363",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "364",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "365",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "366",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "367",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "368",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "369",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "37",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "370",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "371",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "372",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "373",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "374",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "375",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "376",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "377",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "378",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "379",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "38",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "380",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "381",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "382",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "383",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "384",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "385",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "386",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "387",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "388",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "389",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "39",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "390",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "391",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "392",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "393",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "394",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "395",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "396",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "397",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "398",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "399",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "4",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "400",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "401",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "402",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "403",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "404",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "405",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "406",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "409",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "41",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "410",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "411",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "412",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "413",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "414",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "415",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "416",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "417",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "418",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "419",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "420",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "421",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "422",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "423",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "425",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "426",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "427",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "428",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "429",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "431",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "432",
+        "estado":  ""
+    },
+    {
+        "conector":  "435",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "436",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "437",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "438",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "44",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "443",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "444",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "445",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "446",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "449",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "45",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "450",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "451",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "452",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "453",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "454",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "457",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "458",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "459",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "46",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "460",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "463",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "464",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "465",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "466",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "467",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "468",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "469",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "47",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "470",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "471",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "472",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "473",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "474",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "475",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "477",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "478",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "479",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "48",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "480",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "481",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "482",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "483",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "484",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "485",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "486",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "487",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "488",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "489",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "49",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "491",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "492",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "493",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "494",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "495",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "496",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "497",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "498",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "499",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "5",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "50",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "500",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "501",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "502",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "503",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "504",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "505",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "506",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "507",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "508",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "509",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "51",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "510",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "511",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "512",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "513",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "514",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "515",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "516",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "52",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "520",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "521",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "522",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "523",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "524",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "525",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "526",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "527",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "528",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "53",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "530",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "531",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "532",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "533",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "534",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "535",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "536",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "537",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "538",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "539",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "54",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "540",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "541",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "545",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "546",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "547",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "548",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "549",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "55",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "550",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "551",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "553",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "554",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "555",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "556",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "557",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "558",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "559",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "560",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "561",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "562",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "563",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "564",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "565",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "566",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "569",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "57",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "570",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "571",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "572",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "573",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "574",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "575",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "576",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "577",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "578",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "579",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "580",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "581",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "582",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "583",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "584",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "585",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "586",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "587",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "588",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "589",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "59",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "590",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "591",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "592",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "593",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "594",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "595",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "596",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "597",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "598",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "599",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "6",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "60",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "600",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "601",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "602",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "603",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "606",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "607",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "608",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "609",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "610",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "611",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "612",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "613",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "614",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "615",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "618",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "619",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "620",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "621",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "622",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "623",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "624",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "625",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "626",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "627",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "628",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "629",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "63",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "630",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "631",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "64",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "644",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "645",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "646",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "647",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "648",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "649",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "65",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "650",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "651",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "652",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "653",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "654",
+        "estado":  "SuspendedEV"
+    },
+    {
+        "conector":  "655",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "656",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "657",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "658",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "659",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "66",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "660",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "661",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "662",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "663",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "664",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "665",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "668",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "669",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "67",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "670",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "671",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "676",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "677",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "678",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "679",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "68",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "682",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "683",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "684",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "685",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "686",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "687",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "688",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "689",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "69",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "690",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "691",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "692",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "693",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "694",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "695",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "696",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "697",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "698",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "699",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "7",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "70",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "700",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "701",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "702",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "703",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "704",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "705",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "706",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "707",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "708",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "709",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "71",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "710",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "711",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "712",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "713",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "714",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "715",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "716",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "717",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "718",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "719",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "72",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "720",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "724",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "725",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "726",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "727",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "728",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "729",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "730",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "731",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "732",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "733",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "736",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "737",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "74",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "740",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "741",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "742",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "743",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "744",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "745",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "746",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "747",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "748",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "749",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "75",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "750",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "751",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "752",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "753",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "754",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "755",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "756",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "757",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "758",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "759",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "76",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "760",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "761",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "762",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "763",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "764",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "765",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "768",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "769",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "77",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "771",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "772",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "773",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "774",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "775",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "778",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "779",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "78",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "786",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "787",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "788",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "789",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "79",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "790",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "791",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "792",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "793",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "794",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "795",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "796",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "797",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "798",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "799",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "8",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "80",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "800",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "801",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "803",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "804",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "805",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "806",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "81",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "818",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "819",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "820",
+        "estado":  "Preparing"
+    },
+    {
+        "conector":  "821",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "827",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "828",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "829",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "830",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "831",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "832",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "833",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "834",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "835",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "836",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "837",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "838",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "84",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "844",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "845",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "846",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "847",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "848",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "849",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "85",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "850",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "851",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "852",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "853",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "854",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "855",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "856",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "857",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "858",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "859",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "86",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "860",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "861",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "862",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "863",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "864",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "865",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "866",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "867",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "868",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "869",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "87",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "870",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "871",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "872",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "873",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "875",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "876",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "877",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "878",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "879",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "88",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "880",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "881",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "882",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "883",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "884",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "885",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "888",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "889",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "89",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "890",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "891",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "892",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "897",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "898",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "899",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "90",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "900",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "901",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "902",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "903",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "904",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "905",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "906",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "909",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "91",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "910",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "911",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "912",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "913",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "914",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "915",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "916",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "917",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "918",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "919",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "92",
+        "estado":  "Unavailable"
+    },
+    {
+        "conector":  "920",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "921",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "922",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "923",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "924",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "925",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "926",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "927",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "928",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "929",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "93",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "930",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "931",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "932",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "933",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "934",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "935",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "937",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "939",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "94",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "941",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "943",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "944",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "945",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "946",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "947",
+        "estado":  "Reserved"
+    },
+    {
+        "conector":  "949",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "95",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "950",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "951",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "952",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "953",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "954",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "955",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "956",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "957",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "958",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "959",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "96",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "960",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "961",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "962",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "963",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "964",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "965",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "966",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "967",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "968",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "969",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "97",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "970",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "971",
+        "estado":  "Charging"
+    },
+    {
+        "conector":  "972",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "973",
+        "estado":  "Occupied"
+    },
+    {
+        "conector":  "975",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "976",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "977",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "978",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "979",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "98",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "980",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "981",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "982",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "983",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "986",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "987",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "988",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "989",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "99",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "990",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "991",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "992",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "993",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "994",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "995",
+        "estado":  "Faulted"
+    },
+    {
+        "conector":  "998",
+        "estado":  "Available"
+    },
+    {
+        "conector":  "999",
+        "estado":  "Occupied"
+    }
+]

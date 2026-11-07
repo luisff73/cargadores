@@ -1,0 +1,5404 @@
+[
+    {
+        "id": 603,
+        "codigo": "0487",
+        "nombre": "Ayuntamiento de El Palomar",
+        "direccion": "Plaça Constitució, 6, El Palomar, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "16.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "16.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 659,
+        "codigo": "0531",
+        "nombre": "AYUNTAMIENTO DE AGULLENT",
+        "direccion": "Av.Ontinyent, frente Construcciones Francés (dirección salida Agullent-Ontinyent), Agullent, Valencia",
+        "conectores": []
+    },
+    {
+        "id": 61,
+        "codigo": "0061",
+        "nombre": "ENILEC, S.L.",
+        "direccion": "Avinguda d'Elx, 29, Alcoi, Alicante",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 707,
+        "codigo": "0670",
+        "nombre": "Hotel Olympus Palace (1)",
+        "direccion": "Carrer de Navarra, 6, Salou, Tarragona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 910,
+        "codigo": "0910",
+        "nombre": "Prueba FE (OCPP 1.6JSON ORBIS COMBI)",
+        "direccion": "C/Alsasua, 20, Madrid, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 343,
+        "codigo": "0358",
+        "nombre": "PARKING ESCUELA SAN ANTON 3 viejo",
+        "direccion": "Entrada1 C/Farmacia, Nº13 Entrada2 C/Santa brigida, Nº 12, Madrid, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 908,
+        "codigo": "0731",
+        "nombre": "AAIE-GRANADA",
+        "direccion": "C/Melilla, Poligono Navegran, Peligros, Granada",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 831,
+        "codigo": "0639",
+        "nombre": "BSEF",
+        "direccion": "C/ ARAGÓN, 215 PARKING, PALMA, Baleares",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 740,
+        "codigo": "0666",
+        "nombre": "EXC. AYUNTAMIENTO DE POLOP (PARKING PLT 1)",
+        "direccion": "CALLE LLAVADORS, PARKING PLT 1, POLOP DE LA MARINA, Alicante",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "codigo": "0174",
+        "nombre": "AYUNTAMIENTO DE ALMAZÁN",
+        "direccion": "C/ SIN NOMBRE - APARCAMIENTOS PISCINA CLIMATIZADA PARALELO A PASEO DE LA ARBOLEDA Nº 3, Almazán, Soria",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "4.6",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 921,
+        "codigo": "0716",
+        "nombre": "AYUNTAMIENTO DE VALTIERRA",
+        "direccion": "C/ CAMINO DEL SOTO, VALTIERRA, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 967,
+        "codigo": "0818",
+        "nombre": "CHV Hotel Brujas - Parking Marquesina",
+        "direccion": "Calle Teresa Cajal, 24, Tarazona, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.29
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.29
+            }
+        ]
+    },
+    {
+        "id": 710,
+        "codigo": "0589",
+        "nombre": "La Quinta (Benahavis) (solo permite cargar en la toma A)",
+        "direccion": "Urbanización La Quinta C/ Hernan Cortes (frente nº8), Benahavis, Málaga",
+        "conectores": []
+    },
+    {
+        "id": 810,
+        "codigo": "0640",
+        "nombre": "Plaza Mayor",
+        "direccion": "Plaza Mayor, 1, Olocau, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 984,
+        "codigo": "0828",
+        "nombre": "CHV Oficina Española de Patentes y Marcas PR10",
+        "direccion": "Edificio Bronce, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 1035,
+        "codigo": "0848",
+        "nombre": "CHV Ayuntamiento de Valle de Hecho",
+        "direccion": "Calle Arrigazo, en la parte trasera del pabellón El Trinquete  , Hecho, Huesca",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 775,
+        "codigo": "0588",
+        "nombre": "AYTO VILVIESTRE",
+        "direccion": "PLAZA MAYOR Nº 1, Vilviestre del Pinar, Burgos",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.33
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.33
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "codigo": "0037",
+        "nombre": "UNIVERSITAT DE LES ILLES BALEARS",
+        "direccion": "Carrer Eivissa, Palma de Mallorca, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 1050,
+        "codigo": "0861",
+        "nombre": "CHV SKF Parking empleados PR5",
+        "direccion": "Carretera de Corella, km. 3.5, Tudela, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            }
+        ]
+    },
+    {
+        "id": 420,
+        "codigo": "0177",
+        "nombre": "Parking Centro de Salud MUTILVA",
+        "direccion": "Calle Las Escuelas, S/N, MUTILVA, Navarra",
+        "conectores": []
+    },
+    {
+        "id": 809,
+        "codigo": "0628",
+        "nombre": "BENAVENTE (AVD. EL FERIAL)",
+        "direccion": "Avda. EL FERIAL, Nº101-102, Benavente, Zamora",
+        "conectores": []
+    },
+    {
+        "id": 1002,
+        "codigo": "0807",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº7",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 594,
+        "codigo": "0477",
+        "nombre": "AYUNTAMIENTO DE ADEMUZ (Centro médico)",
+        "direccion": "Avenida de Valencia, Ademuz, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 935,
+        "codigo": "0724",
+        "nombre": "CSIC CAMPUS UAH PR6",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 700,
+        "codigo": "0566",
+        "nombre": "CAMPUS CSIC. PARKING ICA   (1)",
+        "direccion": "C/ SERRANO, 115 BIS, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 555,
+        "codigo": "0456",
+        "nombre": "SUNSET OASIS",
+        "direccion": "CALLE CANARIAS CANTABRIA, APTOS OASIS, CALA DE BOU, SANT AGUSTIN- SAN JOSE, Baleares",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 644,
+        "codigo": "0517",
+        "nombre": "SPANISH JEWELRY TRADES S.L.",
+        "direccion": "C/ LOS ARCOS, 17, QUESADA, Alicante",
+        "conectores": []
+    },
+    {
+        "id": 920,
+        "codigo": "0717",
+        "nombre": "Hotel Susuqui",
+        "direccion": "Lugar Xesteiriña, 3, Sanxenxo, Pontevedra",
+        "conectores": []
+    },
+    {
+        "id": 781,
+        "codigo": "0598",
+        "nombre": "RENOLIT",
+        "direccion": "P.I. SAN MIGUEL, AVDA. LOS CASTAÑOS, 5, VILLATUERTA, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 959,
+        "codigo": "0779",
+        "nombre": "CHV Parking Hotel Zentro PR2 (planta -1 al fondo)",
+        "direccion": "Calle de San Miguel, 29 Parking Hotel Zentro, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "16.6",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 1078,
+        "codigo": "0871",
+        "nombre": "COLEGIO GSD LAS ARTES Nº3",
+        "direccion": "Avenida Gran Via de Sureste nº9, Ensanche de Vallecas, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 790,
+        "codigo": "0616",
+        "nombre": "AVINGUDA DE LA MAR (AJUNTAMENT)",
+        "direccion": "AVINGUDA DE LA MAR, 2, BELLREGUARD, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 978,
+        "codigo": "0789",
+        "nombre": "CHV Oficina Española de Patentes y Marcas PR4",
+        "direccion": "Edificio Bronce, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 752,
+        "codigo": "0674",
+        "nombre": "AZORIN HERMANOS SA PR2",
+        "direccion": "C/ CAMINO VIEJO DE LEGANES, Nº 181, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 548,
+        "codigo": "0441",
+        "nombre": "Los Llanos",
+        "direccion": "Av. Carlos Francisco Lorenzo Navarro nº 55,, Los Llanos de Aridane, Las Palmas",
+        "conectores": []
+    },
+    {
+        "id": 899,
+        "codigo": "0701",
+        "nombre": "EL BALCON DE POTES",
+        "direccion": "EPIFANIO SANCHEZ MATEO, 20, POTES, Cantabria",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "3.7",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "3.7",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 1038,
+        "codigo": "0732",
+        "nombre": "GOIKAN",
+        "direccion": "P.I. ELORDI, C/A, 6, ALKOTZ, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 1058,
+        "codigo": "0888",
+        "nombre": "CHV Esprinet Iberica PR4",
+        "direccion": "Plataforma Logística de Zaragoza, Pol. PLAZA, Campus 3·84 - Nave 1, C. Osca, 2, Nave 2, Nave 5, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 773,
+        "codigo": "0602",
+        "nombre": "CARGADOR 6",
+        "direccion": "C. Practicante Pedro Pardo, 4, Espinardo, Murcia",
+        "conectores": []
+    },
+    {
+        "id": 969,
+        "codigo": "0792",
+        "nombre": "CHV Hotel AD-HOC Parque",
+        "direccion": "Calle Botxí 6-8, Urbanización Torre en Conill, Bétera, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 991,
+        "codigo": "0800",
+        "nombre": "CHV Agencia EFE Sótano 3 - Cargador 8",
+        "direccion": "Av. de Burgos, 8b, Chamartín, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "codigo": "0075",
+        "nombre": "INEL, S.L. (La trampilla no enclava)",
+        "direccion": "Av. del Tèxtil 67, Ontinyent, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "3.7",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 929,
+        "codigo": "0718",
+        "nombre": "CSIC CAMPUS UAH PR11",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 515,
+        "codigo": "0428",
+        "nombre": "El Palmeral",
+        "direccion": "Calle José Echegaray, 11, Las Rozas, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 928,
+        "codigo": "0764",
+        "nombre": "CHV Patronato de Torreciudad 2",
+        "direccion": "Ctra. A-138, km 62, Secastilla, Huesca",
+        "conectores": []
+    },
+    {
+        "id": 794,
+        "codigo": "0613",
+        "nombre": "HEMPEL: PUNT 2",
+        "direccion": "Avinguda de Sentmenat, 108, Polinyà, Barcelona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 642,
+        "codigo": "0515",
+        "nombre": "Ayuntamiento de Almócita",
+        "direccion": "AVD. DE LA ALPUJARRA, ALMÓCITA, Almería",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 669,
+        "codigo": "0544",
+        "nombre": "BERRIOBIDE",
+        "direccion": "C/ BERRIOBIDE 20, ANSOAIN, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 640,
+        "codigo": "0511",
+        "nombre": "AYUNTAMIENTO DE BISIMBRE",
+        "direccion": "Plaza de España S/N, BISIMBRE, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 1009,
+        "codigo": "0814",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº14",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 650,
+        "codigo": "0526",
+        "nombre": "Ayuntamiento Xeraco 1",
+        "direccion": "CALLE RONDA DE BRUGUIERES, 81, Xeraco, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 955,
+        "codigo": "1009",
+        "nombre": "Prueba FE (OCPP 1.6J FLOOX)",
+        "direccion": "C. de Alsasua, 20, Madrid, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 717,
+        "codigo": "0384",
+        "nombre": "COLEGIO GSD GUADARRAMA Nº 1",
+        "direccion": "Calle Vereda del Colmenar, 4, Guadarrama, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 477,
+        "codigo": "0407",
+        "nombre": "Ayuntamiento de Santo Domingo de la Calzada",
+        "direccion": "Avenida de Burgos, 10, Santo Domingo de la Calzada, La Rioja",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 616,
+        "codigo": "0564",
+        "nombre": "TALLER ANDRES CONIL",
+        "direccion": "C/ CARRETERA, 43, Conil de la frontera, Cádiz",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "3.7",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 470,
+        "codigo": "0518",
+        "nombre": "ESTACIÓ DE SERVICI SES JARDINES CB",
+        "direccion": "Carretera Palma – Artá, km 29,320 (Estació de Servici Ses Jardines), Montuïri, Baleares",
+        "conectores": [
+            {
+                "tipo": "Chademo",
+                "potencia_kw": "50.0",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            },
+            {
+                "tipo": "Combo",
+                "potencia_kw": "50.0",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "43.0",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            }
+        ]
+    },
+    {
+        "id": 682,
+        "codigo": "0459",
+        "nombre": "Central hidroeléctrica San Pedro de Araia SA",
+        "direccion": "Santsaerreka kalea, 7, Araia, Álava",
+        "conectores": []
+    },
+    {
+        "id": 633,
+        "codigo": "0503",
+        "nombre": "Brañosera",
+        "direccion": "Calle Barriadal, 13, Brañosera, Palencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 985,
+        "codigo": "0794",
+        "nombre": "CHV Agencia EFE Sótano 2 - Cargador 2",
+        "direccion": "Av. de Burgos, 8b, Chamartín, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            }
+        ]
+    },
+    {
+        "id": 708,
+        "codigo": "0671",
+        "nombre": "Hotel Olympus Palace (2)",
+        "direccion": "Carrer de Navarra, 6, Salou, Tarragona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 912,
+        "codigo": "0702",
+        "nombre": "PUNTO DE RECARGA AYTO. DE REDUEÑA",
+        "direccion": "Calle Eras, 1, Redueña, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 424,
+        "codigo": "0256",
+        "nombre": "SUPERMERCADOS SANCHEZ ROMERO S.L.",
+        "direccion": "PARCELA B SALTOS DEL SIL ( ESQ. EL BARBERO DE SEVILLA ), Majadahonda, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 672,
+        "codigo": "0543",
+        "nombre": "Asociación Deportiva Nuevo Portil",
+        "direccion": "Calle Aguas del pino S/N, El rompido, Huelva",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 992,
+        "codigo": "0627",
+        "nombre": "Club Nàutic Estanyol",
+        "direccion": "Via de la Mediterrànea S/N, S'Estanyol de Migjorn (Llucmajor), Baleares",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "13.8",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "13.8",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 744,
+        "codigo": "0583",
+        "nombre": "EATIM JESUS POBRE . C/ PINARET",
+        "direccion": "CALLE PINARET S/N, Jesus Pobre, Alicante",
+        "conectores": []
+    },
+    {
+        "id": 947,
+        "codigo": "0773",
+        "nombre": "CHV Camping Urbión Cargador 1",
+        "direccion": "Ctra. Soria-Burgos (N-234). Desvío a Molinos de Duero (CL-117). Frente a Playa Pita., Abejar, Soria",
+        "conectores": []
+    },
+    {
+        "id": 922,
+        "codigo": "0785",
+        "nombre": "CHV Ayuntamiento de Puente La Reina",
+        "direccion": "C. Cerco Viejo, 11, Puente la Reina, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "15.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "15.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 994,
+        "codigo": "0817",
+        "nombre": "CHV Bodega Cooperativa Vinícola de San Bernabé",
+        "direccion": "Calle de San Cristóbal, 45, Cosuenda, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 743,
+        "codigo": "0672",
+        "nombre": "Policía Local Benahavis Nº1 Plaza 218",
+        "direccion": "C/ Coronilla Alta (Parking), Benahavís, Málaga",
+        "conectores": []
+    },
+    {
+        "id": 811,
+        "codigo": "0641",
+        "nombre": "Urbanización Pedralvilla-Rio Miño (configurado como llegar y cargar)",
+        "direccion": "Calle Rio Miño, 4 BIS-D., Olocau, Valencia",
+        "conectores": []
+    },
+    {
+        "id": 1062,
+        "codigo": "0865",
+        "nombre": "CHV Camping Arrebol PR 1.1",
+        "direccion": "Crtra/ N-330, km. 643, Jaca, Huesca",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 782,
+        "codigo": "0604",
+        "nombre": "PUNTO DE RECARGA SANTA CRUZ DE  LA SALCEDA",
+        "direccion": "PLAZA MAYOR Nº1, SANTA CRUZ DE LA SALCEDA, Burgos",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "codigo": "0074",
+        "nombre": "CASES DE SON BARBASSA (Gestión mediante plataforma MELIB)",
+        "direccion": "Carretera Cala Mesquida - Camí de son Barbassa, S/N, Capdepera, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 1051,
+        "codigo": "0862",
+        "nombre": "CHV SKF Parking empleados PR6",
+        "direccion": "Carretera de Corella, km. 3.5, Tudela, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            }
+        ]
+    },
+    {
+        "id": 479,
+        "codigo": "0410",
+        "nombre": "Ayuntamiento Cendea de OLZA/OLTZA Zendeako Udala",
+        "direccion": "C/ Angulo nº 2 ,, Ororbia, Navarra",
+        "conectores": []
+    },
+    {
+        "id": 192,
+        "codigo": "0146",
+        "nombre": "PR Inst. Saldaña Marco S.L.",
+        "direccion": "Avda. Diagonal V Centenario, Illueca, Zaragoza",
+        "conectores": []
+    },
+    {
+        "id": 1003,
+        "codigo": "0808",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº8",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 595,
+        "codigo": "0478",
+        "nombre": "AYUNTAMIENTO DE CASAS BAJAS",
+        "direccion": "CAMINO DEL PUENTE, Casas Bajas, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 936,
+        "codigo": "0725",
+        "nombre": "CSIC CAMPUS UAH PR5",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 701,
+        "codigo": "0567",
+        "nombre": "CAMPUS CSIC. PARKING ICA (2)",
+        "direccion": "C/ SERRANO, 115 BIS, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 728,
+        "codigo": "0576",
+        "nombre": "GASOLINERA RAFAL",
+        "direccion": "Calle Aragó, 180, Palma, Baleares",
+        "conectores": [
+            {
+                "tipo": "Chademo",
+                "potencia_kw": "50.0",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            },
+            {
+                "tipo": "Combo",
+                "potencia_kw": "50.0",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "43.0",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            }
+        ]
+    },
+    {
+        "id": 674,
+        "codigo": "0548",
+        "nombre": "CLUB NAUTICO MORAIRA",
+        "direccion": "C. Puerto de Moraira, s/n, Moraira, Alicante",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 949,
+        "codigo": "0775",
+        "nombre": "Quinta de San Amaro",
+        "direccion": "C/ San Amaro, 6 (salida número 14 de la autovía del Salnés, dirección Meaño), Meaño, Pontevedra",
+        "conectores": []
+    },
+    {
+        "id": 901,
+        "codigo": "0704",
+        "nombre": "PdR-3 VE.SLU-Caseda - MAESTRO.",
+        "direccion": "Ctra. Aibar, Nº 1 Bajo, Caseda, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.1
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.1
+            }
+        ]
+    },
+    {
+        "id": 960,
+        "codigo": "0780",
+        "nombre": "CHV Technocenter Plaza PR1",
+        "direccion": "Polígono de Plaza, C. Bari, 31, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 1079,
+        "codigo": "0872",
+        "nombre": "COLEGIO GSD LAS ARTES Nº4",
+        "direccion": "Avenida Gran Via de Sureste nº9, Ensanche de Vallecas, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 791,
+        "codigo": "0618",
+        "nombre": "CAMI VELL DEL GANDIA (MAGATZEM MUNICIPAL)",
+        "direccion": "CAMI VELL DEL GANDIA, 35, BELLREGUARD, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "8.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 979,
+        "codigo": "0790",
+        "nombre": "CHV Oficina Española de Patentes y Marcas PR5",
+        "direccion": "Edificio Bronce, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 753,
+        "codigo": "0675",
+        "nombre": "AZORIN HERMANOS SA PR3",
+        "direccion": "C/ CAMINO VIEJO DE LEGANES, Nº 181, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 549,
+        "codigo": "0442",
+        "nombre": "Avenida Marítima 3., 38700 Santa Cruz de LaPalma",
+        "direccion": "Avenida Marítima 3, Santa Cruz de La Palma, Las Palmas",
+        "conectores": []
+    },
+    {
+        "id": 1034,
+        "codigo": "0852",
+        "nombre": "CHV Supermercado Cano",
+        "direccion": "C. La Iglesia, 19, Galizano, Cantabria",
+        "conectores": []
+    },
+    {
+        "id": 1045,
+        "codigo": "0738",
+        "nombre": "Edificio AIN PdR N.º 2-Esclavo (Toma 1 uso público; Toma 2 uso exclusivo AIN)",
+        "direccion": "Ctra. Pamplona, 1, CORDOVILLA, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.21
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.21
+            }
+        ]
+    },
+    {
+        "id": 1059,
+        "codigo": "0889",
+        "nombre": "CHV Esprinet Iberica PR5",
+        "direccion": "Plataforma Logística de Zaragoza, Pol. PLAZA, Campus 3·84 - Nave 1, C. Osca, 2, Nave 2, Nave 5, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 898,
+        "codigo": "0603",
+        "nombre": "CARGADOR 5",
+        "direccion": "C. Practicante Pedro Pardo, 4, Espinardo, Murcia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": false,
+                "precio_kwh": 0.22
+            }
+        ]
+    },
+    {
+        "id": 993,
+        "codigo": "0816",
+        "nombre": "CHV Hotel Barú",
+        "direccion": "Carrer Felisa Longas, 1, Sagunt, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.23
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.23
+            }
+        ]
+    },
+    {
+        "id": 997,
+        "codigo": "0806",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº6",
+        "direccion": "C/ Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 237,
+        "codigo": "0149",
+        "nombre": "AYUNTAMIENTO DE MOIXENT",
+        "direccion": "Plaza Mayor, 1, 46640 Mogente, Valencia",
+        "conectores": []
+    },
+    {
+        "id": 930,
+        "codigo": "0719",
+        "nombre": "CSIC CAMUS UAH PR12",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 523,
+        "codigo": "0436",
+        "nombre": "AYUNTAMIENTO DE BOADILLA DEL MONTE (Parque el caño)",
+        "direccion": "PASEO DE MADRID 11, Boadilla del Monte, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 941,
+        "codigo": "0763",
+        "nombre": "CHV Patronato de Torreciudad 1",
+        "direccion": "Ctra. A-138, km 62, Secastilla, Huesca",
+        "conectores": []
+    },
+    {
+        "id": 795,
+        "codigo": "0615",
+        "nombre": "HEMPEL: PUNT 4",
+        "direccion": "Avinguda de Sentmenat, 108, Polinyà, Barcelona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 356,
+        "codigo": "0364",
+        "nombre": "CENTRO DE EXPOSICIONES Y CONGRESOS LIENZO NORTE",
+        "direccion": "Av. de Madrid, 102, ÁVILA, Ávila",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            }
+        ]
+    },
+    {
+        "id": 686,
+        "codigo": "0550",
+        "nombre": "Parking Casa Misericordia PR1",
+        "direccion": "c/ Vuelta del Castillo, nº 1, Pampona, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 697,
+        "codigo": "0553",
+        "nombre": "PUNTO RECARGA BIOTA ( PISCINAS )",
+        "direccion": "C/ SAN MIGUEL, 36 (PISCINAS), BIOTA, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 1036,
+        "codigo": "0853",
+        "nombre": "PARKING ESCUELA SAN ANTON 3",
+        "direccion": "Entrada1 C/Farmacia, Nº13  Entrada2 C/Santa Brigida, Nº 12, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "3.7",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "3.7",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 651,
+        "codigo": "0527",
+        "nombre": "Ayuntamiento Xeraco 2",
+        "direccion": "PLAÇA ESGLESIA Nº 4, Xeraco, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 965,
+        "codigo": "0630",
+        "nombre": "CSIC ICIFOR-INIA PR2",
+        "direccion": "Ctra. de La Coruña, km 7,5., Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 731,
+        "codigo": "0577",
+        "nombre": "CAMPUS CSIC. PARKING ITEFI",
+        "direccion": "C/ SERRANO, 144, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 577,
+        "codigo": "0475",
+        "nombre": "Ayuntamiento de Ribafrecha",
+        "direccion": "C/ Florentino Hurnado, 9, Ribafrecha, La Rioja",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 723,
+        "codigo": "0247",
+        "nombre": "Párking Sendero Majaceite (Ayuntamiento de Grazalema)",
+        "direccion": "C. la Venta, Benamahoma, Cádiz",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 483,
+        "codigo": "0414",
+        "nombre": "HOSPITAL QUIRÓNSALUD PALMAPLANAS",
+        "direccion": "Camí Dels Reis, 308, Palma, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 745,
+        "codigo": "0584",
+        "nombre": "Ayuntamiento de Salinas de Pisuerga",
+        "direccion": "Plaza Mayor, 15, SALINAS DE PISUERGA, Palencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 812,
+        "codigo": "0642",
+        "nombre": "Urbanización la Lloma-Jose Iturbi",
+        "direccion": "Calle Jose Iturbi,  25. Urbanización la Lloma, Olocau, Valencia",
+        "conectores": []
+    },
+    {
+        "id": 986,
+        "codigo": "0795",
+        "nombre": "CHV Agencia EFE Sótano 2 - Cargador 3",
+        "direccion": "Av. de Burgos, 8b, Chamartín, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            }
+        ]
+    },
+    {
+        "id": 787,
+        "codigo": "0621",
+        "nombre": "La Siesta Parking General",
+        "direccion": "Carrer del Nord, 37, Salou, Tarragona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 914,
+        "codigo": "0760",
+        "nombre": "MM NEKICESA SLU PR1",
+        "direccion": "Carretera de Navalcarnero a Chinchón, Km 21.200, Griñón, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 428,
+        "codigo": "0260",
+        "nombre": "Fenie Prueba",
+        "direccion": "Feria IFEMA, Av. Partenón, 5A, Barajas, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 203,
+        "codigo": "0121",
+        "nombre": "SABIÑANIGO",
+        "direccion": "Avda. Biescas, 34, SABIÑANIGO, Huesca",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 1029,
+        "codigo": "0734",
+        "nombre": "Cala Esmeralda",
+        "direccion": "Cala Esmeralda S/N, Cala D'Or, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 797,
+        "codigo": "0633",
+        "nombre": "CARGADOR MARJALS 1",
+        "direccion": "C/ Sagra o C/ Orba, Ondara, Alicante",
+        "conectores": []
+    },
+    {
+        "id": 946,
+        "codigo": "0730",
+        "nombre": "Parking Maderas AZCONA - MAESTRO.",
+        "direccion": "Poligono COMARCA I, C/ L n.º 8, ORCOYEN, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 1031,
+        "codigo": "0849",
+        "nombre": "CHV Aves nobles y derivados S.L PR1",
+        "direccion": "Calle Salerno, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.1
+            }
+        ]
+    },
+    {
+        "id": 746,
+        "codigo": "0575",
+        "nombre": "Policía Local Benahavis Nº2 PLAZA 219",
+        "direccion": "C/ Coronilla Alta (Parking), Benahavís, Málaga",
+        "conectores": []
+    },
+    {
+        "id": 702,
+        "codigo": "0565",
+        "nombre": "CAMPUS CSIC. PARKING ZONA MANTENIMIENTO (1)",
+        "direccion": "C/ SERRANO, 117, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 1063,
+        "codigo": "0867",
+        "nombre": "CHV Camping Arrebol PR 2.1",
+        "direccion": "Crtra/ N-330, km. 643, Jaca, Huesca",
+        "conectores": []
+    },
+    {
+        "id": 783,
+        "codigo": "0610",
+        "nombre": "HAIZEA TECNOARANDA, S.L. PR 1",
+        "direccion": "C/ Premios Envero, 10 – P. I. Prado Marina -, Aranda de Duero, Burgos",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "codigo": "0312",
+        "nombre": "APARTAMENTOS PARQUE DEL MAR",
+        "direccion": "Carrer dés Parc de la Mar 23, Cala DÓr, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 1052,
+        "codigo": "0855",
+        "nombre": "CHV SKF Parking dirección PR1",
+        "direccion": "Carretera de Corella, km. 3.5, Tudela, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            }
+        ]
+    },
+    {
+        "id": 557,
+        "codigo": "0457",
+        "nombre": "Edificio AIN (Toma 1 uso público; Toma 2  uso exclusivo AIN)",
+        "direccion": "Ctra. Pamplona, 1, Cordovilla, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.21
+            }
+        ]
+    },
+    {
+        "id": 609,
+        "codigo": "0301",
+        "nombre": "Puerto Venecia 1",
+        "direccion": "Travesía Jardines Reales nº7, Zaragoza, Zaragoza",
+        "conectores": []
+    },
+    {
+        "id": 1004,
+        "codigo": "0809",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº9",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 937,
+        "codigo": "0726",
+        "nombre": "CSIC CAMPUS UAH PR4",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "codigo": "0160",
+        "nombre": "AIECS CASTELLON",
+        "direccion": "Poligono Industrial Fadrell, Bulevar Fuente en Segures, 95, Castellón, Castellón",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 774,
+        "codigo": "0599",
+        "nombre": "GASOLINERA BP AMANECER",
+        "direccion": "C/ Alfons el Magnànim, 90, Palma de Mallorca, Baleares",
+        "conectores": [
+            {
+                "tipo": "Chademo",
+                "potencia_kw": "50.0",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            },
+            {
+                "tipo": "Combo",
+                "potencia_kw": "50.0",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            }
+        ]
+    },
+    {
+        "id": 681,
+        "codigo": "0549",
+        "nombre": "AYUNTAMIENTO DE LLIBER",
+        "direccion": "CALLE COLON S/N, LLIBER, Alicante",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "codigo": "5120",
+        "nombre": "CASA DE LOS BALCONES",
+        "direccion": "Calle de San Francisco, 3, La Orotava, Santa Cruz de Tenerife",
+        "conectores": []
+    },
+    {
+        "id": 902,
+        "codigo": "0705",
+        "nombre": "PdR-4 VE.SLU-Caseda - ESCLAVO.",
+        "direccion": "Ctra. Aibar, Nº 1 Bajo, Caseda, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.1
+            }
+        ]
+    },
+    {
+        "id": 961,
+        "codigo": "0782",
+        "nombre": "CHV Technocenter Plaza PR3",
+        "direccion": "Polígono de Plaza, C. Bari, 31, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 1080,
+        "codigo": "0873",
+        "nombre": "COLEGIO GSD LAS ARTES Nº5",
+        "direccion": "Avenida Gran Via de Sureste nº9, Ensanche de Vallecas, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 792,
+        "codigo": "0617",
+        "nombre": "AVINGUDA DELS ESPORTS (CENTRAL DE POLICIA)",
+        "direccion": "AVINGUDA DELS ESPORT, 6, BELLREGUARD, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 980,
+        "codigo": "0824",
+        "nombre": "CHV Oficina Española de Patentes y Marcas PR6",
+        "direccion": "Edificio Bronce, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 948,
+        "codigo": "0774",
+        "nombre": "CHV Camping Urbión Cargador 2",
+        "direccion": "Ctra. Soria-Burgos (N-234). Desvío a Molinos de Duero (CL-117). Frente a Playa Pita., Abejar, Soria",
+        "conectores": []
+    },
+    {
+        "id": 754,
+        "codigo": "0676",
+        "nombre": "AZORIN HERMANOS SA PR4",
+        "direccion": "C/ CAMINO VIEJO DE LEGANES, Nº 181, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 800,
+        "codigo": "0623",
+        "nombre": "GASOLINERA OPER CANARIOS",
+        "direccion": "CALLE LOS PEREGRINOS. GASOLINERA CEPSA, POLÍGONO INDUSTRIAL EL GORO. TELDE, Las Palmas",
+        "conectores": [
+            {
+                "tipo": "Chademo",
+                "potencia_kw": "50.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Combo",
+                "potencia_kw": "50.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 604,
+        "codigo": "0485",
+        "nombre": "Ayuntamiento de Tiñosillos",
+        "direccion": "Calle Laguna, 8, Tiñosillos, Ávila",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 1046,
+        "codigo": "0857",
+        "nombre": "CHV SKF Parking empleados PR1",
+        "direccion": "Carretera de Corella, km. 3.5, Tudela, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            }
+        ]
+    },
+    {
+        "id": 1060,
+        "codigo": "0890",
+        "nombre": "CHV Esprinet Iberica PR6",
+        "direccion": "Plataforma Logística de Zaragoza, Pol. PLAZA, Campus 3·84 - Nave 1, C. Osca, 2, Nave 2, Nave 5, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 191,
+        "codigo": "0120",
+        "nombre": "Lizarraga",
+        "direccion": "Calle San Miguel (NA-120), 20, Lizarraga, Navarra",
+        "conectores": []
+    },
+    {
+        "id": 1039,
+        "codigo": "0736",
+        "nombre": "PdR DA VINCI",
+        "direccion": "CALLE LEONARDO DA VINCI, 48, Paterna, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 998,
+        "codigo": "0802",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº2",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 313,
+        "codigo": "0103",
+        "nombre": "NEUMATICOS BORREDA, S.L.",
+        "direccion": "C/ Madeixes, 17, ONTINYENT, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.21
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.21
+            }
+        ]
+    },
+    {
+        "id": 931,
+        "codigo": "0720",
+        "nombre": "CSIC CAMPUS UAH PR10",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 575,
+        "codigo": "0471",
+        "nombre": "AYUNTAMIENTO DE BOADILLA DEL MONTE (Playa de la Concha)",
+        "direccion": "C/playa de La Concha, 2, Boadilla del Monte, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 942,
+        "codigo": "0765",
+        "nombre": "CHV Patronato de Torreciudad 3",
+        "direccion": "Ctra. A-138, km 62, Secastilla, Huesca",
+        "conectores": []
+    },
+    {
+        "id": 796,
+        "codigo": "0614",
+        "nombre": "HEMPEL: PUNT 3",
+        "direccion": "Avinguda de Sentmenat, 108, Polinyà, Barcelona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 507,
+        "codigo": "0296",
+        "nombre": "Hotel Carril",
+        "direccion": "Rúa San Andrés, 19, Vilagarcía de Arousa, Pontevedra",
+        "conectores": []
+    },
+    {
+        "id": 687,
+        "codigo": "0551",
+        "nombre": "Parking Casa Misericordia PR2",
+        "direccion": "c/ Vuelta del Castillo, nº1, Pamplona, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 951,
+        "codigo": "0772",
+        "nombre": "CHV Oficinas Araven",
+        "direccion": "Pol. Ind. San Miguel C/Río Martín nº 6, Villanueva de Gállego, Zaragoza",
+        "conectores": []
+    },
+    {
+        "id": 1041,
+        "codigo": "0884",
+        "nombre": "EVBOX ESTACION RECARGA SANTALUCIA  JULIAN CAMARILLO",
+        "direccion": "C/ Julián Camarillo, 36, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 966,
+        "codigo": "0629",
+        "nombre": "CSIC ICIFOR-INIA PR1",
+        "direccion": "Ctra. de La Coruña, km 7,5., Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 732,
+        "codigo": "0578",
+        "nombre": "CAMPUS CSIC. PARKING CENQUIOR PR 1",
+        "direccion": "JUAN DE LA CIERVA, 3, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 688,
+        "codigo": "0552",
+        "nombre": "KIA GARTE TURISMOS",
+        "direccion": "C/ Prado Viejo, 39, Logroño, La Rioja",
+        "conectores": [
+            {
+                "tipo": "Combo",
+                "potencia_kw": "50.0",
+                "gratuito": false,
+                "precio_kwh": 0.42
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "43.0",
+                "gratuito": false,
+                "precio_kwh": 0.42
+            }
+        ]
+    },
+    {
+        "id": 896,
+        "codigo": "0695",
+        "nombre": "CERROCENTENO CHARGING STATION",
+        "direccion": "Carretera del Pradillo, 3, Conil de la Frontera, Cádiz",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 484,
+        "codigo": "0415",
+        "nombre": "HOSPITAL QUIRÓNSALUD PALMAPLANAS",
+        "direccion": "Camí Dels Reis, 308, Palma, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 188,
+        "codigo": "0330",
+        "nombre": "JAIME SIGNES S.L.",
+        "direccion": "C/ REIS CATOLICS, 7, GATA DE GORGOS, Alicante",
+        "conectores": []
+    },
+    {
+        "id": 662,
+        "codigo": "0536",
+        "nombre": "CARGADOR 1",
+        "direccion": "C. Practicante Pedro Pardo, 4, Espinardo, Murcia",
+        "conectores": []
+    },
+    {
+        "id": 813,
+        "codigo": "0643",
+        "nombre": "Calle San Jose Cont",
+        "direccion": "Calle San Jose Cont, 39, Olocau, Valencia",
+        "conectores": []
+    },
+    {
+        "id": 987,
+        "codigo": "0796",
+        "nombre": "CHV Agencia EFE Sótano 2 - Cargador 4",
+        "direccion": "Av. de Burgos, 8b, Chamartín, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            }
+        ]
+    },
+    {
+        "id": 788,
+        "codigo": "0622",
+        "nombre": "La Siesta Parking Caribe Club",
+        "direccion": "Carrer del Nord, 37, Salou, Tarragona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 915,
+        "codigo": "0761",
+        "nombre": "MM NEKICESA SLU PR2",
+        "direccion": "Carretera de Navalcarnero a Chinchón, Km 21.200, Griñón, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 447,
+        "codigo": "0281",
+        "nombre": "SUPERMERCADOS SANCHEZ ROMERO S.L.",
+        "direccion": "PARCELA B SALTOS DEL SIL ( ESQ. EL BARBERO DE SEVILLA ), Majadahonda, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2789
+            }
+        ]
+    },
+    {
+        "id": 345,
+        "codigo": "0313",
+        "nombre": "Instalaciones Boned-Braco",
+        "direccion": "Ronda de La Industria s/nº  LA MAGANTINA, HUESCA, Huesca",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 530,
+        "codigo": "0438",
+        "nombre": "Parking Lider",
+        "direccion": "C/ Villarroel, 213, Barcelona, Barcelona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "9.6",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 798,
+        "codigo": "0632",
+        "nombre": "CARGADOR MARJALS 2",
+        "direccion": "C/ Sagra o C/ Orba, Ondara, Alicante",
+        "conectores": []
+    },
+    {
+        "id": 950,
+        "codigo": "0769",
+        "nombre": "CHV Balneario de Fitero PR1",
+        "direccion": "C/ Extramuros, s/n, Fitero, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.37
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.37
+            }
+        ]
+    },
+    {
+        "id": 1032,
+        "codigo": "0850",
+        "nombre": "CHV Aves nobles y derivados S.L PR2",
+        "direccion": "Calle Salerno, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.1
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.1
+            }
+        ]
+    },
+    {
+        "id": 938,
+        "codigo": "0727",
+        "nombre": "CSIC CAMPUS UAH PR3",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 703,
+        "codigo": "0569",
+        "nombre": "CAMPUS CSIC. PARKING ZONA MANTENIMIENTO (2)",
+        "direccion": "C/ SERRANO, 117, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 1064,
+        "codigo": "0868",
+        "nombre": "CHV Camping Arrebol PR 2.2",
+        "direccion": "Crtra/ N-330, km. 643, Jaca, Huesca",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 784,
+        "codigo": "0611",
+        "nombre": "HAIZEA TECNOARANDA, S.L. PR 2",
+        "direccion": "C/ Premios Envero, 10 – P. I. Prado Marina -, Aranda de Duero, Burgos",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 178,
+        "codigo": "0122",
+        "nombre": "AYUNTAMIENTO DE BUNYOLA (Gestión mediante plataforma MELIB)",
+        "direccion": "Carrer del Garrigó, Bunyola, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 1054,
+        "codigo": "0856",
+        "nombre": "CHV SKF Parking dirección PR2",
+        "direccion": "Carretera de Corella, km. 3.5, Tudela, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            }
+        ]
+    },
+    {
+        "id": 558,
+        "codigo": "0453",
+        "nombre": "CASA DE CULTURA MUTILVA",
+        "direccion": "PLAZA EGUZKI, 3, Mutilva, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 610,
+        "codigo": "0302",
+        "nombre": "Puerto Venecia 2",
+        "direccion": "Travesía Jardines Reales nº7, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 1005,
+        "codigo": "0810",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº10",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 621,
+        "codigo": "0496",
+        "nombre": "AYUNTAMIENTO DE VILLALONGA",
+        "direccion": "AV. LORXA, VILLALONGA, Valencia",
+        "conectores": []
+    },
+    {
+        "id": 393,
+        "codigo": "0297",
+        "nombre": "HOTEL RURAL MAS DEL CUQELLO - 964762501 (Preparado para enchufar y cargar)",
+        "direccion": "CRTA IBARSSOS A CULLA km 1, CULLA, Castellón",
+        "conectores": []
+    },
+    {
+        "id": 806,
+        "codigo": "0634",
+        "nombre": "HOTEL PLAYA MAR",
+        "direccion": "C/ DE FORMENTOR, Nº 119, PORT DE POLLENÇA, Baleares",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 729,
+        "codigo": "0581",
+        "nombre": "AYUNTAMIENTO DE LOS MONTESINOS",
+        "direccion": "C/ Lima esquina con Avda. del Mar, Los Montesinos, Alicante",
+        "conectores": []
+    },
+    {
+        "id": 1042,
+        "codigo": "0741",
+        "nombre": "LANZATEIDE PR1",
+        "direccion": "VIA TRANSVERSAL, 2 LOS LLANOS EDIFICIO LANZATEIDE, Santa Cruz de Tenerife, Santa Cruz de Tenerife",
+        "conectores": [
+            {
+                "tipo": "Combo",
+                "potencia_kw": "60.0",
+                "gratuito": false,
+                "precio_kwh": 0.55
+            },
+            {
+                "tipo": "Combo",
+                "potencia_kw": "60.0",
+                "gratuito": false,
+                "precio_kwh": 0.55
+            }
+        ]
+    },
+    {
+        "id": 904,
+        "codigo": "0706",
+        "nombre": "PdR-1 VE.SLU-Urdiain",
+        "direccion": "C/ Bentalde, Nº 18-20, URDIAIN, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.1
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.1
+            }
+        ]
+    },
+    {
+        "id": 962,
+        "codigo": "0784",
+        "nombre": "CHV Technocenter Plaza PR5",
+        "direccion": "Polígono de Plaza, C. Bari, 31, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 253,
+        "codigo": "0239",
+        "nombre": "AYUNTAMIENTO CANILLAS DE ACEITUNO",
+        "direccion": "Plaza La Constitución Nº 11, CANILLAS DE ACEITUNO, Málaga",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 799,
+        "codigo": "0592",
+        "nombre": "ADJ ALMOINES - CALLE JOAN FUSTER",
+        "direccion": "CALLE JOAN FUSTER, Almoines, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 981,
+        "codigo": "0825",
+        "nombre": "CHV Oficina Española de Patentes y Marcas PR7",
+        "direccion": "Edificio Bronce, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 1071,
+        "codigo": "0893",
+        "nombre": "CHV Rugui Melt PR1",
+        "direccion": "Pol Ind. Emiliano Revilla Sanz, Avd. de España 21, Ólvega, Soria",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 755,
+        "codigo": "0677",
+        "nombre": "AZORIN HERMANOS SA PR5",
+        "direccion": "C/ CAMINO VIEJO DE LEGANES, Nº 181, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "codigo": "0156",
+        "nombre": "Cabanillas 1",
+        "direccion": "Calle Perdiz, 1, Cabanillas de la Sierra, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 618,
+        "codigo": "0497",
+        "nombre": "EL BARCO DE ÁVILA",
+        "direccion": "Plaza de la Constitución, 10, El Barco de Ávila, Ávila",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 1047,
+        "codigo": "0858",
+        "nombre": "CHV SKF Parking empleados PR2",
+        "direccion": "Carretera de Corella, km. 3.5, Tudela, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            }
+        ]
+    },
+    {
+        "id": 1061,
+        "codigo": "0891",
+        "nombre": "CHV Esprinet Iberica PR7",
+        "direccion": "Plataforma Logística de Zaragoza, Pol. PLAZA, Campus 3·84 - Nave 1, C. Osca, 2, Nave 2, Nave 5, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 193,
+        "codigo": "0119",
+        "nombre": "PLAZA DE LA CRUZ",
+        "direccion": "Plaza de la Cruz Nº2, FALCES, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "5.9",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 1040,
+        "codigo": "0737",
+        "nombre": "PdR MONTURIOL",
+        "direccion": "RONDA NARCISO MONTURIOL, 25, Paterna, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 999,
+        "codigo": "0803",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº3",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 403,
+        "codigo": "0707",
+        "nombre": "Ayuntamiento Beniarjo",
+        "direccion": "Vicente Camarena, Beniarjó, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 932,
+        "codigo": "0721",
+        "nombre": "CSIC CAMPUS UAH PR9",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 643,
+        "codigo": "0514",
+        "nombre": "AYUNTAMIENTO DE BOADILLA DEL MONTE (Complejo deportivo municipal ÁNGEL NIETO)",
+        "direccion": "Carretera Boadilla Pozuelo M513 km 1,4, Boadilla del Monte, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 943,
+        "codigo": "0766",
+        "nombre": "CHV Patronato de Torreciudad 4",
+        "direccion": "Ctra. A-138, km 62, Secastilla, Huesca",
+        "conectores": []
+    },
+    {
+        "id": 893,
+        "codigo": "0696",
+        "nombre": "CALSI S.L RIPOLLET",
+        "direccion": "Carretera Santiga esquina calle Mediterrani, Ripollet, Barcelona",
+        "conectores": []
+    },
+    {
+        "id": 660,
+        "codigo": "0533",
+        "nombre": "Hotel Spa Atlántico",
+        "direccion": "Lg. Granxa, 15, San Vicente do Mar, Pontevedra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "5.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "5.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 749,
+        "codigo": "0587",
+        "nombre": "PLAZA DE LOS FUEROS",
+        "direccion": "PLAZA DE LOS FUEROS, 11, FALCES, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 956,
+        "codigo": "0776",
+        "nombre": "CHV Parking Hotel Reino de Aragón PR 1",
+        "direccion": "Calle de Santa Catalina (Casco Antiguo) Al final de la Planta -1, Zaragoza, Zaragoza",
+        "conectores": []
+    },
+    {
+        "id": 1070,
+        "codigo": "0899",
+        "nombre": "EVBOX ESTANCION RECARGA SANTALUCIA  RIBERA DEL LOIRA",
+        "direccion": "C/ Ribera del Loira, 4, Madrid, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 667,
+        "codigo": "0541",
+        "nombre": "PUNTO DE RECARGA. FUNDACIÓN FEMEVAL.",
+        "direccion": "C/ JUAN XXIII, nº45, ALAQUÀS, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 975,
+        "codigo": "0786",
+        "nombre": "CHV Oficina Española de Patentes y Marcas PR1",
+        "direccion": "Paseo de la Castellana, 75, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 733,
+        "codigo": "0579",
+        "nombre": "CAMPUS CSIC. PARKING CENQUIOR PR 2",
+        "direccion": "JUAN DE LA CIERVA, 3, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 1030,
+        "codigo": "0851",
+        "nombre": "CHV Bodega La Rioja Alta",
+        "direccion": "Avenida Vizcaya, 8, Haro, La Rioja",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "codigo": "0175",
+        "nombre": "San Vicente de la Barquera",
+        "direccion": "Avda. Miramar, 1, San Vicente de la Barquera, Cantabria",
+        "conectores": []
+    },
+    {
+        "id": 543,
+        "codigo": "0698",
+        "nombre": "PARKING CETIS 1",
+        "direccion": "CALLE CANARIAS 33,  ESQUINA SANT CRISTOFOL, PARKING CETIS, Ibiza, Baleares",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 283,
+        "codigo": "0248",
+        "nombre": "EATIM JESUS POBRE C/DIAGONAL",
+        "direccion": "C/ Diagonal S/N, JESÚS POBRE, Alicante",
+        "conectores": []
+    },
+    {
+        "id": 1055,
+        "codigo": "0885",
+        "nombre": "CHV Esprinet Iberica PR1",
+        "direccion": "Plataforma Logística de Zaragoza, Pol. PLAZA, Campus 3·84 - Nave 1, C. Osca, 2, Nave 2, Nave 5, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 663,
+        "codigo": "0537",
+        "nombre": "CARGADOR 2",
+        "direccion": "C. Practicante Pedro Pardo, 4, Espinardo, Murcia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.22
+            }
+        ]
+    },
+    {
+        "id": 862,
+        "codigo": "0685",
+        "nombre": "ARGENTE BALAGUER",
+        "direccion": "Mare María Rafols 3, ALGEMESI, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 988,
+        "codigo": "0797",
+        "nombre": "CHV Agencia EFE Sótano 2 - Cargador 5",
+        "direccion": "Av. de Burgos, 8b, Chamartín, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            }
+        ]
+    },
+    {
+        "id": 890,
+        "codigo": "0686",
+        "nombre": "CLUB DE TENIS Y PADEL TORTOSA",
+        "direccion": "CARRER DE LA SIMPATICA, 89, TORTOSA, Tarragona",
+        "conectores": []
+    },
+    {
+        "id": 916,
+        "codigo": "1005",
+        "nombre": "CHARGEVITE MODELO L CON PINCHO USB",
+        "direccion": "C. de Alsasua, 20, Madrid, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 496,
+        "codigo": "0287",
+        "nombre": "Parking Fenie (PLAZAS 16-17) CIRCUTOR",
+        "direccion": "Calle Alsasua, 20, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 421,
+        "codigo": "0191",
+        "nombre": "ESTACIÓN DE AUTOBUSES AYUNTAMIENTO",
+        "direccion": "Paseo Constitución S/N, Fraga, Huesca",
+        "conectores": []
+    },
+    {
+        "id": 574,
+        "codigo": "0472",
+        "nombre": "PARKING MASSENS",
+        "direccion": "C/MASSENS 73, Barcelona, Barcelona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "10.0",
+                "gratuito": false,
+                "precio_kwh": 0.42
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "10.0",
+                "gratuito": false,
+                "precio_kwh": 0.42
+            }
+        ]
+    },
+    {
+        "id": 803,
+        "codigo": "0683",
+        "nombre": "ID:0683",
+        "direccion": "EL PALMAR, Denia, Alicante",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.33
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.33
+            }
+        ]
+    },
+    {
+        "id": 953,
+        "codigo": "0770",
+        "nombre": "CHV Balneario de Fitero PR2",
+        "direccion": "C/ Extramuros, s/n, Fitero, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.37
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.37
+            }
+        ]
+    },
+    {
+        "id": 646,
+        "codigo": "0520",
+        "nombre": "COFRADÍA PESCADORES DE GANDIA",
+        "direccion": "RECINTO PORTUARIO, S/N, GRAU I PLATJA DE GANDIA, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.32
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.32
+            }
+        ]
+    },
+    {
+        "id": 939,
+        "codigo": "0728",
+        "nombre": "CSIC CAMPUS UAH PR2",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 704,
+        "codigo": "0568",
+        "nombre": "CAMPUS CSIC. PUNTO LIMPIO (1)",
+        "direccion": "C/ SERRANO, 119, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 1065,
+        "codigo": "0866",
+        "nombre": "CHV Camping Arrebol PR 1.2",
+        "direccion": "Crtra/ N-330, km. 643, Jaca, Huesca",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 891,
+        "codigo": "0684",
+        "nombre": "Hotel Doña Sancha",
+        "direccion": "Avd de Victor Barbadillo Nº31, Covarrubias, Burgos",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.33
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.33
+            }
+        ]
+    },
+    {
+        "id": 271,
+        "codigo": "0557",
+        "nombre": "INSTALADORA IMABER S.L",
+        "direccion": "Calle Conradors 38H POL.IND. C´AN ROBIOL, Marratxi, Baleares",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "codigo": "0080",
+        "nombre": "AYUNTAMIENTO CARRION DE LOS CONDES",
+        "direccion": "Plaza Condes de Carrión, Carrión de los Condes, Palencia",
+        "conectores": []
+    },
+    {
+        "id": 559,
+        "codigo": "0458",
+        "nombre": "Campo de fútbol",
+        "direccion": "Carretera NA-134, 38, Azagra, Navarra",
+        "conectores": []
+    },
+    {
+        "id": 611,
+        "codigo": "0303",
+        "nombre": "Puerto Venecia 3",
+        "direccion": "Travesía Jardines Reales nº7, Zaragoza, Zaragoza",
+        "conectores": []
+    },
+    {
+        "id": 1006,
+        "codigo": "0811",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº11",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 341,
+        "codigo": "0356",
+        "nombre": "PARKING ESCUELA SAN ANTON 1",
+        "direccion": "Entrada1  C/Farmacia, Nº 13 Entrada2  C/Santa brigida, Nº12, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 620,
+        "codigo": "0530",
+        "nombre": "BP Los Bomberos",
+        "direccion": "CARRETERA CABRA KM. 1,5, Lucena, Córdoba",
+        "conectores": []
+    },
+    {
+        "id": 807,
+        "codigo": "0635",
+        "nombre": "HOTEL PLAYA DE MURO SUITES",
+        "direccion": "C/ FALCÓ, PLAYA DE MURO, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 730,
+        "codigo": "0580",
+        "nombre": "AYUNTAMIENTO DE RAFAL (configurado como llegar y cargar)",
+        "direccion": "CALLE HERMANOS RODRIGUEZ, 71, RAFAL, Alicante",
+        "conectores": []
+    },
+    {
+        "id": 1043,
+        "codigo": "0742",
+        "nombre": "LANZATEIDE PR2",
+        "direccion": "VIA TRANSVERSAL DOS LOS LLANOS EDIFICIO LANZATEIDE, SANTA CRUZ DE TENERIFE, Santa Cruz de Tenerife",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 918,
+        "codigo": "0739",
+        "nombre": "Parking General Mills San Adrian - ESCLAVO 2",
+        "direccion": "Poligono Industrial Sansande Fase 3, San Adrian, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.18
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.18
+            }
+        ]
+    },
+    {
+        "id": 963,
+        "codigo": "0783",
+        "nombre": "CHV Technocenter Plaza PR4",
+        "direccion": "Polígono de Plaza, C. Bari, 31, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 601,
+        "codigo": "0483",
+        "nombre": "Ayuntamiento de Casabermeja",
+        "direccion": "CAMINO DE COLMENAR, S/N, Casabermeja, Málaga",
+        "conectores": []
+    },
+    {
+        "id": 801,
+        "codigo": "0662",
+        "nombre": "CALLE SOROLLA-PLAÇA DE LA MARINA S/N (PLAYA- AL LADO CRUZ ROJA)",
+        "direccion": "CALLE SOROLLA, SN (PLAYA- AL LADO CRUZ ROJA), BELLREGUARD, Valencia",
+        "conectores": []
+    },
+    {
+        "id": 982,
+        "codigo": "0826",
+        "nombre": "CHV Oficina Española de Patentes y Marcas PR8",
+        "direccion": "Edificio Bronce, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 1072,
+        "codigo": "0894",
+        "nombre": "CHV Rugui Melt PR2",
+        "direccion": "Pol Ind. Emiliano Revilla Sanz, Avd. de España 21, Ólvega, Soria",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 780,
+        "codigo": "1004",
+        "nombre": "Prueba  FE (OCPP 1.6 ORBIS)",
+        "direccion": "C/Alsasua, 20, Madrid, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 413,
+        "codigo": "0147",
+        "nombre": "VILLADIEGO",
+        "direccion": "Plaza Mayor,  2, Villadiego, Villadiego, Burgos",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.18
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.18
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "codigo": "0025",
+        "nombre": "AJUNTAMENT DE LLOSETA (Gestión mediante plataforma MELIB)",
+        "direccion": "Carrer Pastora, 25, Lloseta, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 1048,
+        "codigo": "0859",
+        "nombre": "CHV SKF Parking empleados PR3",
+        "direccion": "Carretera de Corella, km. 3.5, Tudela, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            }
+        ]
+    },
+    {
+        "id": 1068,
+        "codigo": "0863",
+        "nombre": "CHV Edificio Ibercaja (Hiberus) PR1",
+        "direccion": "Pº de Isabel la Católica, 6, Zaragoza, Zaragoza",
+        "conectores": []
+    },
+    {
+        "id": 249,
+        "codigo": "0236",
+        "nombre": "AYUNTAMIENTO DE VIANA",
+        "direccion": "C/ El Hoyo, S/N, VIANA, Navarra",
+        "conectores": []
+    },
+    {
+        "id": 671,
+        "codigo": "0546",
+        "nombre": "MkZ",
+        "direccion": "Av Soria 97, Pg los Llanos Parcela 97, Zamora, Zamora",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 1000,
+        "codigo": "0804",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº4",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 465,
+        "codigo": "0210",
+        "nombre": "PARKING PISCINA MUNICIPAL CARRICOLA",
+        "direccion": "CAMI DEL FONDO S/N (FRENTE PISCINA MUNICIPAL), Carricola, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 933,
+        "codigo": "0722",
+        "nombre": "CSIC CAMPUS UAH PR8",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 695,
+        "codigo": "0279",
+        "nombre": "Pruebas Gireve Oficina",
+        "direccion": "Jacinto Benavente, Las rozas, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 944,
+        "codigo": "0768",
+        "nombre": "CHV Camping Lago Barasona",
+        "direccion": "Nacional 123 A km 25, Huesca, Huesca",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 491,
+        "codigo": "0421",
+        "nombre": "AYUNTAMIENTO DE RAFAL (configurado como llegar y cargar)",
+        "direccion": "C/ RUPERTO CHAPI, 6, Rafal, Alicante",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "5.5",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "5.5",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 892,
+        "codigo": "0688",
+        "nombre": "Hotel Spa BosqueMar",
+        "direccion": "Lugar Reboredo, 93, San Vicente - O Grove, Pontevedra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "14.0",
+                "gratuito": false,
+                "precio_kwh": 0.39
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "14.0",
+                "gratuito": false,
+                "precio_kwh": 0.39
+            }
+        ]
+    },
+    {
+        "id": 759,
+        "codigo": "0596",
+        "nombre": "Parking General Mills San Adrian - ESCLAVO 1",
+        "direccion": "Poligono Industrial Sansande Fase 3, San Adrian, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.18
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.18
+            }
+        ]
+    },
+    {
+        "id": 957,
+        "codigo": "0777",
+        "nombre": "CHV Parking Hotel Reino de Aragón PR 2",
+        "direccion": "Calle de Santa Catalina (Casco Antiguo) Al final de la Planta -1, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 1076,
+        "codigo": "0869",
+        "nombre": "COLEGIO GSD LAS ARTES Nº1",
+        "direccion": "Avenida Gran Via de Sureste nº9, Ensanche de Vallecas, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 698,
+        "codigo": "0554",
+        "nombre": "POLIGONO INDUSTRIAL ALMOINES",
+        "direccion": "CALLE GREMIS N12-14 Poligono Industrial, Almoines, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 976,
+        "codigo": "0787",
+        "nombre": "CHV Oficina Española de Patentes y Marcas PR2",
+        "direccion": "Edificio Bronce, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 750,
+        "codigo": "1003",
+        "nombre": "Prueba FE (OCPP 1.6 WOLT)",
+        "direccion": "C/Alsasua, 20, Pozuelo, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 499,
+        "codigo": "0334",
+        "nombre": "PUNTO DE RECARGA SPAR LA ALDEA 1",
+        "direccion": "C/ FEDERICO DÍAZ BELTRÁN, 14, La aldea de San Nicolás, Las Palmas",
+        "conectores": []
+    },
+    {
+        "id": 426,
+        "codigo": "0258",
+        "nombre": "CAMPING RUILOBA S.A. (pendiente puesta en marcha)",
+        "direccion": "Bº La Iglesia, Ruiloba, Los LLaos, Cantabria",
+        "conectores": []
+    },
+    {
+        "id": 544,
+        "codigo": "0699",
+        "nombre": "PARKING CETIS 2 (PLAZAS 1022 Y 1023)",
+        "direccion": "CALLE CANARIAS 33,  ESQUINA SANT CRISTOFOL, PARKING CETIS, Ibiza, Baleares",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 954,
+        "codigo": "0771",
+        "nombre": "CHV Balneario de Fitero PR3",
+        "direccion": "C/ Extramuros, s/n, Fitero, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.37
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.37
+            }
+        ]
+    },
+    {
+        "id": 1056,
+        "codigo": "0886",
+        "nombre": "CHV Esprinet Iberica PR2",
+        "direccion": "Plataforma Logística de Zaragoza, Pol. PLAZA, Campus 3·84 - Nave 1, C. Osca, 2, Nave 2, Nave 5, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 771,
+        "codigo": "0600",
+        "nombre": "CARGADOR 3",
+        "direccion": "C. Practicante Pedro Pardo, 4, Espinardo, Murcia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.22
+            }
+        ]
+    },
+    {
+        "id": 895,
+        "codigo": "0687",
+        "nombre": "AVINGUDA DE LA SAFOR (FRENTE ALMACEN MUNICIPAL PLAYA)",
+        "direccion": "Avda. de la Safor, 2 (Frente Almacén Municipal), Guardamar  de la Safor, Valencia",
+        "conectores": []
+    },
+    {
+        "id": 989,
+        "codigo": "0798",
+        "nombre": "CHV Agencia EFE Sótano 3 - Cargador 6",
+        "direccion": "Av. de Burgos, 8b, Chamartín, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            }
+        ]
+    },
+    {
+        "id": 945,
+        "codigo": "0767",
+        "nombre": "CHV Luco de Jiloca",
+        "direccion": "Calle Real, 14, Luco de jiloca, Teruel",
+        "conectores": []
+    },
+    {
+        "id": 917,
+        "codigo": "0900",
+        "nombre": "Prueba FE (OCPP 1.6 CHARGEVITE COMFORT)",
+        "direccion": "C. de Alsasua, 20, Madrid, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 510,
+        "codigo": "0431",
+        "nombre": "AYUNTAMIENTO DE BOADILLA DEL MONTE (Ctra Majadahonda)",
+        "direccion": "Carretera de Majadahonda, 18, Boadilla del Monte, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 654,
+        "codigo": "0522",
+        "nombre": "CASA SANTOS",
+        "direccion": "C/ Sebastián Martín Retortillo, 36, Albalate de Cinca, Huesca",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 668,
+        "codigo": "0380",
+        "nombre": "Comunidad de Propietarios Modolell 9 Plaza 12",
+        "direccion": "c/ Modolell , 9, Barcelona, Barcelona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.27
+            }
+        ]
+    },
+    {
+        "id": 804,
+        "codigo": "0682",
+        "nombre": "ID:0682",
+        "direccion": "EL PALMAR, Denia, Alicante",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.33
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.33
+            }
+        ]
+    },
+    {
+        "id": 1007,
+        "codigo": "0812",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº12",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 648,
+        "codigo": "0524",
+        "nombre": "Ayuntamiento de Almoines",
+        "direccion": "C/ Molí, S/N (Frente Campo Futbol), Almoines, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 940,
+        "codigo": "0729",
+        "nombre": "CSIC CAMPUS UAH PR1 (Maestro)",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 705,
+        "codigo": "0570",
+        "nombre": "CAMPUS CSIC. PUNTO LIMPIO (2)",
+        "direccion": "C/ SERRANO, 119, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 1028,
+        "codigo": "0703",
+        "nombre": "Hotel OCA Puerta del Camino",
+        "direccion": "Miguel Ferro Caaveiro, 3, Santiago de Compostela, La Coruña",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "codigo": "0173",
+        "nombre": "ASEMIET",
+        "direccion": "C/ Nicolás Copérnico, 20 Pol. Ind. Mejostilla, Cáceres, Cáceres",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.5
+            }
+        ]
+    },
+    {
+        "id": 311,
+        "codigo": "0070",
+        "nombre": "Hotel Amoros",
+        "direccion": "Carrer de ses Llegitimes, 37, Cala Ratjada, Baleares",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 622,
+        "codigo": "0501",
+        "nombre": "Santibáñez",
+        "direccion": "Ctra. la Magdalena 2, 38, Santibáñez de la Peña, Palencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 655,
+        "codigo": "0409",
+        "nombre": "POLIDEPORTIVO ZUBIRI",
+        "direccion": "AVD. RONCESVALLES  (ORREAGA ETORBIDEA), 39, ZUBIRI, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 612,
+        "codigo": "0304",
+        "nombre": "Puerto Venecia 4",
+        "direccion": "Travesía Jardines Reales nº7, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 342,
+        "codigo": "0357",
+        "nombre": "PARKING ESCUELA SAN ANTON 2",
+        "direccion": "Entrada1 C/Farmacia, Nº13 Entrada2 C/Santa brigida, Nº 12, Madrid, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 1044,
+        "codigo": "0854",
+        "nombre": "CHV AYUNTAMIENTO DE MORILES",
+        "direccion": "C/ García de Leaniz, 4, Moriles, Córdoba",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 808,
+        "codigo": "0636",
+        "nombre": "GARDEN HOTELS",
+        "direccion": "C/ MENESTRAL, Nº 5, INCA, Baleares",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 737,
+        "codigo": "0572",
+        "nombre": "EXC. AYUNTAMIENTO DE POLOP",
+        "direccion": "CALLE SAGUI-BARBA, 33, POLOP DE LA MARINA, Alicante",
+        "conectores": []
+    },
+    {
+        "id": 739,
+        "codigo": "0582",
+        "nombre": "CENTRO CULTURAL ESPIRDO",
+        "direccion": "C/ Segovia, 17, Espirdo, Segovia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 919,
+        "codigo": "0740",
+        "nombre": "Parking General Mills San Adrian - ESCLAVO 3",
+        "direccion": "Poligono Industrial Sansande Fase 3, San Adrian, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.18
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.18
+            }
+        ]
+    },
+    {
+        "id": 964,
+        "codigo": "0781",
+        "nombre": "CHV Technocenter Plaza PR2",
+        "direccion": "Polígono de Plaza, C. Bari, 31, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 637,
+        "codigo": "0692",
+        "nombre": "Aguas de Benahavís - Avda. Andalucía",
+        "direccion": "Avenida de Andalucía, 11, Benahavís, Málaga",
+        "conectores": []
+    },
+    {
+        "id": 802,
+        "codigo": "0681",
+        "nombre": "AZIMEDIA - PUNTO DE RECARGA MUNICIPAL EN GARAJE PRIVADO",
+        "direccion": "CALLE FURS, Nº 50, GANDIA, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 983,
+        "codigo": "0827",
+        "nombre": "CHV Oficina Española de Patentes y Marcas PR9",
+        "direccion": "Edificio Bronce, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 238,
+        "codigo": "0349",
+        "nombre": "SATEM",
+        "direccion": "C/ MAS DE L'ABAT, 46 NAVE F 147 POLIGONO ALBA, VILA-SECA, Tarragona",
+        "conectores": []
+    },
+    {
+        "id": 909,
+        "codigo": "0801",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº1",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 634,
+        "codigo": "0504",
+        "nombre": "CENTRO CÍVICO SOTOPALACIOS",
+        "direccion": "Calle Carrebarriuso, 3, Sotopalacios, Burgos",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.16
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.16
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.16
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.16
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "codigo": "0036",
+        "nombre": "UNIVERSITAT DE LES ILLES BALEARS",
+        "direccion": "Carrer Eivissa, Palma de Mallorca, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 1049,
+        "codigo": "0860",
+        "nombre": "CHV SKF Parking empleados PR4",
+        "direccion": "Carretera de Corella, km. 3.5, Tudela, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2373
+            }
+        ]
+    },
+    {
+        "id": 1069,
+        "codigo": "0864",
+        "nombre": "CHV Edificio Ibercaja (Hiberus) PR2",
+        "direccion": "Pº de Isabel la Católica, 6, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.13
+            }
+        ]
+    },
+    {
+        "id": 419,
+        "codigo": "0183",
+        "nombre": "Ayuntamiento de Arroniz",
+        "direccion": "Ctra. BARBARIN nº 38, VILLA DE ARRÓNIZ, Arróniz, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.32
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.32
+            }
+        ]
+    },
+    {
+        "id": 689,
+        "codigo": "0365",
+        "nombre": "CARRETERA ALDEHUELA 67 (1)",
+        "direccion": "CARRETERA ALDEHUELA, 67, Zamora, Zamora",
+        "conectores": []
+    },
+    {
+        "id": 1001,
+        "codigo": "0805",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº5",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 522,
+        "codigo": "0435",
+        "nombre": "AJUNTAMENT DE L'OLLERIA",
+        "direccion": "C/ J.BAUTISTA FERRERE FRENTE Nº 9, L'OLLERIA, Valencia",
+        "conectores": []
+    },
+    {
+        "id": 934,
+        "codigo": "0723",
+        "nombre": "CSIC CAMPUS UAH PR7",
+        "direccion": "AV. DE LEÓN, 1 CAMPUS UAH, ALCALÁ DE HENARES, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 699,
+        "codigo": "0571",
+        "nombre": "CAMPUS CSIC. PARKING RESIDENCIA",
+        "direccion": "C/ PINAR, 23, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 970,
+        "codigo": "0815",
+        "nombre": "CHV Talleres Lacasa",
+        "direccion": "Avda de Huesca,27 Pol Castro Romano, Sabiñánigo, Huesca",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 562,
+        "codigo": "0462",
+        "nombre": "AYUNTAMIENTO DE LOS MONTESINOS",
+        "direccion": "AVDA LA MARQUESA, 12, Los Montesinos, Alicante",
+        "conectores": []
+    },
+    {
+        "id": 897,
+        "codigo": "0700",
+        "nombre": "Camping & Glamping Muiñeira",
+        "direccion": "Ctra. de A Lanzada a, km 2, No 38, San Vicente - O Grove, Pontevedra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "9.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "9.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 760,
+        "codigo": "0597",
+        "nombre": "Parking General Mills San Adrian - MAESTRO",
+        "direccion": "Poligono Industrial Sansande Fase 3, San Adrian, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.18
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.18
+            }
+        ]
+    },
+    {
+        "id": 958,
+        "codigo": "0778",
+        "nombre": "CHV Parking Hotel Zentro PR1 (planta -1 al fondo)",
+        "direccion": "Calle de San Miguel, 29 Parking Hotel Zentro, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 1077,
+        "codigo": "0870",
+        "nombre": "COLEGIO GSD LAS ARTES Nº2",
+        "direccion": "Avenida Gran Via de Sureste nº9, Ensanche de Vallecas, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 727,
+        "codigo": "0574",
+        "nombre": "PUNTO DE RECARGA LALFORI",
+        "direccion": "CARRETERA BENEIXAMA, 1, FONTANARS DELS ALFORINS, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.21
+            }
+        ]
+    },
+    {
+        "id": 977,
+        "codigo": "0788",
+        "nombre": "CHV Oficina Española de Patentes y Marcas PR3",
+        "direccion": "Edificio Bronce, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 751,
+        "codigo": "0673",
+        "nombre": "AZORIN HERMANOS SA PR1",
+        "direccion": "C/ CAMINO VIEJO DE LEGANES, Nº 181, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 547,
+        "codigo": "0440",
+        "nombre": "Los Cancajos",
+        "direccion": "Calle Punta de la Arena, S/N,  Los Cancajos, Breña Baja, Las Palmas",
+        "conectores": []
+    },
+    {
+        "id": 815,
+        "codigo": "0644",
+        "nombre": "HOTEL DEL OSO",
+        "direccion": "Bo. Areños, 2, Cosgaya, Cantabria",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "6.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "6.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 554,
+        "codigo": "0455",
+        "nombre": "SUNSET OASIS",
+        "direccion": "CANARIAS CANTABRIA 46 - 48, APTOS OASIS, CALA DE BOU, SANT AGUSTIN- SAN JOSE, Baleares",
+        "conectores": [
+            {
+                "tipo": "Combo",
+                "potencia_kw": "25.0",
+                "gratuito": false,
+                "precio_kwh": 0.4
+            }
+        ]
+    },
+    {
+        "id": 1037,
+        "codigo": "0733",
+        "nombre": "ARGIGUREN - ILUNDAIN",
+        "direccion": "C/ SAN JUAN, PARCELA 46, ILUNDAIN (VALLE DE ARANGUREN), Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 1057,
+        "codigo": "0887",
+        "nombre": "CHV Esprinet Iberica PR3",
+        "direccion": "Plataforma Logística de Zaragoza, Pol. PLAZA, Campus 3·84 - Nave 1, C. Osca, 2, Nave 2, Nave 5, Zaragoza, Zaragoza",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 772,
+        "codigo": "0601",
+        "nombre": "CARGADOR 4",
+        "direccion": "C. Practicante Pedro Pardo, 4, Espinardo, Murcia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.22
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.22
+            }
+        ]
+    },
+    {
+        "id": 903,
+        "codigo": "0689",
+        "nombre": "CAMPING BUNGALOWS MARIOLA",
+        "direccion": "CARRETERA BOCAIRENT-ALCOI (CV-794), km. 9, BOCAIRENT, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 990,
+        "codigo": "0799",
+        "nombre": "CHV Agencia EFE Sótano 3 - Cargador 7",
+        "direccion": "Av. de Burgos, 8b, Chamartín, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "codigo": "0079",
+        "nombre": "(PENDIENTE DE SUSTITUCIÓN ) AYUNTAMIENTO CARDIEL DE LOS MONTES",
+        "direccion": "Plaza España, 1, Cardiel de los Montes, Toledo",
+        "conectores": []
+    },
+    {
+        "id": 923,
+        "codigo": "1007",
+        "nombre": "GENESIS CHARGEVITE CON RANGO 4",
+        "direccion": "C. de Alsasua, 20, Madrid, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 514,
+        "codigo": "0427",
+        "nombre": "El Palmeral",
+        "direccion": "Calle José Echegaray, 11, Las Rozas, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 661,
+        "codigo": "0532",
+        "nombre": "SOBRARBE MOTOR S.L.",
+        "direccion": "Polígono Industrial Sobrarbe, Nave 1 y 2, Ainsa, Huesca",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.3
+            }
+        ]
+    },
+    {
+        "id": 793,
+        "codigo": "0612",
+        "nombre": "HEMPEL: PUNT 1",
+        "direccion": "Avinguda de Sentmenat, 108, Polinyà, Barcelona",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": true,
+                "precio_kwh": 0.0
+            }
+        ]
+    },
+    {
+        "id": 641,
+        "codigo": "0516",
+        "nombre": "Ayuntamiento de Padules",
+        "direccion": "CALLE LOS BAÑOS - ESQ CALLE CANARIO, PADULES, Almería",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 613,
+        "codigo": "0305",
+        "nombre": "Puerto Venecia 5",
+        "direccion": "Travesía Jardines Reales nº7, Zaragoza, Zaragoza",
+        "conectores": []
+    },
+    {
+        "id": 1008,
+        "codigo": "0813",
+        "nombre": "COLEGIO GSD VALDEBEBAS Nº13",
+        "direccion": "C. de Félix Candela, 97, Hortaleza, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.2
+            }
+        ]
+    },
+    {
+        "id": 649,
+        "codigo": "0525",
+        "nombre": "Guardamar de la Safor",
+        "direccion": "C/ Sant Joan S/N, Guardamar de la Safor, Valencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "11.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    },
+    {
+        "id": 952,
+        "codigo": "0793",
+        "nombre": "CHV Agencia EFE Sótano 2 - Cargador 1",
+        "direccion": "Av. de Burgos, 8b, Chamartín, Madrid, Madrid",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.15
+            }
+        ]
+    },
+    {
+        "id": 715,
+        "codigo": "0381",
+        "nombre": "COLEGIO GSD BUITRAGO Nº 2",
+        "direccion": "Avenida de Madrid, 16, Buitrago del Lozoya, Madrid",
+        "conectores": []
+    },
+    {
+        "id": 78,
+        "codigo": "0063",
+        "nombre": "BODEGAS VIVANCO",
+        "direccion": "Carretera Nacional 232, Museo Vivanco de la Cultura del Vino, Briones, La Rioja",
+        "conectores": []
+    },
+    {
+        "id": 88,
+        "codigo": "0064",
+        "nombre": "ENSE CONIL, S.L.",
+        "direccion": "Carretera N-340 km.17, El Colorado, 11149, Conil de la Frontera, Cádiz",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            },
+            {
+                "tipo": "Schuko",
+                "potencia_kw": "2.3",
+                "gratuito": false,
+                "precio_kwh": 0.45
+            }
+        ]
+    },
+    {
+        "id": 365,
+        "codigo": "0176",
+        "nombre": "SANTA MARIA DEL CAMÍ (Gestión mediante plataforma MELIB)",
+        "direccion": "PLAZA DE ESPAÑA, SANTA MARIA DEL CAMÍ, Baleares",
+        "conectores": []
+    },
+    {
+        "id": 632,
+        "codigo": "0502",
+        "nombre": "Aguilar de Campoo",
+        "direccion": "Paseo del Soto, 9, Aguilar de Campoo, Palencia",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "7.4",
+                "gratuito": false,
+                "precio_kwh": 0.35
+            }
+        ]
+    },
+    {
+        "id": 656,
+        "codigo": "0519",
+        "nombre": "ESCUELA INFANTIL OLLOKI",
+        "direccion": "C/ Avenida Esteribar, 283, OLLOKI, Navarra",
+        "conectores": [
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            },
+            {
+                "tipo": "Mennekes",
+                "potencia_kw": "22.0",
+                "gratuito": false,
+                "precio_kwh": 0.25
+            }
+        ]
+    }
+]
