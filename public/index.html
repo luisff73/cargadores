@@ -205,10 +205,6 @@
             background: #d5e2f2;
         }
 
-        .detalle {
-            font-size: 14px;
-            line-height: 1.6;
-        }
 
         /* Información individual de cada toma */
         .tomas-lista {
@@ -291,8 +287,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 10px;
-            margin-bottom: 12px;
         }
 
         .fila-direccion .direccion {
@@ -319,7 +313,6 @@
         .fila-vigilancia {
             display: flex;
             justify-content: flex-end;
-            margin-top: 10px;
         }
 
         .boton-vigilancia {
@@ -327,6 +320,13 @@
             display: inline-block;
             padding: 9px 14px;
             cursor: pointer;
+        }
+
+        .cabecera-cargador h4 {
+            margin-top: 0;
+            margin-bottom: 2px;
+            font-size: 14px;
+            line-height: 1.2;
         }
 
         @media (max-width: 600px) {
@@ -353,6 +353,93 @@
             .indicador span {
                 font-size: 12px;
             }
+
+            /* Ajustes de tarjetas para móviles */
+
+            main {
+                margin: 15px auto;
+                padding: 0 10px;
+            }
+
+            .cargador {
+                padding: 12px;
+            }
+
+            .cabecera-cargador {
+                gap: 6px;
+                margin-bottom: 6px;
+                align-items: flex-start;
+            }
+
+            .cabecera-cargador h4 {
+                font-size: 14px;
+                line-height: 1.3;
+            }
+
+            .cabecera-cargador .estado {
+                font-size: 10px;
+                padding: 4px 7px;
+            }
+
+            .fila-direccion {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .fila-direccion .direccion {
+                font-size: 13px;
+                line-height: 1.4;
+                margin-bottom: 0;
+            }
+
+            .enlace-maps {
+                padding: 6px 9px;
+            }
+
+
+            .tomas-lista {
+                margin-top: 10px;
+                gap: 7px;
+            }
+
+            .toma {
+                padding: 9px;
+            }
+
+            .toma-cabecera {
+                margin-bottom: 6px;
+                flex-wrap: wrap;
+                gap: 6px;
+            }
+
+            .precio {
+                font-size: 17px;
+            }
+
+            .toma-datos {
+                font-size: 13px;
+                line-height: 1.45;
+            }
+
+            .boton-vigilancia {
+                padding: 8px 10px;
+                font-size: 13px;
+            }
+
+            .resumen {
+                grid-template-columns: repeat(2, 1fr);
+                margin: 14px 0;
+            }
+
+            s .indicador {
+                padding: 10px 5px;
+            }
+
+            .indicador strong {
+                font-size: 22px;
+            }
+
+
 
         }
     </style>
@@ -758,12 +845,6 @@
                     </div>
                 <div class="fila-vigilancia">
                     ${botonVigilancia}
-                </div>
-                <div class="detalle">
-                    <strong>Tomas totales:</strong> ${c.tomas ?? 0}<br>
-                    <strong>Tomas libres:</strong> ${c.tomas_disponibles ?? 0}<br>
-                    <strong>Tomas ocupadas:</strong> ${c.tomas_ocupadas ?? 0}<br>
-                    <strong>Detalle:</strong> ${escapar(c.resumen || "")}
                 </div>
 
                 ${htmlTomas ? `<div class="tomas-lista">${htmlTomas}</div>` : ""}
