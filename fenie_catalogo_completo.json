@@ -13,7 +13,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.614753,
+    "longitud": 2.967019
   },
   {
     "codigo": "0002",
@@ -29,7 +31,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.618954,
+    "longitud": 2.975549
   },
   {
     "codigo": "0003",
@@ -45,7 +49,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.609923,
+    "longitud": 3.284206
   },
   {
     "codigo": "0004",
@@ -61,7 +67,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.580984,
+    "longitud": 3.372523
   },
   {
     "codigo": "0005",
@@ -77,7 +85,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.647553,
+    "longitud": 2.771298
   },
   {
     "codigo": "0006",
@@ -93,7 +103,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 39.650319,
+    "longitud": 2.771784
   },
   {
     "codigo": "0007",
@@ -109,7 +121,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 39.621019,
+    "longitud": 2.661695
   },
   {
     "codigo": "0008",
@@ -125,7 +139,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 39.595177,
+    "longitud": 2.683684
   },
   {
     "codigo": "0009",
@@ -147,7 +163,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.644046,
+    "longitud": 2.896876
   },
   {
     "codigo": "0010",
@@ -163,7 +181,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.646022,
+    "longitud": 2.897024
   },
   {
     "codigo": "0011",
@@ -185,7 +205,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 39.350769,
+    "longitud": 3.133517
   },
   {
     "codigo": "0012",
@@ -201,7 +223,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.340945,
+    "longitud": 3.097272
   },
   {
     "codigo": "0013",
@@ -217,7 +241,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.642549,
+    "longitud": 3.014859
   },
   {
     "codigo": "0014",
@@ -233,7 +259,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.644761,
+    "longitud": 3.005955
   },
   {
     "codigo": "0015",
@@ -255,7 +283,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.517859,
+    "longitud": 3.020231
   },
   {
     "codigo": "0016",
@@ -271,7 +301,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 39.598349,
+    "longitud": 2.708061
   },
   {
     "codigo": "0017",
@@ -287,7 +319,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 39.601713,
+    "longitud": 2.687747
   },
   {
     "codigo": "0018",
@@ -303,7 +337,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 39.622726,
+    "longitud": 2.74156
   },
   {
     "codigo": "0019",
@@ -319,7 +355,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 39.61103,
+    "longitud": 2.699111
   },
   {
     "codigo": "0020",
@@ -335,7 +373,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.595671,
+    "longitud": 3.037351
   },
   {
     "codigo": "0021",
@@ -351,7 +391,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 39.909385,
+    "longitud": 3.081455
   },
   {
     "codigo": "0022",
@@ -367,7 +409,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 39.876307,
+    "longitud": 3.02212
   },
   {
     "codigo": "0023",
@@ -383,7 +427,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 39.874049,
+    "longitud": 3.017696
   },
   {
     "codigo": "0024",
@@ -399,7 +445,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.720716,
+    "longitud": 2.865758
   },
   {
     "codigo": "0025",
@@ -415,7 +463,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.720639,
+    "longitud": 2.865809
   },
   {
     "codigo": "0026",
@@ -431,7 +481,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.718737,
+    "longitud": 2.867776
   },
   {
     "codigo": "0027",
@@ -447,7 +499,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.623603,
+    "longitud": 2.843103
   },
   {
     "codigo": "0028",
@@ -463,7 +517,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.623415,
+    "longitud": 2.838821
   },
   {
     "codigo": "0029",
@@ -479,7 +535,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.720875,
+    "longitud": 2.907357
   },
   {
     "codigo": "0030",
@@ -495,7 +553,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.727374,
+    "longitud": 2.923358
   },
   {
     "codigo": "0031",
@@ -511,7 +571,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.750131,
+    "longitud": 2.647158
   },
   {
     "codigo": "0032",
@@ -527,7 +589,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.711916,
+    "longitud": 2.618089
   },
   {
     "codigo": "0033",
@@ -543,7 +607,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.711902,
+    "longitud": 2.618133
   },
   {
     "codigo": "0034",
@@ -559,7 +625,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.820809,
+    "longitud": 2.884291
   },
   {
     "codigo": "0035",
@@ -575,7 +643,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.639721,
+    "longitud": 2.64795
   },
   {
     "codigo": "0036",
@@ -591,7 +661,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.639469,
+    "longitud": 2.644621
   },
   {
     "codigo": "0037",
@@ -607,7 +679,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.63941,
+    "longitud": 2.644628
   },
   {
     "codigo": "0038",
@@ -623,7 +697,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.569039,
+    "longitud": 2.648093
   },
   {
     "codigo": "0039",
@@ -639,7 +715,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.698671,
+    "longitud": 3.010252
   },
   {
     "codigo": "0040",
@@ -655,7 +733,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.591156,
+    "longitud": 2.690896
   },
   {
     "codigo": "0041",
@@ -671,7 +751,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.602996,
+    "longitud": 2.672006
   },
   {
     "codigo": "0042",
@@ -687,7 +769,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.589873,
+    "longitud": 2.666213
   },
   {
     "codigo": "0043",
@@ -703,7 +787,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.579231,
+    "longitud": 2.657638
   },
   {
     "codigo": "0044",
@@ -719,7 +805,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.588936,
+    "longitud": 2.643037
   },
   {
     "codigo": "0045",
@@ -735,7 +823,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.847823,
+    "longitud": 2.797902
   },
   {
     "codigo": "0046",
@@ -751,7 +841,9 @@
         "potencia": "22",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 38.918318,
+    "longitud": 1.434918
   },
   {
     "codigo": "0047",
@@ -767,7 +859,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.911867,
+    "longitud": 1.421969
   },
   {
     "codigo": "0048",
@@ -783,7 +877,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.911448,
+    "longitud": 1.421626
   },
   {
     "codigo": "0049",
@@ -799,7 +895,9 @@
         "potencia": "3.7",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.700771,
+    "longitud": -0.479088
   },
   {
     "codigo": "0050",
@@ -815,7 +913,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.66321,
+    "longitud": 2.677356
   },
   {
     "codigo": "0051",
@@ -831,7 +931,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 37.993275,
+    "longitud": -1.130651
   },
   {
     "codigo": "0053",
@@ -853,7 +955,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.639806,
+    "longitud": -0.871083
   },
   {
     "codigo": "0054",
@@ -869,7 +973,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.084633,
+    "longitud": -16.73243
   },
   {
     "codigo": "0055",
@@ -891,7 +997,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.431379,
+    "longitud": -0.38057159999994
   },
   {
     "codigo": "0056",
@@ -907,7 +1015,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.059068,
+    "longitud": -16.720848
   },
   {
     "codigo": "0058",
@@ -923,7 +1033,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.396082,
+    "longitud": -16.54728
   },
   {
     "codigo": "0059",
@@ -945,7 +1057,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.915402,
+    "longitud": 4.039711
   },
   {
     "codigo": "0060",
@@ -961,7 +1075,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.470385,
+    "longitud": -4.571025
   },
   {
     "codigo": "0061",
@@ -977,7 +1093,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.685977,
+    "longitud": -0.474025
   },
   {
     "codigo": "0062",
@@ -999,7 +1117,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.992642,
+    "longitud": 4.093892
   },
   {
     "codigo": "0063",
@@ -1021,7 +1141,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.53985,
+    "longitud": -2.778515
   },
   {
     "codigo": "0064",
@@ -1037,7 +1159,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.342016,
+    "longitud": -6.095611
   },
   {
     "codigo": "0065",
@@ -1053,7 +1177,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.66575,
+    "longitud": 0.603478
   },
   {
     "codigo": "0066",
@@ -1069,7 +1195,9 @@
         "potencia": "3.7",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.696341,
+    "longitud": -0.48446
   },
   {
     "codigo": "0067",
@@ -1085,7 +1213,9 @@
         "potencia": "3.7",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 38.706855,
+    "longitud": -0.469694
   },
   {
     "codigo": "0068",
@@ -1101,7 +1231,9 @@
         "potencia": "3.7",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.695194,
+    "longitud": -0.473444
   },
   {
     "codigo": "0069",
@@ -1123,7 +1255,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.987240104513,
+    "longitud": 4.0920335580084
   },
   {
     "codigo": "0070",
@@ -1145,7 +1279,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.71027,
+    "longitud": 3.458504
   },
   {
     "codigo": "0071",
@@ -1167,7 +1303,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.00102,
+    "longitud": 3.836511
   },
   {
     "codigo": "0073",
@@ -1189,7 +1327,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.054829560141,
+    "longitud": 4.129585486103
   },
   {
     "codigo": "0074",
@@ -1211,7 +1351,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.72349,
+    "longitud": 3.420257
   },
   {
     "codigo": "0075",
@@ -1227,7 +1369,9 @@
         "potencia": "3.7",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.830947,
+    "longitud": -0.575768
   },
   {
     "codigo": "0076",
@@ -1249,7 +1393,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.333848,
+    "longitud": -1.928957
   },
   {
     "codigo": "0077",
@@ -1265,7 +1411,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.506691,
+    "longitud": 2.148222
   },
   {
     "codigo": "0078",
@@ -1281,7 +1429,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.47251,
+    "longitud": -2.417276
   },
   {
     "codigo": "0079",
@@ -1303,7 +1453,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.062732,
+    "longitud": -4.652987
   },
   {
     "codigo": "0080",
@@ -1319,7 +1471,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.337507,
+    "longitud": -4.604279
   },
   {
     "codigo": "0081",
@@ -1341,7 +1495,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.668211,
+    "longitud": 2.579558
   },
   {
     "codigo": "0082",
@@ -1363,7 +1519,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.663743,
+    "longitud": 2.580931
   },
   {
     "codigo": "0083",
@@ -1385,7 +1543,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.639568,
+    "longitud": 2.86045
   },
   {
     "codigo": "0084",
@@ -1407,7 +1567,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.499848998193,
+    "longitud": 2.7535796163756
   },
   {
     "codigo": "0085",
@@ -1429,7 +1591,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.639565,
+    "longitud": 2.860456
   },
   {
     "codigo": "0086",
@@ -1451,7 +1615,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 39.490615137321,
+    "longitud": 2.8906220959806
   },
   {
     "codigo": "0087",
@@ -1473,7 +1639,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.500468790067,
+    "longitud": 2.7560365283719
   },
   {
     "codigo": "0088",
@@ -1495,7 +1663,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.429227145379,
+    "longitud": 2.7531806823234
   },
   {
     "codigo": "0089",
@@ -1517,7 +1687,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.586619,
+    "longitud": 3.319587
   },
   {
     "codigo": "0090",
@@ -1539,7 +1711,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.486908222834,
+    "longitud": 2.8855199425134
   },
   {
     "codigo": "0091",
@@ -1561,7 +1735,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.407716,
+    "longitud": 3.209122
   },
   {
     "codigo": "0092",
@@ -1583,7 +1759,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.468141,
+    "longitud": 3.147372
   },
   {
     "codigo": "0093",
@@ -1605,7 +1783,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.595285,
+    "longitud": 3.383112
   },
   {
     "codigo": "0094",
@@ -1627,7 +1807,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.612894,
+    "longitud": 3.361737
   },
   {
     "codigo": "0095",
@@ -1649,7 +1831,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.470076,
+    "longitud": 3.155517
   },
   {
     "codigo": "0096",
@@ -1671,7 +1855,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.60424,
+    "longitud": 3.379626
   },
   {
     "codigo": "0097",
@@ -1693,7 +1879,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.423095,
+    "longitud": 3.258823
   },
   {
     "codigo": "0098",
@@ -1715,7 +1903,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.473077,
+    "longitud": 3.144148
   },
   {
     "codigo": "0099",
@@ -1737,7 +1927,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.647210407162,
+    "longitud": 2.899961961212
   },
   {
     "codigo": "0100",
@@ -1753,7 +1945,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.654285,
+    "longitud": 2.949042
   },
   {
     "codigo": "0101",
@@ -1769,7 +1963,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.826851,
+    "longitud": -0.587263
   },
   {
     "codigo": "0103",
@@ -1785,7 +1981,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.827029,
+    "longitud": -0.585878
   },
   {
     "codigo": "0104",
@@ -1801,7 +1999,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.96965,
+    "longitud": -1.128683
   },
   {
     "codigo": "0105",
@@ -1823,7 +2023,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.853954,
+    "longitud": -1.691986
   },
   {
     "codigo": "0106",
@@ -1845,7 +2047,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.59722,
+    "longitud": 3.043451
   },
   {
     "codigo": "0107",
@@ -1861,7 +2065,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.989397,
+    "longitud": -1.131673
   },
   {
     "codigo": "0108",
@@ -1883,7 +2089,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.711384,
+    "longitud": 2.621946
   },
   {
     "codigo": "0109",
@@ -1905,7 +2113,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.711042,
+    "longitud": 2.621456
   },
   {
     "codigo": "0110",
@@ -1927,7 +2137,9 @@
         "potencia": "3.7",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.68685,
+    "longitud": 2.700474
   },
   {
     "codigo": "0111",
@@ -1949,7 +2161,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.686749,
+    "longitud": 2.698959
   },
   {
     "codigo": "0112",
@@ -1965,7 +2179,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 42.788186,
+    "longitud": -1.637319
   },
   {
     "codigo": "0113",
@@ -1987,7 +2203,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.697459,
+    "longitud": 2.698502
   },
   {
     "codigo": "0114",
@@ -2009,7 +2227,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.653597,
+    "longitud": 2.48319
   },
   {
     "codigo": "0115",
@@ -2031,7 +2251,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.319881,
+    "longitud": 2.991088
   },
   {
     "codigo": "0116",
@@ -2053,7 +2275,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.316026,
+    "longitud": 2.995497
   },
   {
     "codigo": "0117",
@@ -2075,7 +2299,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.339427,
+    "longitud": 3.053635
   },
   {
     "codigo": "0118",
@@ -2097,7 +2323,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.568374,
+    "longitud": 3.088824
   },
   {
     "codigo": "0119",
@@ -2113,7 +2341,9 @@
         "potencia": "5.9",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.387784,
+    "longitud": -1.793834
   },
   {
     "codigo": "0120",
@@ -2129,7 +2359,9 @@
         "potencia": "7.4",
         "estado": "Reserved"
       }
-    ]
+    ],
+    "latitud": 42.873809,
+    "longitud": -2.035591
   },
   {
     "codigo": "0121",
@@ -2145,7 +2377,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.525995,
+    "longitud": -0.360912
   },
   {
     "codigo": "0122",
@@ -2167,7 +2401,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.691305,
+    "longitud": 2.702145
   },
   {
     "codigo": "0123",
@@ -2183,7 +2419,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 37.989397,
+    "longitud": -1.131873
   },
   {
     "codigo": "0125",
@@ -2199,7 +2437,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.922743,
+    "longitud": 1.428006
   },
   {
     "codigo": "0126",
@@ -2215,7 +2455,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.907565,
+    "longitud": 1.427582
   },
   {
     "codigo": "0127",
@@ -2231,7 +2473,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.077246,
+    "longitud": 1.514169
   },
   {
     "codigo": "0129",
@@ -2253,7 +2497,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.133034,
+    "longitud": 1.246214
   },
   {
     "codigo": "0130",
@@ -2269,7 +2515,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.794089,
+    "longitud": 0.034723
   },
   {
     "codigo": "0131",
@@ -2285,7 +2533,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 40.401317,
+    "longitud": -3.879808
   },
   {
     "codigo": "0132",
@@ -2301,7 +2551,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 40.40756,
+    "longitud": -3.877503
   },
   {
     "codigo": "0133",
@@ -2317,7 +2569,9 @@
         "potencia": "22",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 40.409043,
+    "longitud": -3.896925
   },
   {
     "codigo": "0134",
@@ -2339,7 +2593,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.71179,
+    "longitud": -0.459247
   },
   {
     "codigo": "0135",
@@ -2361,7 +2617,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.690459,
+    "longitud": -0.497439
   },
   {
     "codigo": "0136",
@@ -2377,7 +2635,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.612524,
+    "longitud": -0.588866
   },
   {
     "codigo": "0137",
@@ -2393,7 +2653,9 @@
         "potencia": "3.7",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.000485,
+    "longitud": -0.522903
   },
   {
     "codigo": "0138",
@@ -2415,7 +2677,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.13008,
+    "longitud": 1.199483
   },
   {
     "codigo": "0140",
@@ -2437,7 +2701,9 @@
         "potencia": "2.3",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.826015,
+    "longitud": -0.603576
   },
   {
     "codigo": "0141",
@@ -2453,7 +2719,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.463949,
+    "longitud": -2.446796
   },
   {
     "codigo": "0142",
@@ -2469,7 +2737,9 @@
         "potencia": "3.7",
         "estado": ""
       }
-    ]
+    ],
+    "latitud": 34.520908,
+    "longitud": -3.8612
   },
   {
     "codigo": "0143",
@@ -2485,7 +2755,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.983018,
+    "longitud": -1.130015
   },
   {
     "codigo": "0144",
@@ -2501,7 +2773,9 @@
         "potencia": "3.7",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 40.828377565867,
+    "longitud": -3.625723373251
   },
   {
     "codigo": "0145",
@@ -2517,7 +2791,9 @@
         "potencia": "3.7",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.7548,
+    "longitud": -1.649
   },
   {
     "codigo": "0146",
@@ -2533,7 +2809,9 @@
         "potencia": "4.6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.536111,
+    "longitud": -1.625502
   },
   {
     "codigo": "0147",
@@ -2555,7 +2833,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 42.516006,
+    "longitud": -4.00981
   },
   {
     "codigo": "0148",
@@ -2571,7 +2851,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 37.9815181,
+    "longitud": -1.1282341
   },
   {
     "codigo": "0149",
@@ -2587,7 +2869,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 38.874123,
+    "longitud": -0.752036
   },
   {
     "codigo": "0150",
@@ -2609,7 +2893,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.932564,
+    "longitud": 4.151126
   },
   {
     "codigo": "0151",
@@ -2625,7 +2911,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.58829,
+    "longitud": 2.674955
   },
   {
     "codigo": "0152",
@@ -2641,7 +2929,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 28.128453,
+    "longitud": -15.448763
   },
   {
     "codigo": "0153",
@@ -2657,7 +2947,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.786285,
+    "longitud": -1.631654
   },
   {
     "codigo": "0154",
@@ -2673,7 +2965,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.625599,
+    "longitud": -4.773881
   },
   {
     "codigo": "0155",
@@ -2705,7 +2999,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.8157222,
+    "longitud": -3.6249166666667
   },
   {
     "codigo": "0157",
@@ -2721,7 +3017,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.359863,
+    "longitud": 2.104172
   },
   {
     "codigo": "0158",
@@ -2737,7 +3035,9 @@
         "potencia": "4.6",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 42.795425,
+    "longitud": -4.26558
   },
   {
     "codigo": "0160",
@@ -2753,7 +3053,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.967254,
+    "longitud": -0.055581
   },
   {
     "codigo": "0161",
@@ -2769,7 +3071,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 43.363615,
+    "longitud": -5.855303
   },
   {
     "codigo": "0162",
@@ -2785,7 +3089,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.506565,
+    "longitud": -5.736246
   },
   {
     "codigo": "0163",
@@ -2801,7 +3107,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.788512,
+    "longitud": -3.782478
   },
   {
     "codigo": "0164",
@@ -2817,7 +3125,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 43.422132,
+    "longitud": -4.754799
   },
   {
     "codigo": "0165",
@@ -2833,7 +3143,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 43.449502974698,
+    "longitud": -7.8541078223447
   },
   {
     "codigo": "0167",
@@ -2849,7 +3161,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.01115,
+    "longitud": -4.52991
   },
   {
     "codigo": "0168",
@@ -2865,7 +3179,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.346862,
+    "longitud": -0.488116
   },
   {
     "codigo": "0169",
@@ -2881,7 +3197,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.651427,
+    "longitud": -0.878501
   },
   {
     "codigo": "0170",
@@ -2903,7 +3221,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.684871,
+    "longitud": -0.489771
   },
   {
     "codigo": "0171",
@@ -2919,7 +3239,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.49975,
+    "longitud": -0.346361
   },
   {
     "codigo": "0172",
@@ -2935,7 +3257,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.454478,
+    "longitud": -16.258121
   },
   {
     "codigo": "0173",
@@ -2951,7 +3275,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.503393,
+    "longitud": -6.365491
   },
   {
     "codigo": "0174",
@@ -2967,7 +3293,9 @@
         "potencia": "4.6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.489334,
+    "longitud": -2.538919
   },
   {
     "codigo": "0175",
@@ -2983,7 +3311,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 43.383806,
+    "longitud": -4.399194
   },
   {
     "codigo": "0176",
@@ -3005,7 +3335,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.648748,
+    "longitud": 2.778708
   },
   {
     "codigo": "0177",
@@ -3021,7 +3353,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.789817,
+    "longitud": -1.617759
   },
   {
     "codigo": "0178",
@@ -3043,7 +3377,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.829364,
+    "longitud": -0.582333
   },
   {
     "codigo": "0179",
@@ -3065,7 +3401,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.858808,
+    "longitud": -0.583101
   },
   {
     "codigo": "0182",
@@ -3087,7 +3425,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.513221,
+    "longitud": 3.026281
   },
   {
     "codigo": "0183",
@@ -3103,7 +3443,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.589196,
+    "longitud": -2.096009
   },
   {
     "codigo": "0184",
@@ -3125,7 +3467,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.129955,
+    "longitud": 1.199614
   },
   {
     "codigo": "0185",
@@ -3147,7 +3491,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.610882,
+    "longitud": 3.281786
   },
   {
     "codigo": "0186",
@@ -3169,7 +3515,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.568059,
+    "longitud": 3.371302
   },
   {
     "codigo": "0188",
@@ -3191,7 +3539,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.927859,
+    "longitud": -0.189774
   },
   {
     "codigo": "0190",
@@ -3207,7 +3557,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.74985,
+    "longitud": 1.862433
   },
   {
     "codigo": "0191",
@@ -3229,7 +3581,9 @@
         "potencia": "6",
         "estado": "Reserved"
       }
-    ]
+    ],
+    "latitud": 41.522756,
+    "longitud": 0.344168
   },
   {
     "codigo": "0192",
@@ -3251,7 +3605,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.586112,
+    "longitud": 2.176509
   },
   {
     "codigo": "0193",
@@ -3273,7 +3629,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.915743,
+    "longitud": -0.195538
   },
   {
     "codigo": "0194",
@@ -3289,7 +3647,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.720512,
+    "longitud": 2.929038
   },
   {
     "codigo": "0195",
@@ -3305,7 +3665,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.539836,
+    "longitud": -0.171658
   },
   {
     "codigo": "0196",
@@ -3327,7 +3689,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.376111111111,
+    "longitud": 3.2269444444444
   },
   {
     "codigo": "0197",
@@ -3349,7 +3713,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.70228,
+    "longitud": 3.427254
   },
   {
     "codigo": "0198",
@@ -3371,7 +3737,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.663694,
+    "longitud": 2.804833
   },
   {
     "codigo": "0199",
@@ -3393,7 +3761,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.66991,
+    "longitud": 2.807878
   },
   {
     "codigo": "0200",
@@ -3409,7 +3779,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 35.295436,
+    "longitud": -2.943817
   },
   {
     "codigo": "0201",
@@ -3431,7 +3803,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.357641,
+    "longitud": 3.128099
   },
   {
     "codigo": "0202",
@@ -3453,7 +3827,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.771219,
+    "longitud": 3.027445
   },
   {
     "codigo": "0203",
@@ -3475,7 +3851,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.761325,
+    "longitud": 3.018405
   },
   {
     "codigo": "0206",
@@ -3497,7 +3875,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 38.90026,
+    "longitud": 1.409192
   },
   {
     "codigo": "0207",
@@ -3519,7 +3899,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.908972,
+    "longitud": 1.424654
   },
   {
     "codigo": "0209",
@@ -3541,7 +3923,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.687464,
+    "longitud": 2.514367
   },
   {
     "codigo": "0210",
@@ -3563,7 +3947,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.840782202124,
+    "longitud": -0.47118264396446
   },
   {
     "codigo": "0211",
@@ -3585,7 +3971,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 42.810615,
+    "longitud": -1.586915
   },
   {
     "codigo": "0212",
@@ -3607,7 +3995,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.824662,
+    "longitud": -1.553158
   },
   {
     "codigo": "0213",
@@ -3629,7 +4019,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.81943,
+    "longitud": -1.586731
   },
   {
     "codigo": "0214",
@@ -3651,7 +4043,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.798755,
+    "longitud": -1.596324
   },
   {
     "codigo": "0215",
@@ -3673,7 +4067,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.702567,
+    "longitud": 2.794149
   },
   {
     "codigo": "0216",
@@ -3695,7 +4091,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.758878,
+    "longitud": 2.982512
   },
   {
     "codigo": "0217",
@@ -3717,7 +4115,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.595813,
+    "longitud": 2.925869
   },
   {
     "codigo": "0218",
@@ -3739,7 +4139,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.563039,
+    "longitud": 2.896447
   },
   {
     "codigo": "0219",
@@ -3761,7 +4163,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.539398,
+    "longitud": -0.135502
   },
   {
     "codigo": "0220",
@@ -3783,7 +4187,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.751727,
+    "longitud": 2.873459
   },
   {
     "codigo": "0221",
@@ -3805,7 +4211,9 @@
         "potencia": "16",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.715671,
+    "longitud": 2.865699
   },
   {
     "codigo": "0222",
@@ -3827,7 +4235,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.536305,
+    "longitud": -0.115612
   },
   {
     "codigo": "0223",
@@ -3849,7 +4259,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.542762,
+    "longitud": -0.126948
   },
   {
     "codigo": "0224",
@@ -3871,7 +4283,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.748051,
+    "longitud": 2.872901
   },
   {
     "codigo": "0225",
@@ -3893,7 +4307,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.961704,
+    "longitud": 1.397827
   },
   {
     "codigo": "0226",
@@ -3915,7 +4331,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.978643,
+    "longitud": 1.301133
   },
   {
     "codigo": "0227",
@@ -3937,7 +4355,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.981509,
+    "longitud": 1.307343
   },
   {
     "codigo": "0228",
@@ -3959,7 +4379,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.99492,
+    "longitud": 1.308309
   },
   {
     "codigo": "0229",
@@ -3981,7 +4403,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.978634,
+    "longitud": 1.299041
   },
   {
     "codigo": "0230",
@@ -4003,7 +4427,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.687158,
+    "longitud": 2.844913
   },
   {
     "codigo": "0231",
@@ -4025,7 +4451,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.685611,
+    "longitud": 2.84475
   },
   {
     "codigo": "0232",
@@ -4047,7 +4475,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.689,
+    "longitud": 2.841778
   },
   {
     "codigo": "0233",
@@ -4069,7 +4499,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.685722,
+    "longitud": 2.838056
   },
   {
     "codigo": "0234",
@@ -4085,7 +4517,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.070636,
+    "longitud": 1.178178
   },
   {
     "codigo": "0235",
@@ -4107,7 +4541,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.60883,
+    "longitud": 2.50572
   },
   {
     "codigo": "0236",
@@ -4123,7 +4559,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.516121,
+    "longitud": -2.37187
   },
   {
     "codigo": "0237",
@@ -4139,7 +4577,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 43.304356,
+    "longitud": -2.363677
   },
   {
     "codigo": "0238",
@@ -4155,7 +4595,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 28.486029,
+    "longitud": -16.324064
   },
   {
     "codigo": "0239",
@@ -4171,7 +4613,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.873328,
+    "longitud": -4.081745
   },
   {
     "codigo": "0243",
@@ -4193,7 +4637,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.682694,
+    "longitud": 2.843528
   },
   {
     "codigo": "0244",
@@ -4215,7 +4661,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.690056,
+    "longitud": 2.839778
   },
   {
     "codigo": "0246",
@@ -4231,7 +4679,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.342314,
+    "longitud": -3.814522
   },
   {
     "codigo": "0247",
@@ -4253,7 +4703,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 36.765615706685,
+    "longitud": -5.4697464768716
   },
   {
     "codigo": "0248",
@@ -4269,7 +4721,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 38.798284,
+    "longitud": 0.086162
   },
   {
     "codigo": "0249",
@@ -4291,7 +4745,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.702231,
+    "longitud": 3.432532
   },
   {
     "codigo": "0250",
@@ -4307,7 +4763,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.948338,
+    "longitud": -0.141143
   },
   {
     "codigo": "0251",
@@ -4329,7 +4787,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.587792,
+    "longitud": 2.627073
   },
   {
     "codigo": "0252",
@@ -4351,7 +4811,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.587946,
+    "longitud": 2.627262
   },
   {
     "codigo": "0253",
@@ -4373,7 +4835,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.587671,
+    "longitud": 2.626893
   },
   {
     "codigo": "0254",
@@ -4395,7 +4859,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 39.590623,
+    "longitud": -0.550021
   },
   {
     "codigo": "0255",
@@ -4417,7 +4883,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.408869,
+    "longitud": -3.90515
   },
   {
     "codigo": "0256",
@@ -4433,7 +4901,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 40.449406,
+    "longitud": -3.881153
   },
   {
     "codigo": "0257",
@@ -4449,7 +4919,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.465954,
+    "longitud": -3.616582
   },
   {
     "codigo": "0258",
@@ -4465,7 +4937,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 43.3829,
+    "longitud": -4.2469
   },
   {
     "codigo": "0259",
@@ -4481,7 +4955,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 40.519245,
+    "longitud": -3.656315
   },
   {
     "codigo": "0260",
@@ -4497,7 +4973,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.466274,
+    "longitud": -3.616582
   },
   {
     "codigo": "0261",
@@ -4513,7 +4991,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.508482,
+    "longitud": -4.886118
   },
   {
     "codigo": "0262",
@@ -4529,7 +5009,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.457803,
+    "longitud": -3.694351
   },
   {
     "codigo": "0263",
@@ -4545,7 +5027,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.657385,
+    "longitud": -0.880782
   },
   {
     "codigo": "0264",
@@ -4561,7 +5045,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.45877,
+    "longitud": -3.676306
   },
   {
     "codigo": "0265",
@@ -4577,7 +5063,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.45877,
+    "longitud": -3.676506
   },
   {
     "codigo": "0266",
@@ -4593,7 +5081,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.466029211915,
+    "longitud": -3.8065443490978
   },
   {
     "codigo": "0267",
@@ -4609,7 +5099,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.657385,
+    "longitud": -0.880582
   },
   {
     "codigo": "0268",
@@ -4625,7 +5117,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.646811,
+    "longitud": -0.883615
   },
   {
     "codigo": "0269",
@@ -4641,7 +5135,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.857361,
+    "longitud": -4.019317
   },
   {
     "codigo": "0270",
@@ -4657,7 +5153,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.457803,
+    "longitud": -3.694151
   },
   {
     "codigo": "0271",
@@ -4673,7 +5171,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.519345,
+    "longitud": -3.656415
   },
   {
     "codigo": "0272",
@@ -4689,7 +5189,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.466474,
+    "longitud": -3.616482
   },
   {
     "codigo": "0273",
@@ -4705,7 +5207,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.520893,
+    "longitud": -3.890449
   },
   {
     "codigo": "0274",
@@ -4721,7 +5225,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.466674,
+    "longitud": -3.616482
   },
   {
     "codigo": "0275",
@@ -4737,7 +5243,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.466774,
+    "longitud": -3.616482
   },
   {
     "codigo": "0276",
@@ -4753,7 +5261,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.52048547701,
+    "longitud": -3.8909894885785
   },
   {
     "codigo": "0277",
@@ -4769,7 +5279,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.457803,
+    "longitud": -3.694551
   },
   {
     "codigo": "0278",
@@ -4785,7 +5297,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.508482,
+    "longitud": -4.886318
   },
   {
     "codigo": "0279",
@@ -4801,7 +5315,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.520916646537,
+    "longitud": -3.8908700762968
   },
   {
     "codigo": "0280",
@@ -4817,7 +5333,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.519345,
+    "longitud": -3.656315
   },
   {
     "codigo": "0281",
@@ -4833,7 +5351,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.449606,
+    "longitud": -3.881153
   },
   {
     "codigo": "0282",
@@ -4849,7 +5369,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.46752,
+    "longitud": -3.690638
   },
   {
     "codigo": "0283",
@@ -4865,7 +5387,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 40.46752,
+    "longitud": -3.690438
   },
   {
     "codigo": "0284",
@@ -4881,7 +5405,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.466674,
+    "longitud": -3.616382
   },
   {
     "codigo": "0285",
@@ -4897,7 +5423,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.465865992268,
+    "longitud": -3.806383413492
   },
   {
     "codigo": "0286",
@@ -4913,7 +5441,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.857361,
+    "longitud": -4.019517
   },
   {
     "codigo": "0287",
@@ -4929,7 +5459,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.466029211915,
+    "longitud": -3.8065443490978
   },
   {
     "codigo": "0289",
@@ -4945,7 +5477,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.520893,
+    "longitud": -3.890449
   },
   {
     "codigo": "0290",
@@ -4961,7 +5495,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.646811,
+    "longitud": -0.883415
   },
   {
     "codigo": "0291",
@@ -4977,7 +5513,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.46752,
+    "longitud": -3.690238
   },
   {
     "codigo": "0292",
@@ -4993,7 +5531,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.431507,
+    "longitud": -3.706376
   },
   {
     "codigo": "0293",
@@ -5009,7 +5549,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.519245,
+    "longitud": -3.656415
   },
   {
     "codigo": "0294",
@@ -5025,7 +5567,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.431507,
+    "longitud": -3.706576
   },
   {
     "codigo": "0295",
@@ -5041,7 +5585,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.466774,
+    "longitud": -3.616282
   },
   {
     "codigo": "0296",
@@ -5057,7 +5603,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.613128,
+    "longitud": -8.773924
   },
   {
     "codigo": "0297",
@@ -5073,7 +5621,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.235375,
+    "longitud": -0.087543
   },
   {
     "codigo": "0298",
@@ -5089,7 +5639,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.832945,
+    "longitud": -3.976299
   },
   {
     "codigo": "0299",
@@ -5105,7 +5657,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.534223,
+    "longitud": 2.166346
   },
   {
     "codigo": "0300",
@@ -5121,7 +5675,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 28.45946,
+    "longitud": -16.253163
   },
   {
     "codigo": "0301",
@@ -5137,7 +5693,9 @@
         "potencia": "7.4",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 41.6084868,
+    "longitud": -0.886414
   },
   {
     "codigo": "0302",
@@ -5153,7 +5711,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 41.6084868,
+    "longitud": -0.886214
   },
   {
     "codigo": "0303",
@@ -5169,7 +5729,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 41.6084868,
+    "longitud": -0.886014
   },
   {
     "codigo": "0304",
@@ -5185,7 +5747,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 41.6084868,
+    "longitud": -0.885814
   },
   {
     "codigo": "0305",
@@ -5201,7 +5765,9 @@
         "potencia": "7.4",
         "estado": "SuspendedEV"
       }
-    ]
+    ],
+    "latitud": 41.6084868,
+    "longitud": -0.885614
   },
   {
     "codigo": "0306",
@@ -5217,7 +5783,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.459055,
+    "longitud": -16.252759
   },
   {
     "codigo": "0307",
@@ -5233,7 +5801,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.694349,
+    "longitud": -0.476981
   },
   {
     "codigo": "0308",
@@ -5249,7 +5819,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.456881,
+    "longitud": -16.301479
   },
   {
     "codigo": "0309",
@@ -5265,7 +5837,9 @@
         "potencia": "4.6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.068698,
+    "longitud": -16.731848
   },
   {
     "codigo": "0310",
@@ -5281,7 +5855,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.524312,
+    "longitud": 2.146536
   },
   {
     "codigo": "0311",
@@ -5297,7 +5873,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.49619,
+    "longitud": -13.863342
   },
   {
     "codigo": "0312",
@@ -5313,7 +5891,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.362488,
+    "longitud": 3.228819
   },
   {
     "codigo": "0313",
@@ -5329,7 +5909,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.148193,
+    "longitud": -0.408408
   },
   {
     "codigo": "0314",
@@ -5351,7 +5933,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.733333,
+    "longitud": 3.144611
   },
   {
     "codigo": "0315",
@@ -5373,7 +5957,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.593361,
+    "longitud": 3.262111
   },
   {
     "codigo": "0316",
@@ -5395,7 +5981,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.635333,
+    "longitud": 2.675306
   },
   {
     "codigo": "0317",
@@ -5417,7 +6005,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.635343,
+    "longitud": 2.675306
   },
   {
     "codigo": "0318",
@@ -5439,7 +6029,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.537833,
+    "longitud": 2.484167
   },
   {
     "codigo": "0319",
@@ -5461,7 +6053,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.643389,
+    "longitud": 2.6815
   },
   {
     "codigo": "0320",
@@ -5483,7 +6077,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.649972,
+    "longitud": 3.083944
   },
   {
     "codigo": "0321",
@@ -5505,7 +6101,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.4895,
+    "longitud": 3.128139
   },
   {
     "codigo": "0322",
@@ -5527,7 +6125,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.682528,
+    "longitud": 2.868056
   },
   {
     "codigo": "0323",
@@ -5549,7 +6149,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.394583,
+    "longitud": 3.064167
   },
   {
     "codigo": "0324",
@@ -5571,7 +6173,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.804778,
+    "longitud": 3.044861
   },
   {
     "codigo": "0325",
@@ -5593,7 +6197,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.537933,
+    "longitud": 2.484167
   },
   {
     "codigo": "0326",
@@ -5609,7 +6215,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.413996,
+    "longitud": -16.542911
   },
   {
     "codigo": "0327",
@@ -5625,7 +6233,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.712099,
+    "longitud": 0.130469
   },
   {
     "codigo": "0328",
@@ -5647,7 +6257,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.771633,
+    "longitud": 2.903477
   },
   {
     "codigo": "0329",
@@ -5669,7 +6281,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.705065,
+    "longitud": 3.105926
   },
   {
     "codigo": "0330",
@@ -5685,7 +6299,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.775141,
+    "longitud": 0.085907
   },
   {
     "codigo": "0331",
@@ -5701,7 +6317,9 @@
         "potencia": "13.8",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 40.379074,
+    "longitud": -3.778919
   },
   {
     "codigo": "0332",
@@ -5723,7 +6341,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.964423668657,
+    "longitud": -0.18276749558766
   },
   {
     "codigo": "0333",
@@ -5745,7 +6365,9 @@
         "potencia": "11",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.820380184705,
+    "longitud": -0.60956852637721
   },
   {
     "codigo": "0334",
@@ -5767,7 +6389,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 27.984114,
+    "longitud": -15.781401
   },
   {
     "codigo": "0335",
@@ -5783,7 +6407,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.396621009933,
+    "longitud": 2.1372881982649
   },
   {
     "codigo": "0336",
@@ -5805,7 +6431,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 38.654498,
+    "longitud": -0.123746
   },
   {
     "codigo": "0337",
@@ -5821,7 +6449,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.396621009933,
+    "longitud": 2.1372881982649
   },
   {
     "codigo": "0338",
@@ -5837,7 +6467,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.472817,
+    "longitud": -0.342674
   },
   {
     "codigo": "0342",
@@ -5853,7 +6485,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.396621009933,
+    "longitud": 2.1372881982649
   },
   {
     "codigo": "0344",
@@ -5875,7 +6509,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.831064,
+    "longitud": -0.499076
   },
   {
     "codigo": "0345",
@@ -5891,7 +6527,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.845889,
+    "longitud": -3.985491
   },
   {
     "codigo": "0346",
@@ -5913,7 +6551,9 @@
         "potencia": "3.6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.832606,
+    "longitud": 0.101744
   },
   {
     "codigo": "0347",
@@ -5935,7 +6575,9 @@
         "potencia": "3.6",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 38.832606,
+    "longitud": 0.101944
   },
   {
     "codigo": "0348",
@@ -5951,7 +6593,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.244425,
+    "longitud": -6.307706
   },
   {
     "codigo": "0349",
@@ -5967,7 +6611,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.117652,
+    "longitud": 1.151384
   },
   {
     "codigo": "0350",
@@ -5989,7 +6635,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.520271,
+    "longitud": -3.890509
   },
   {
     "codigo": "0351",
@@ -6011,7 +6659,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.386227,
+    "longitud": -5.960713
   },
   {
     "codigo": "0352",
@@ -6033,7 +6683,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 37.385763,
+    "longitud": -5.960017
   },
   {
     "codigo": "0353",
@@ -6055,7 +6707,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.385226,
+    "longitud": -5.960509
   },
   {
     "codigo": "0354",
@@ -6077,7 +6731,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.386176,
+    "longitud": -5.960412
   },
   {
     "codigo": "0356",
@@ -6093,7 +6749,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 40.424175,
+    "longitud": -3.699349
   },
   {
     "codigo": "0357",
@@ -6109,7 +6767,9 @@
         "potencia": "7.4",
         "estado": "SuspendedEV"
       }
-    ]
+    ],
+    "latitud": 40.424222,
+    "longitud": -3.699314
   },
   {
     "codigo": "0358",
@@ -6125,7 +6785,9 @@
         "potencia": "7.4",
         "estado": "Reserved"
       }
-    ]
+    ],
+    "latitud": 40.424295,
+    "longitud": -3.69929
   },
   {
     "codigo": "0359",
@@ -6147,7 +6809,9 @@
         "potencia": "3.6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.84887,
+    "longitud": 0.00653
   },
   {
     "codigo": "0360",
@@ -6169,7 +6833,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.631688,
+    "longitud": 2.678293
   },
   {
     "codigo": "0361",
@@ -6191,7 +6857,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.631788,
+    "longitud": 2.678293
   },
   {
     "codigo": "0362",
@@ -6213,7 +6881,9 @@
         "potencia": "3.6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.653333,
+    "longitud": -1.008722
   },
   {
     "codigo": "0363",
@@ -6235,7 +6905,9 @@
         "potencia": "3.6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.653333,
+    "longitud": -1.008522
   },
   {
     "codigo": "0364",
@@ -6251,7 +6923,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.659927,
+    "longitud": -4.705191
   },
   {
     "codigo": "0365",
@@ -6273,7 +6947,9 @@
         "potencia": "11",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.506667,
+    "longitud": -5.72864
   },
   {
     "codigo": "0366",
@@ -6295,7 +6971,9 @@
         "potencia": "11",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.506711,
+    "longitud": -5.728597
   },
   {
     "codigo": "0367",
@@ -6317,7 +6995,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.506747,
+    "longitud": -5.728554
   },
   {
     "codigo": "0368",
@@ -6339,7 +7019,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.506781,
+    "longitud": -5.728517
   },
   {
     "codigo": "0369",
@@ -6361,7 +7043,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.506828,
+    "longitud": -5.728447
   },
   {
     "codigo": "0370",
@@ -6383,7 +7067,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.7701646,
+    "longitud": 3.1438018
   },
   {
     "codigo": "0371",
@@ -6405,7 +7091,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.736073,
+    "longitud": 3.225808
   },
   {
     "codigo": "0372",
@@ -6427,7 +7115,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.765032,
+    "longitud": 3.157901
   },
   {
     "codigo": "0373",
@@ -6449,7 +7139,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.762203,
+    "longitud": 3.162709
   },
   {
     "codigo": "0374",
@@ -6471,7 +7163,9 @@
         "potencia": "6.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.366159059407,
+    "longitud": -3.6006189717645
   },
   {
     "codigo": "0375",
@@ -6487,7 +7181,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.396621009933,
+    "longitud": 2.1372881982649
   },
   {
     "codigo": "0376",
@@ -6503,7 +7199,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.396621009933,
+    "longitud": 2.1372881982649
   },
   {
     "codigo": "0377",
@@ -6519,7 +7217,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.396621009933,
+    "longitud": 2.1372881982649
   },
   {
     "codigo": "0378",
@@ -6541,7 +7241,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 40.366159059407,
+    "longitud": -3.6006189717645
   },
   {
     "codigo": "0379",
@@ -6563,7 +7265,9 @@
         "potencia": "6.9",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.366159059407,
+    "longitud": -3.6006189717645
   },
   {
     "codigo": "0380",
@@ -6579,7 +7283,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.396621009933,
+    "longitud": 2.1372881982649
   },
   {
     "codigo": "0381",
@@ -6601,7 +7307,9 @@
         "potencia": "6.9",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.989768534,
+    "longitud": -3.6392253253073
   },
   {
     "codigo": "0382",
@@ -6623,7 +7331,9 @@
         "potencia": "6.9",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.989768534,
+    "longitud": -3.6392253253073
   },
   {
     "codigo": "0383",
@@ -6645,7 +7355,9 @@
         "potencia": "6.9",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 40.366159059407,
+    "longitud": -3.6006189717645
   },
   {
     "codigo": "0384",
@@ -6667,7 +7379,9 @@
         "potencia": "6.9",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.666438828806,
+    "longitud": -4.0959460189071
   },
   {
     "codigo": "0385",
@@ -6689,7 +7403,9 @@
         "potencia": "6.9",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.6664,
+    "longitud": -4.0959
   },
   {
     "codigo": "0386",
@@ -6711,7 +7427,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.585849672346,
+    "longitud": -4.0457978730725
   },
   {
     "codigo": "0387",
@@ -6733,7 +7451,9 @@
         "potencia": "6.9",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.502126042758,
+    "longitud": -3.8816738731654
   },
   {
     "codigo": "0388",
@@ -6755,7 +7475,9 @@
         "potencia": "6.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.502126042758,
+    "longitud": -3.8816738731654
   },
   {
     "codigo": "0389",
@@ -6777,7 +7499,9 @@
         "potencia": "6.9",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 40.380095409514,
+    "longitud": -3.663029834467
   },
   {
     "codigo": "0392",
@@ -6793,7 +7517,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.121199,
+    "longitud": -16.775579
   },
   {
     "codigo": "0393",
@@ -6809,7 +7535,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.121215,
+    "longitud": -16.775626
   },
   {
     "codigo": "0394",
@@ -6825,7 +7553,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.121196,
+    "longitud": -16.77553
   },
   {
     "codigo": "0395",
@@ -6841,7 +7571,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.121175,
+    "longitud": -16.775487
   },
   {
     "codigo": "0396",
@@ -6857,7 +7589,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.121254,
+    "longitud": -16.775599
   },
   {
     "codigo": "0397",
@@ -6873,7 +7607,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.121244,
+    "longitud": -16.775553
   },
   {
     "codigo": "0398",
@@ -6889,7 +7625,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.121234,
+    "longitud": -16.775509
   },
   {
     "codigo": "0399",
@@ -6905,7 +7643,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.121219,
+    "longitud": -16.77546
   },
   {
     "codigo": "0400",
@@ -6921,7 +7661,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.033237,
+    "longitud": -15.404364
   },
   {
     "codigo": "0402",
@@ -6943,7 +7685,9 @@
         "potencia": "7.4",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 40.424977,
+    "longitud": -3.712928
   },
   {
     "codigo": "0403",
@@ -6965,7 +7709,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.424977,
+    "longitud": -3.712818
   },
   {
     "codigo": "0405",
@@ -6987,7 +7733,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.415998,
+    "longitud": -2.731368
   },
   {
     "codigo": "0406",
@@ -7009,7 +7757,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.472445,
+    "longitud": -2.417402
   },
   {
     "codigo": "0407",
@@ -7031,7 +7781,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.442039,
+    "longitud": -2.953473
   },
   {
     "codigo": "0409",
@@ -7053,7 +7805,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.93324,
+    "longitud": -1.50424
   },
   {
     "codigo": "0410",
@@ -7075,7 +7829,9 @@
         "potencia": "10",
         "estado": "Reserved"
       }
-    ]
+    ],
+    "latitud": 42.816299,
+    "longitud": -1.747002
   },
   {
     "codigo": "0411",
@@ -7091,7 +7847,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.710437,
+    "longitud": -0.46262
   },
   {
     "codigo": "0412",
@@ -7113,7 +7871,9 @@
         "potencia": "8",
         "estado": "Reserved"
       }
-    ]
+    ],
+    "latitud": 39.536833,
+    "longitud": -0.357937
   },
   {
     "codigo": "0413",
@@ -7129,7 +7889,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.618931,
+    "longitud": 2.719259
   },
   {
     "codigo": "0414",
@@ -7151,7 +7913,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 39.597905,
+    "longitud": 2.644125
   },
   {
     "codigo": "0415",
@@ -7173,7 +7937,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.597906,
+    "longitud": 2.644408
   },
   {
     "codigo": "0416",
@@ -7195,7 +7961,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.901785,
+    "longitud": 1.412054
   },
   {
     "codigo": "0417",
@@ -7217,7 +7985,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.472936,
+    "longitud": 2.825388
   },
   {
     "codigo": "0418",
@@ -7233,7 +8003,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.813196,
+    "longitud": -1.59702
   },
   {
     "codigo": "0419",
@@ -7249,7 +8021,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.822753,
+    "longitud": -1.582697
   },
   {
     "codigo": "0420",
@@ -7265,7 +8039,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.157653,
+    "longitud": -3.443566
   },
   {
     "codigo": "0421",
@@ -7287,7 +8063,9 @@
         "potencia": "5.5",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 38.102925,
+    "longitud": -0.849904
   },
   {
     "codigo": "0422",
@@ -7309,7 +8087,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.465853720074,
+    "longitud": -3.8064263326515
   },
   {
     "codigo": "0423",
@@ -7331,7 +8111,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.465853720074,
+    "longitud": -3.8064263326515
   },
   {
     "codigo": "0424",
@@ -7353,7 +8135,9 @@
         "potencia": "8.2",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.741377777778,
+    "longitud": -0.43859166666667
   },
   {
     "codigo": "0425",
@@ -7375,7 +8159,9 @@
         "potencia": "14",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.842379,
+    "longitud": 3.128299
   },
   {
     "codigo": "0426",
@@ -7397,7 +8183,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.790145,
+    "longitud": 3.124548
   },
   {
     "codigo": "0427",
@@ -7419,7 +8207,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.52269,
+    "longitud": -3.890458
   },
   {
     "codigo": "0428",
@@ -7441,7 +8231,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.522649,
+    "longitud": -3.890456
   },
   {
     "codigo": "0429",
@@ -7457,7 +8249,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 39.489794,
+    "longitud": -0.325463
   },
   {
     "codigo": "0430",
@@ -7473,7 +8267,9 @@
         "potencia": "11",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.865982,
+    "longitud": -4.022239
   },
   {
     "codigo": "0431",
@@ -7495,7 +8291,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 40.405893,
+    "longitud": -3.877991
   },
   {
     "codigo": "0432",
@@ -7517,7 +8315,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.926662,
+    "longitud": 3.144078
   },
   {
     "codigo": "0433",
@@ -7539,7 +8339,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.202647,
+    "longitud": -0.310492
   },
   {
     "codigo": "0434",
@@ -7561,7 +8363,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.877857,
+    "longitud": -0.745934
   },
   {
     "codigo": "0435",
@@ -7583,7 +8387,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 38.91596,
+    "longitud": -0.554818
   },
   {
     "codigo": "0436",
@@ -7605,7 +8411,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.403139,
+    "longitud": -3.876194
   },
   {
     "codigo": "0437",
@@ -7627,7 +8435,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 40.429948,
+    "longitud": -3.718572
   },
   {
     "codigo": "0438",
@@ -7649,7 +8459,9 @@
         "potencia": "9.6",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 41.389793,
+    "longitud": 2.150044
   },
   {
     "codigo": "0439",
@@ -7665,7 +8477,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.059168,
+    "longitud": -16.720948
   },
   {
     "codigo": "0440",
@@ -7687,7 +8501,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.650555,
+    "longitud": -17.760111
   },
   {
     "codigo": "0441",
@@ -7709,7 +8525,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.656111,
+    "longitud": -17.910666
   },
   {
     "codigo": "0442",
@@ -7731,7 +8549,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.681492,
+    "longitud": -17.765668
   },
   {
     "codigo": "0443",
@@ -7753,7 +8573,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.375639,
+    "longitud": 3.23685
   },
   {
     "codigo": "0444",
@@ -7769,7 +8591,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.517653,
+    "longitud": -0.36345
   },
   {
     "codigo": "0445",
@@ -7791,7 +8615,9 @@
         "potencia": "22",
         "estado": "Reserved"
       }
-    ]
+    ],
+    "latitud": 40.4447222,
+    "longitud": -3.6947444444444
   },
   {
     "codigo": "0446",
@@ -7813,7 +8639,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 40.4446222,
+    "longitud": -3.6947444444444
   },
   {
     "codigo": "0447",
@@ -7835,7 +8663,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.4445222,
+    "longitud": -3.6947444444444
   },
   {
     "codigo": "0448",
@@ -7851,7 +8681,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.005346,
+    "longitud": -5.680263
   },
   {
     "codigo": "0452",
@@ -7873,7 +8705,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 28.106175,
+    "longitud": -15.456385
   },
   {
     "codigo": "0453",
@@ -7895,7 +8729,9 @@
         "potencia": "7.4",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 42.7997222,
+    "longitud": -1.6188888888889
   },
   {
     "codigo": "0456",
@@ -7911,7 +8747,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.962796,
+    "longitud": 1.293197
   },
   {
     "codigo": "0457",
@@ -7933,7 +8771,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.790237,
+    "longitud": -1.648252
   },
   {
     "codigo": "0458",
@@ -7955,7 +8795,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 42.3113889,
+    "longitud": -1.9008333333333
   },
   {
     "codigo": "0459",
@@ -7977,7 +8819,9 @@
         "potencia": "18",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.888151,
+    "longitud": -2.314698
   },
   {
     "codigo": "0460",
@@ -7999,7 +8843,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.724799,
+    "longitud": 2.933844
   },
   {
     "codigo": "0461",
@@ -8021,7 +8867,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.305091,
+    "longitud": -1.959644
   },
   {
     "codigo": "0462",
@@ -8043,7 +8891,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 38.026836,
+    "longitud": -0.743847
   },
   {
     "codigo": "0463",
@@ -8059,7 +8909,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.441665,
+    "longitud": -3.700184
   },
   {
     "codigo": "0464",
@@ -8081,7 +8933,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.441665,
+    "longitud": -3.700273
   },
   {
     "codigo": "0465",
@@ -8103,7 +8957,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.441665,
+    "longitud": -3.700373
   },
   {
     "codigo": "0466",
@@ -8119,7 +8975,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.441665,
+    "longitud": -3.700473
   },
   {
     "codigo": "0467",
@@ -8135,7 +8993,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.471914,
+    "longitud": -16.25262
   },
   {
     "codigo": "0468",
@@ -8151,7 +9011,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.033237,
+    "longitud": -15.404364
   },
   {
     "codigo": "0469",
@@ -8173,7 +9035,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.4776803,
+    "longitud": -16.244931
   },
   {
     "codigo": "0470",
@@ -8195,7 +9059,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.0,
+    "longitud": -16.0
   },
   {
     "codigo": "0471",
@@ -8217,7 +9083,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.445389,
+    "longitud": -3.882361
   },
   {
     "codigo": "0472",
@@ -8239,7 +9107,9 @@
         "potencia": "10",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.408979,
+    "longitud": 2.155877
   },
   {
     "codigo": "0473",
@@ -8261,7 +9131,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.021243,
+    "longitud": -1.139215
   },
   {
     "codigo": "0475",
@@ -8283,7 +9155,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.355323,
+    "longitud": -2.387477
   },
   {
     "codigo": "0476",
@@ -8305,7 +9179,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.598292,
+    "longitud": -1.643661
   },
   {
     "codigo": "0477",
@@ -8321,7 +9197,9 @@
         "potencia": "7.4",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 40.066084,
+    "longitud": -1.283313
   },
   {
     "codigo": "0478",
@@ -8337,7 +9215,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.022784,
+    "longitud": -1.26073
   },
   {
     "codigo": "0479",
@@ -8359,7 +9239,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 40.401676,
+    "longitud": -3.894483
   },
   {
     "codigo": "0480",
@@ -8375,7 +9257,9 @@
         "potencia": "43",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.699607,
+    "longitud": -0.482249
   },
   {
     "codigo": "0481",
@@ -8397,7 +9281,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.738918675819,
+    "longitud": -1.6339801533013
   },
   {
     "codigo": "0482",
@@ -8413,7 +9299,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.8280556,
+    "longitud": -1.5952777777778
   },
   {
     "codigo": "0483",
@@ -8435,7 +9323,9 @@
         "potencia": "7.4",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 36.896353750689,
+    "longitud": -4.430485829406
   },
   {
     "codigo": "0484",
@@ -8457,7 +9347,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.884023,
+    "longitud": -8.513128
   },
   {
     "codigo": "0485",
@@ -8473,7 +9365,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.934020253085,
+    "longitud": -4.729673844294
   },
   {
     "codigo": "0487",
@@ -8495,7 +9389,9 @@
         "potencia": "16",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.853888888889,
+    "longitud": -0.50194444444444
   },
   {
     "codigo": "0488",
@@ -8517,7 +9413,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.997087,
+    "longitud": 1.396426
   },
   {
     "codigo": "0489",
@@ -8539,7 +9437,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.3706944,
+    "longitud": -0.43894444444444
   },
   {
     "codigo": "0495",
@@ -8561,7 +9461,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.522681,
+    "longitud": 2.093588
   },
   {
     "codigo": "0496",
@@ -8577,7 +9479,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.88565,
+    "longitud": -0.209265
   },
   {
     "codigo": "0497",
@@ -8599,7 +9503,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.358886763138,
+    "longitud": -5.5234696290333
   },
   {
     "codigo": "0498",
@@ -8621,7 +9527,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.989733,
+    "longitud": -1.14429
   },
   {
     "codigo": "0499",
@@ -8637,7 +9545,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 40.340984,
+    "longitud": -1.109281
   },
   {
     "codigo": "0500",
@@ -8659,7 +9569,9 @@
         "potencia": "19",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 40.336616,
+    "longitud": -1.104042
   },
   {
     "codigo": "0501",
@@ -8681,7 +9593,9 @@
         "potencia": "7.4",
         "estado": "SuspendedEVSE"
       }
-    ]
+    ],
+    "latitud": 42.8019444,
+    "longitud": -4.7402777777778
   },
   {
     "codigo": "0502",
@@ -8703,7 +9617,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.788998328241,
+    "longitud": -4.2580279289575
   },
   {
     "codigo": "0503",
@@ -8725,7 +9641,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.936093509711,
+    "longitud": -4.3070956296483
   },
   {
     "codigo": "0504",
@@ -8747,7 +9665,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.435113978591,
+    "longitud": -3.6812942173581
   },
   {
     "codigo": "0506",
@@ -8769,7 +9689,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.406251316735,
+    "longitud": -8.852848015605
   },
   {
     "codigo": "0507",
@@ -8791,7 +9713,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 42.8331667,
+    "longitud": -1.6583055555556
   },
   {
     "codigo": "0508",
@@ -8813,7 +9737,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.126628002318,
+    "longitud": -2.1406350859217
   },
   {
     "codigo": "0511",
@@ -8835,7 +9761,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.856127,
+    "longitud": -1.4427
   },
   {
     "codigo": "0512",
@@ -8857,7 +9785,9 @@
         "potencia": "19",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.515077,
+    "longitud": -5.757183
   },
   {
     "codigo": "0513",
@@ -8873,7 +9803,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.480509,
+    "longitud": -16.317005
   },
   {
     "codigo": "0514",
@@ -8895,7 +9827,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 40.417196391693,
+    "longitud": -3.8607499913215
   },
   {
     "codigo": "0515",
@@ -8917,7 +9851,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.003627,
+    "longitud": -2.789463
   },
   {
     "codigo": "0516",
@@ -8939,7 +9875,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.000648,
+    "longitud": -2.773258
   },
   {
     "codigo": "0517",
@@ -8961,7 +9899,9 @@
         "potencia": "10",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.064858025069,
+    "longitud": -0.73079347578035
   },
   {
     "codigo": "0518",
@@ -8977,7 +9917,9 @@
         "potencia": "43",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.56088,
+    "longitud": 2.988323
   },
   {
     "codigo": "0519",
@@ -8999,7 +9941,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.83817,
+    "longitud": -1.58486
   },
   {
     "codigo": "0520",
@@ -9021,7 +9965,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.99272,
+    "longitud": -0.159608
   },
   {
     "codigo": "0522",
@@ -9043,7 +9989,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.723086290659,
+    "longitud": 0.14741806682717
   },
   {
     "codigo": "0523",
@@ -9065,7 +10013,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.4585,
+    "longitud": -3.64385
   },
   {
     "codigo": "0524",
@@ -9087,7 +10037,9 @@
         "potencia": "11",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 38.9411406,
+    "longitud": -0.1833378
   },
   {
     "codigo": "0525",
@@ -9109,7 +10061,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.961639,
+    "longitud": -0.148179
   },
   {
     "codigo": "0526",
@@ -9131,7 +10085,9 @@
         "potencia": "11",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 39.036020087792,
+    "longitud": -0.21471040339727
   },
   {
     "codigo": "0527",
@@ -9153,7 +10109,9 @@
         "potencia": "11",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 39.033485189431,
+    "longitud": -0.21519407338591
   },
   {
     "codigo": "0528",
@@ -9169,7 +10127,9 @@
         "potencia": "7.4",
         "estado": "Preparing"
       }
-    ]
+    ],
+    "latitud": 37.227592982289,
+    "longitud": -3.6344812075728
   },
   {
     "codigo": "0529",
@@ -9191,7 +10151,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.65821,
+    "longitud": 0.07874
   },
   {
     "codigo": "0530",
@@ -9213,7 +10175,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.430932,
+    "longitud": -4.474885
   },
   {
     "codigo": "0531",
@@ -9235,7 +10199,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 38.827938114527,
+    "longitud": -0.55908051900234
   },
   {
     "codigo": "0532",
@@ -9257,7 +10223,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.410756,
+    "longitud": 0.152696
   },
   {
     "codigo": "0533",
@@ -9279,7 +10247,9 @@
         "potencia": "5",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.460248,
+    "longitud": -8.926841
   },
   {
     "codigo": "0536",
@@ -9301,7 +10271,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 38.0309309,
+    "longitud": -1.1684125
   },
   {
     "codigo": "0537",
@@ -9323,7 +10295,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.0308977,
+    "longitud": -1.1683501
   },
   {
     "codigo": "0538",
@@ -9345,7 +10319,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.563616287786,
+    "longitud": 2.2666137073872
   },
   {
     "codigo": "0539",
@@ -9361,7 +10337,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.227592982289,
+    "longitud": -3.6344812075728
   },
   {
     "codigo": "0540",
@@ -9383,7 +10361,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.997598,
+    "longitud": -1.509133
   },
   {
     "codigo": "0541",
@@ -9399,7 +10379,9 @@
         "potencia": "7.4",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 39.455092311796,
+    "longitud": -0.47237664232962
   },
   {
     "codigo": "0542",
@@ -9415,7 +10397,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.476542555035,
+    "longitud": -1.3827547404083
   },
   {
     "codigo": "0543",
@@ -9437,7 +10421,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.213441522058,
+    "longitud": -7.0554158877778
   },
   {
     "codigo": "0544",
@@ -9459,7 +10445,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 42.83391766771,
+    "longitud": -1.6431400971778
   },
   {
     "codigo": "0545",
@@ -9481,7 +10469,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 42.835082836635,
+    "longitud": -1.6381405482691
   },
   {
     "codigo": "0546",
@@ -9503,7 +10493,9 @@
         "potencia": "22",
         "estado": "SuspendedEV"
       }
-    ]
+    ],
+    "latitud": 41.4690856,
+    "longitud": -5.7671133
   },
   {
     "codigo": "0547",
@@ -9525,7 +10517,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.376679302676,
+    "longitud": 3.2358586681921
   },
   {
     "codigo": "0548",
@@ -9547,7 +10541,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.687404936455,
+    "longitud": 0.13658000002091
   },
   {
     "codigo": "0549",
@@ -9569,7 +10565,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.742170640488,
+    "longitud": 0.0047698153406193
   },
   {
     "codigo": "0550",
@@ -9591,7 +10589,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.80871926343,
+    "longitud": -1.6472140202724
   },
   {
     "codigo": "0551",
@@ -9613,7 +10613,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.808730085996,
+    "longitud": -1.647169763823
   },
   {
     "codigo": "0552",
@@ -9629,7 +10631,9 @@
         "potencia": "43",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.457598,
+    "longitud": -2.472779
   },
   {
     "codigo": "0553",
@@ -9651,7 +10655,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.261808600877,
+    "longitud": -1.1911720821886
   },
   {
     "codigo": "0554",
@@ -9673,7 +10679,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.95022189335,
+    "longitud": -0.18171995212189
   },
   {
     "codigo": "0555",
@@ -9695,7 +10703,9 @@
         "potencia": "7.4",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 38.907488,
+    "longitud": 1.427069
   },
   {
     "codigo": "0556",
@@ -9717,7 +10727,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.762089,
+    "longitud": -3.888167
   },
   {
     "codigo": "0557",
@@ -9733,7 +10745,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.624818,
+    "longitud": 2.720382
   },
   {
     "codigo": "0558",
@@ -9755,7 +10769,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.123297,
+    "longitud": -8.62604
   },
   {
     "codigo": "0559",
@@ -9777,7 +10793,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.123197,
+    "longitud": -8.62604
   },
   {
     "codigo": "0560",
@@ -9799,7 +10817,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.446063,
+    "longitud": -3.720434
   },
   {
     "codigo": "0561",
@@ -9821,7 +10841,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.418158,
+    "longitud": -3.799256
   },
   {
     "codigo": "0562",
@@ -9843,7 +10865,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.418158,
+    "longitud": -3.799456
   },
   {
     "codigo": "0563",
@@ -9865,7 +10889,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.09056,
+    "longitud": -0.653336
   },
   {
     "codigo": "0564",
@@ -9881,7 +10907,9 @@
         "potencia": "3.7",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.282335,
+    "longitud": -6.083511
   },
   {
     "codigo": "0565",
@@ -9903,7 +10931,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.440672,
+    "longitud": -3.687668
   },
   {
     "codigo": "0566",
@@ -9925,7 +10955,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.440505,
+    "longitud": -3.687688
   },
   {
     "codigo": "0567",
@@ -9947,7 +10979,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.440505,
+    "longitud": -3.687688
   },
   {
     "codigo": "0568",
@@ -9969,7 +11003,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.441849,
+    "longitud": -3.688304
   },
   {
     "codigo": "0569",
@@ -9991,7 +11027,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.440672,
+    "longitud": -3.687668
   },
   {
     "codigo": "0570",
@@ -10013,7 +11051,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.441849,
+    "longitud": -3.688304
   },
   {
     "codigo": "0571",
@@ -10035,7 +11075,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.440001,
+    "longitud": -3.687541
   },
   {
     "codigo": "0572",
@@ -10057,7 +11099,9 @@
         "potencia": "6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.622559033494,
+    "longitud": -0.13127751292601
   },
   {
     "codigo": "0573",
@@ -10079,7 +11123,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 42.1947784,
+    "longitud": -1.6340872
   },
   {
     "codigo": "0574",
@@ -10095,7 +11141,9 @@
         "potencia": "22",
         "estado": "Preparing"
       }
-    ]
+    ],
+    "latitud": 38.780823972036,
+    "longitud": -0.78375146261409
   },
   {
     "codigo": "0575",
@@ -10111,7 +11159,9 @@
         "potencia": "2.7",
         "estado": "SuspendedEV"
       }
-    ]
+    ],
+    "latitud": 36.520078236789,
+    "longitud": -5.0445004956272
   },
   {
     "codigo": "0576",
@@ -10127,7 +11177,9 @@
         "potencia": "43",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.584443567112,
+    "longitud": 2.6715585774835
   },
   {
     "codigo": "0577",
@@ -10149,7 +11201,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.4424967,
+    "longitud": -3.6944122
   },
   {
     "codigo": "0578",
@@ -10171,7 +11225,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.4432697,
+    "longitud": -3.6895179
   },
   {
     "codigo": "0579",
@@ -10193,7 +11249,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.44319,
+    "longitud": -3.68949
   },
   {
     "codigo": "0580",
@@ -10215,7 +11273,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.103657563311,
+    "longitud": -0.85347384723549
   },
   {
     "codigo": "0581",
@@ -10237,7 +11297,9 @@
         "potencia": "18",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.027773928404,
+    "longitud": -0.7397245947245
   },
   {
     "codigo": "0582",
@@ -10259,7 +11321,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.997146160139,
+    "longitud": -4.0748211133516
   },
   {
     "codigo": "0583",
@@ -10281,7 +11345,9 @@
         "potencia": "17",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.79827166594,
+    "longitud": 0.083095980358693
   },
   {
     "codigo": "0584",
@@ -10303,7 +11369,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.850341171489,
+    "longitud": -4.3782945924453
   },
   {
     "codigo": "0585",
@@ -10325,7 +11393,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.544664944283,
+    "longitud": -3.6894890572051
   },
   {
     "codigo": "0586",
@@ -10347,7 +11417,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 42.828202962882,
+    "longitud": -1.5918868529703
   },
   {
     "codigo": "0587",
@@ -10369,7 +11441,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.38842763725,
+    "longitud": -1.7957616120769
   },
   {
     "codigo": "0588",
@@ -10391,7 +11465,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.951796022066,
+    "longitud": -3.0782481928497
   },
   {
     "codigo": "0589",
@@ -10407,7 +11483,9 @@
         "potencia": "4.1",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 36.516970240247,
+    "longitud": -4.9935117715492
   },
   {
     "codigo": "0591",
@@ -10429,7 +11507,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497513617126,
+    "longitud": -3.7043654811427
   },
   {
     "codigo": "0592",
@@ -10451,7 +11531,9 @@
         "potencia": "11",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 38.945243250577,
+    "longitud": -0.17819111957491
   },
   {
     "codigo": "0593",
@@ -10473,7 +11555,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.432910533934,
+    "longitud": -3.6770458033686
   },
   {
     "codigo": "0594",
@@ -10495,7 +11579,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.432910533934,
+    "longitud": -3.6770458033686
   },
   {
     "codigo": "0595",
@@ -10517,7 +11603,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.432910533934,
+    "longitud": -3.6770458033686
   },
   {
     "codigo": "0596",
@@ -10539,7 +11627,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.344793489973,
+    "longitud": -1.944194070107
   },
   {
     "codigo": "0597",
@@ -10561,7 +11651,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.34472,
+    "longitud": -1.94417
   },
   {
     "codigo": "0598",
@@ -10583,7 +11675,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.6552028,
+    "longitud": -1.9993683
   },
   {
     "codigo": "0599",
@@ -10599,7 +11693,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.594332620779,
+    "longitud": 2.6546503978172
   },
   {
     "codigo": "0600",
@@ -10621,7 +11717,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.0308654,
+    "longitud": -1.1682935
   },
   {
     "codigo": "0601",
@@ -10643,7 +11741,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.0308243,
+    "longitud": -1.168217
   },
   {
     "codigo": "0602",
@@ -10665,7 +11765,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 38.03075,
+    "longitud": -1.1680556
   },
   {
     "codigo": "0603",
@@ -10687,7 +11789,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.0308,
+    "longitud": -1.168156
   },
   {
     "codigo": "0604",
@@ -10709,7 +11813,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.594483923906,
+    "longitud": -3.594751004649
   },
   {
     "codigo": "0605",
@@ -10731,7 +11837,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.112903431528,
+    "longitud": -15.449744579576
   },
   {
     "codigo": "0606",
@@ -10753,7 +11861,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.113130544633,
+    "longitud": -15.449551460545
   },
   {
     "codigo": "0607",
@@ -10775,7 +11885,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.113319805186,
+    "longitud": -15.449379799183
   },
   {
     "codigo": "0608",
@@ -10797,7 +11909,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.113783492129,
+    "longitud": -15.44905793413
   },
   {
     "codigo": "0610",
@@ -10819,7 +11933,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.660747,
+    "longitud": -3.718063
   },
   {
     "codigo": "0611",
@@ -10841,7 +11957,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.660763002164,
+    "longitud": -3.7182024795153
   },
   {
     "codigo": "0612",
@@ -10863,7 +11981,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.561482295416,
+    "longitud": 2.1562378876645
   },
   {
     "codigo": "0613",
@@ -10885,7 +12005,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.561554993856,
+    "longitud": 2.1562144548045
   },
   {
     "codigo": "0614",
@@ -10907,7 +12029,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.561643150074,
+    "longitud": 2.1561861922048
   },
   {
     "codigo": "0615",
@@ -10929,7 +12053,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.561615202185,
+    "longitud": 2.1561876327125
   },
   {
     "codigo": "0616",
@@ -10951,7 +12077,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.946598215883,
+    "longitud": -0.16185023365753
   },
   {
     "codigo": "0617",
@@ -10973,7 +12101,9 @@
         "potencia": "22",
         "estado": "Reserved"
       }
-    ]
+    ],
+    "latitud": 38.94422141501,
+    "longitud": -0.16451394835957
   },
   {
     "codigo": "0618",
@@ -10995,7 +12125,9 @@
         "potencia": "8",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.95091,
+    "longitud": -0.1671
   },
   {
     "codigo": "0621",
@@ -11017,7 +12149,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.077536451218,
+    "longitud": 1.1394785140151
   },
   {
     "codigo": "0622",
@@ -11039,7 +12173,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.077676973513,
+    "longitud": 1.1386175249221
   },
   {
     "codigo": "0625",
@@ -11061,7 +12197,9 @@
         "potencia": "11",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.511523700638,
+    "longitud": -5.7482883672187
   },
   {
     "codigo": "0626",
@@ -11083,7 +12221,9 @@
         "potencia": "11",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.511635172195,
+    "longitud": -5.7483634690721
   },
   {
     "codigo": "0627",
@@ -11105,7 +12245,9 @@
         "potencia": "13.8",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.35940476972,
+    "longitud": 2.9177315417112
   },
   {
     "codigo": "0628",
@@ -11121,7 +12263,9 @@
         "potencia": "22",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 41.997082378531,
+    "longitud": -5.6772436939122
   },
   {
     "codigo": "0629",
@@ -11143,7 +12287,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.455438890868,
+    "longitud": -3.749856448478
   },
   {
     "codigo": "0630",
@@ -11165,7 +12311,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.455471596684,
+    "longitud": -3.7497276860883
   },
   {
     "codigo": "0631",
@@ -11187,7 +12335,9 @@
         "potencia": "3.6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.46943,
+    "longitud": -0.70755
   },
   {
     "codigo": "0632",
@@ -11209,7 +12359,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.818629637941,
+    "longitud": 0.018371236905105
   },
   {
     "codigo": "0633",
@@ -11231,7 +12383,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.818667776797,
+    "longitud": 0.017736732382917
   },
   {
     "codigo": "0634",
@@ -11253,7 +12407,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.910739749512,
+    "longitud": 3.0975505964288
   },
   {
     "codigo": "0635",
@@ -11275,7 +12431,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.803250377602,
+    "longitud": 3.1167642774046
   },
   {
     "codigo": "0636",
@@ -11297,7 +12455,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.715353220614,
+    "longitud": 2.9108742
   },
   {
     "codigo": "0638",
@@ -11313,7 +12473,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.193323,
+    "longitud": -0.430038
   },
   {
     "codigo": "0639",
@@ -11335,7 +12497,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.588897158432,
+    "longitud": 2.6749333101741
   },
   {
     "codigo": "0640",
@@ -11357,7 +12521,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.699893,
+    "longitud": -0.531325
   },
   {
     "codigo": "0641",
@@ -11379,7 +12545,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 39.649752,
+    "longitud": -0.520897
   },
   {
     "codigo": "0642",
@@ -11401,7 +12569,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 39.671294,
+    "longitud": -0.530683
   },
   {
     "codigo": "0643",
@@ -11423,7 +12593,9 @@
         "potencia": "11",
         "estado": "SuspendedEV"
       }
-    ]
+    ],
+    "latitud": 39.703569,
+    "longitud": -0.531069
   },
   {
     "codigo": "0644",
@@ -11445,7 +12617,9 @@
         "potencia": "6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 43.115297308231,
+    "longitud": -4.7296643631948
   },
   {
     "codigo": "0645",
@@ -11467,7 +12641,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.50266533688,
+    "longitud": -5.7415184145727
   },
   {
     "codigo": "0646",
@@ -11489,7 +12665,9 @@
         "potencia": "18",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.502707772197,
+    "longitud": -5.7412870740471
   },
   {
     "codigo": "0647",
@@ -11511,7 +12689,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.231791753846,
+    "longitud": -0.057270547000746
   },
   {
     "codigo": "0649",
@@ -11533,7 +12713,9 @@
         "potencia": "11",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.512058992923,
+    "longitud": -5.7483915029939
   },
   {
     "codigo": "0650",
@@ -11555,7 +12737,9 @@
         "potencia": "11",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.511733075035,
+    "longitud": -5.748432654319
   },
   {
     "codigo": "0651",
@@ -11577,7 +12761,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.468185245562,
+    "longitud": -5.7676147334911
   },
   {
     "codigo": "0652",
@@ -11599,7 +12785,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.46823776012,
+    "longitud": -5.7678548690236
   },
   {
     "codigo": "0653",
@@ -11621,7 +12809,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.468254082625,
+    "longitud": -5.7679714672951
   },
   {
     "codigo": "0654",
@@ -11643,7 +12833,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.51770110007,
+    "longitud": -5.7611183014683
   },
   {
     "codigo": "0655",
@@ -11665,7 +12857,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.517742962516,
+    "longitud": -5.7610240248237
   },
   {
     "codigo": "0656",
@@ -11687,7 +12881,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.517819222482,
+    "longitud": -5.7608727076969
   },
   {
     "codigo": "0657",
@@ -11709,7 +12905,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.503312462989,
+    "longitud": -5.7378162493485
   },
   {
     "codigo": "0658",
@@ -11731,7 +12929,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.503291371079,
+    "longitud": -5.7379543831147
   },
   {
     "codigo": "0659",
@@ -11753,7 +12953,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.503271856457,
+    "longitud": -5.7380453765539
   },
   {
     "codigo": "0660",
@@ -11775,7 +12977,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.494406593966,
+    "longitud": -5.7550884436122
   },
   {
     "codigo": "0661",
@@ -11797,7 +13001,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.494360386276,
+    "longitud": -5.7551984141834
   },
   {
     "codigo": "0662",
@@ -11819,7 +13025,9 @@
         "potencia": "11",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 38.965055987303,
+    "longitud": -0.13088789330136
   },
   {
     "codigo": "0663",
@@ -11841,7 +13049,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 41.494329246294,
+    "longitud": -5.7552601049916
   },
   {
     "codigo": "0664",
@@ -11863,7 +13073,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.504753054531,
+    "longitud": -5.7428147248587
   },
   {
     "codigo": "0665",
@@ -11879,7 +13091,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.62273140841,
+    "longitud": -0.13087209987762
   },
   {
     "codigo": "0666",
@@ -11895,7 +13109,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.622755789573,
+    "longitud": -0.13087550732362
   },
   {
     "codigo": "0667",
@@ -11911,7 +13127,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.570188166217,
+    "longitud": 2.6459354177934
   },
   {
     "codigo": "0668",
@@ -11927,7 +13145,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.570188166217,
+    "longitud": 2.6459354177933
   },
   {
     "codigo": "0669",
@@ -11943,7 +13163,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.570188166217,
+    "longitud": 2.6459354177932
   },
   {
     "codigo": "0670",
@@ -11965,7 +13187,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.076029246004,
+    "longitud": 1.1466867693148
   },
   {
     "codigo": "0671",
@@ -11987,7 +13211,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.076029246004,
+    "longitud": 1.1466867693148
   },
   {
     "codigo": "0672",
@@ -12003,7 +13229,9 @@
         "potencia": "2.7",
         "estado": "Occupied"
       }
-    ]
+    ],
+    "latitud": 36.520078506236,
+    "longitud": -5.0445011661838
   },
   {
     "codigo": "0673",
@@ -12025,7 +13253,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.379987,
+    "longitud": -3.732016
   },
   {
     "codigo": "0674",
@@ -12047,7 +13277,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.380094670759,
+    "longitud": -3.7316716714426
   },
   {
     "codigo": "0675",
@@ -12063,7 +13295,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.380059169999,
+    "longitud": -3.7315744413645
   },
   {
     "codigo": "0676",
@@ -12079,7 +13313,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.379952923007,
+    "longitud": -3.7317420794303
   },
   {
     "codigo": "0677",
@@ -12095,7 +13331,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.379857913531,
+    "longitud": -3.731606627874
   },
   {
     "codigo": "0678",
@@ -12117,7 +13355,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.33512535777,
+    "longitud": -3.7165054354212
   },
   {
     "codigo": "0679",
@@ -12133,7 +13373,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.334991438177,
+    "longitud": -3.7163411501167
   },
   {
     "codigo": "0680",
@@ -12155,7 +13397,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.795393,
+    "longitud": 0.111392
   },
   {
     "codigo": "0681",
@@ -12177,7 +13421,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.97658,
+    "longitud": -0.17717
   },
   {
     "codigo": "0682",
@@ -12199,7 +13445,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.859648326126,
+    "longitud": 0.049321266336973
   },
   {
     "codigo": "0683",
@@ -12221,7 +13469,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.859615354012,
+    "longitud": 0.049414226911719
   },
   {
     "codigo": "0684",
@@ -12243,7 +13493,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.059707,
+    "longitud": -3.513882
   },
   {
     "codigo": "0685",
@@ -12265,7 +13517,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.193323,
+    "longitud": -0.430038
   },
   {
     "codigo": "0686",
@@ -12287,7 +13541,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.813718238231,
+    "longitud": 0.54366693819881
   },
   {
     "codigo": "0687",
@@ -12309,7 +13565,9 @@
         "potencia": "6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.966669394506,
+    "longitud": -0.13652252610049
   },
   {
     "codigo": "0688",
@@ -12331,7 +13589,9 @@
         "potencia": "14",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.478348256801,
+    "longitud": -8.8923930712986
   },
   {
     "codigo": "0689",
@@ -12353,7 +13613,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.75320627897,
+    "longitud": -0.54943901090702
   },
   {
     "codigo": "0692",
@@ -12375,7 +13637,9 @@
         "potencia": "11",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 36.523496743589,
+    "longitud": -5.0457560167092
   },
   {
     "codigo": "0693",
@@ -12397,7 +13661,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.52506,
+    "longitud": -5.04489
   },
   {
     "codigo": "0695",
@@ -12419,7 +13685,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.28588174106,
+    "longitud": -6.0916544037865
   },
   {
     "codigo": "0696",
@@ -12435,7 +13703,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.506481092129,
+    "longitud": 2.1484597536825
   },
   {
     "codigo": "0697",
@@ -12457,7 +13727,9 @@
         "potencia": "11",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 41.512014806312,
+    "longitud": -5.7484894036244
   },
   {
     "codigo": "0698",
@@ -12479,7 +13751,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.91191,
+    "longitud": 1.424791
   },
   {
     "codigo": "0699",
@@ -12501,7 +13775,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 38.91191,
+    "longitud": 1.424591
   },
   {
     "codigo": "0700",
@@ -12523,7 +13799,9 @@
         "potencia": "9",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.460011568655,
+    "longitud": -8.8936606727189
   },
   {
     "codigo": "0701",
@@ -12545,7 +13823,9 @@
         "potencia": "3.7",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 43.155581724884,
+    "longitud": -4.6276955684542
   },
   {
     "codigo": "0702",
@@ -12567,7 +13847,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.815554104906,
+    "longitud": -3.6041466102384
   },
   {
     "codigo": "0703",
@@ -12589,7 +13871,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.884023,
+    "longitud": -8.513128
   },
   {
     "codigo": "0704",
@@ -12611,7 +13895,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.547070031587,
+    "longitud": -1.353681125088
   },
   {
     "codigo": "0705",
@@ -12633,7 +13919,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.547149073239,
+    "longitud": -1.3535792011496
   },
   {
     "codigo": "0706",
@@ -12655,7 +13943,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.890624244998,
+    "longitud": -2.140057503247
   },
   {
     "codigo": "0707",
@@ -12677,7 +13967,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 38.934986,
+    "longitud": -0.188993
   },
   {
     "codigo": "0708",
@@ -12699,7 +13991,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.935136361019,
+    "longitud": -0.15554696927518
   },
   {
     "codigo": "0709",
@@ -12721,7 +14015,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.936784273603,
+    "longitud": -0.14950926184009
   },
   {
     "codigo": "0710",
@@ -12743,7 +14039,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497455441449,
+    "longitud": -3.7042220067819
   },
   {
     "codigo": "0716",
@@ -12765,7 +14063,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.1947784,
+    "longitud": -1.6340872
   },
   {
     "codigo": "0717",
@@ -12787,7 +14087,9 @@
         "potencia": "15",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.420123504352,
+    "longitud": -8.8241656763325
   },
   {
     "codigo": "0718",
@@ -12809,7 +14111,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.513631822099,
+    "longitud": -3.3475008500542
   },
   {
     "codigo": "0719",
@@ -12831,7 +14135,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.513610410987,
+    "longitud": -3.3474847568015
   },
   {
     "codigo": "0720",
@@ -12853,7 +14159,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.513406559125,
+    "longitud": -3.3471879747382
   },
   {
     "codigo": "0721",
@@ -12875,7 +14183,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.514052757354,
+    "longitud": -3.3475936888785
   },
   {
     "codigo": "0722",
@@ -12897,7 +14207,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.513436126941,
+    "longitud": -3.3471490826935
   },
   {
     "codigo": "0723",
@@ -12919,7 +14231,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.513420323456,
+    "longitud": -3.3471303072321
   },
   {
     "codigo": "0724",
@@ -12941,7 +14255,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.513461106636,
+    "longitud": -3.3471008029356
   },
   {
     "codigo": "0725",
@@ -12963,7 +14279,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.513448871684,
+    "longitud": -3.3470887329961
   },
   {
     "codigo": "0726",
@@ -12985,7 +14303,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.513489145058,
+    "longitud": -3.3470578875952
   },
   {
     "codigo": "0727",
@@ -13007,7 +14327,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.513477419901,
+    "longitud": -3.3470444765513
   },
   {
     "codigo": "0728",
@@ -13023,7 +14345,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.5135156541,
+    "longitud": -3.347012290046
   },
   {
     "codigo": "0729",
@@ -13045,7 +14369,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.513506477895,
+    "longitud": -3.3470015612103
   },
   {
     "codigo": "0730",
@@ -13067,7 +14393,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.830494068809,
+    "longitud": -1.6981002527664
   },
   {
     "codigo": "0731",
@@ -13089,7 +14417,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.227592982289,
+    "longitud": -3.6344812075728
   },
   {
     "codigo": "0732",
@@ -13111,7 +14441,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 43.000590996523,
+    "longitud": -1.6620847911991
   },
   {
     "codigo": "0733",
@@ -13133,7 +14465,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.775535737829,
+    "longitud": -1.5303295435775
   },
   {
     "codigo": "0734",
@@ -13155,7 +14489,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.375639,
+    "longitud": 3.23685
   },
   {
     "codigo": "0735",
@@ -13177,7 +14513,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.705720332212,
+    "longitud": -0.98904860409191
   },
   {
     "codigo": "0736",
@@ -13199,7 +14537,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.548051230129,
+    "longitud": -0.45716967567401
   },
   {
     "codigo": "0737",
@@ -13221,7 +14561,9 @@
         "potencia": "22",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 39.550638161969,
+    "longitud": -0.46601199346503
   },
   {
     "codigo": "0738",
@@ -13243,7 +14585,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.790266519786,
+    "longitud": -1.6483145960562
   },
   {
     "codigo": "0739",
@@ -13265,7 +14609,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.344731043294,
+    "longitud": -1.9442101633597
   },
   {
     "codigo": "0740",
@@ -13287,7 +14633,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.344848085973,
+    "longitud": -1.9441398300829
   },
   {
     "codigo": "0742",
@@ -13309,7 +14657,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 28.457199815749,
+    "longitud": -16.249619621088
   },
   {
     "codigo": "0759",
@@ -13325,7 +14675,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.747625299817,
+    "longitud": -2.9110996517228
   },
   {
     "codigo": "0760",
@@ -13347,7 +14699,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.208229,
+    "longitud": -3.83575
   },
   {
     "codigo": "0761",
@@ -13369,7 +14723,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.208229,
+    "longitud": -3.83575
   },
   {
     "codigo": "0763",
@@ -13385,7 +14741,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.169211297629,
+    "longitud": 0.23652158316259
   },
   {
     "codigo": "0764",
@@ -13401,7 +14759,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.169168073536,
+    "longitud": 0.23663119564559
   },
   {
     "codigo": "0765",
@@ -13417,7 +14777,9 @@
         "potencia": "22",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 42.169064339515,
+    "longitud": 0.23681276315525
   },
   {
     "codigo": "0766",
@@ -13433,7 +14795,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.168993293379,
+    "longitud": 0.23693343025761
   },
   {
     "codigo": "0767",
@@ -13449,7 +14813,9 @@
         "potencia": "7.4",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 40.98808814268,
+    "longitud": -1.3076351437855
   },
   {
     "codigo": "0768",
@@ -13471,7 +14837,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.141996879845,
+    "longitud": 0.31475286745737
   },
   {
     "codigo": "0769",
@@ -13493,7 +14861,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.05692957361,
+    "longitud": -1.9075846673308
   },
   {
     "codigo": "0770",
@@ -13515,7 +14885,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.0567517058,
+    "longitud": -1.9056266797728
   },
   {
     "codigo": "0771",
@@ -13537,7 +14909,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.056677523225,
+    "longitud": -1.9056441139696
   },
   {
     "codigo": "0772",
@@ -13559,7 +14933,9 @@
         "potencia": "22",
         "estado": "Preparing"
       }
-    ]
+    ],
+    "latitud": 41.745,
+    "longitud": -0.850263
   },
   {
     "codigo": "0773",
@@ -13575,7 +14951,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.8400430206,
+    "longitud": -2.7795908236793
   },
   {
     "codigo": "0774",
@@ -13591,7 +14969,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.839940109484,
+    "longitud": -2.7795432143168
   },
   {
     "codigo": "0775",
@@ -13607,7 +14987,9 @@
         "potencia": "9",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.446943427327,
+    "longitud": -8.786351564785
   },
   {
     "codigo": "0776",
@@ -13629,7 +15011,9 @@
         "potencia": "22",
         "estado": "SuspendedEV"
       }
-    ]
+    ],
+    "latitud": 41.650998382968,
+    "longitud": -0.87875671905376
   },
   {
     "codigo": "0777",
@@ -13651,7 +15035,9 @@
         "potencia": "22",
         "estado": "Preparing"
       }
-    ]
+    ],
+    "latitud": 41.651042608004,
+    "longitud": -0.87883209922577
   },
   {
     "codigo": "0778",
@@ -13673,7 +15059,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.650362890585,
+    "longitud": -0.87865734053152
   },
   {
     "codigo": "0779",
@@ -13689,7 +15077,9 @@
         "potencia": "16.6",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.650398431458,
+    "longitud": -0.87848951694204
   },
   {
     "codigo": "0780",
@@ -13705,7 +15095,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.650941771247,
+    "longitud": -0.9795574387647
   },
   {
     "codigo": "0781",
@@ -13721,7 +15113,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.650981856928,
+    "longitud": -0.97966472615975
   },
   {
     "codigo": "0782",
@@ -13737,7 +15131,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.651005909553,
+    "longitud": -0.9797934720025
   },
   {
     "codigo": "0783",
@@ -13753,7 +15149,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.651062027763,
+    "longitud": -0.97986857232174
   },
   {
     "codigo": "0784",
@@ -13769,7 +15167,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.651062029732,
+    "longitud": -0.97997586129683
   },
   {
     "codigo": "0785",
@@ -13791,7 +15191,9 @@
         "potencia": "15",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.672868491922,
+    "longitud": -1.8160772939726
   },
   {
     "codigo": "0786",
@@ -13807,7 +15209,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.447721531225,
+    "longitud": -3.6933262018963
   },
   {
     "codigo": "0787",
@@ -13823,7 +15227,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.447786056771,
+    "longitud": -3.6941200430865
   },
   {
     "codigo": "0788",
@@ -13839,7 +15245,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.447770748128,
+    "longitud": -3.6941254075778
   },
   {
     "codigo": "0789",
@@ -13855,7 +15263,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.447762583537,
+    "longitud": -3.6941347953474
   },
   {
     "codigo": "0790",
@@ -13871,7 +15281,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.447747274741,
+    "longitud": -3.6940878567627
   },
   {
     "codigo": "0792",
@@ -13893,7 +15305,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.579258697166,
+    "longitud": -0.47637466427831
   },
   {
     "codigo": "0793",
@@ -13915,7 +15329,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.473804070507,
+    "longitud": -3.6748819536919
   },
   {
     "codigo": "0794",
@@ -13937,7 +15353,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.473713567248,
+    "longitud": -3.67486960957
   },
   {
     "codigo": "0795",
@@ -13959,7 +15377,9 @@
         "potencia": "22",
         "estado": "Preparing"
       }
-    ]
+    ],
+    "latitud": 40.473650409174,
+    "longitud": -3.6748597338099
   },
   {
     "codigo": "0796",
@@ -13981,7 +15401,9 @@
         "potencia": "22",
         "estado": "Preparing"
       }
-    ]
+    ],
+    "latitud": 40.473552834045,
+    "longitud": -3.6748445838904
   },
   {
     "codigo": "0797",
@@ -14003,7 +15425,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.473451417226,
+    "longitud": -3.6748334739494
   },
   {
     "codigo": "0798",
@@ -14025,7 +15449,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.473768728432,
+    "longitud": -3.6747930741641
   },
   {
     "codigo": "0799",
@@ -14047,7 +15473,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.473661165479,
+    "longitud": -3.67477691425
   },
   {
     "codigo": "0800",
@@ -14069,7 +15497,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.473528248164,
+    "longitud": -3.6747557043627
   },
   {
     "codigo": "0801",
@@ -14091,7 +15521,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0802",
@@ -14113,7 +15545,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0803",
@@ -14135,7 +15569,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0804",
@@ -14157,7 +15593,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0805",
@@ -14179,7 +15617,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0806",
@@ -14201,7 +15641,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0807",
@@ -14223,7 +15665,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0808",
@@ -14245,7 +15689,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0809",
@@ -14267,7 +15713,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0810",
@@ -14289,7 +15737,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0811",
@@ -14311,7 +15761,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0812",
@@ -14333,7 +15785,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0813",
@@ -14355,7 +15809,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0814",
@@ -14377,7 +15833,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.497661818463,
+    "longitud": -3.611551361607
   },
   {
     "codigo": "0815",
@@ -14399,7 +15857,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.512275612226,
+    "longitud": -0.35679294783531
   },
   {
     "codigo": "0816",
@@ -14421,7 +15881,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 39.689877623895,
+    "longitud": -0.2030475596463
   },
   {
     "codigo": "0817",
@@ -14443,7 +15905,9 @@
         "potencia": "7.4",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 41.363431345371,
+    "longitud": -1.2991510803865
   },
   {
     "codigo": "0818",
@@ -14465,7 +15929,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.893472451135,
+    "longitud": -1.7205415873007
   },
   {
     "codigo": "0819",
@@ -14481,7 +15947,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.655704057437,
+    "longitud": -0.77739709426873
   },
   {
     "codigo": "0820",
@@ -14497,7 +15965,9 @@
         "potencia": "22",
         "estado": "SuspendedEV"
       }
-    ]
+    ],
+    "latitud": 42.113482541727,
+    "longitud": -0.44295798030479
   },
   {
     "codigo": "0821",
@@ -14513,7 +15983,9 @@
         "potencia": "22",
         "estado": "SuspendedEV"
       }
-    ]
+    ],
+    "latitud": 42.113524325611,
+    "longitud": -0.44292847540417
   },
   {
     "codigo": "0822",
@@ -14529,7 +16001,9 @@
         "potencia": "22",
         "estado": "SuspendedEV"
       }
-    ]
+    ],
+    "latitud": 42.113544222406,
+    "longitud": -0.44286678405138
   },
   {
     "codigo": "0823",
@@ -14545,7 +16019,9 @@
         "potencia": "22",
         "estado": "SuspendedEV"
       }
-    ]
+    ],
+    "latitud": 42.113564119389,
+    "longitud": -0.44283727933252
   },
   {
     "codigo": "0824",
@@ -14561,7 +16037,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.447739110165,
+    "longitud": -3.6941012678474
   },
   {
     "codigo": "0825",
@@ -14577,7 +16055,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.447784015468,
+    "longitud": -3.6940704222047
   },
   {
     "codigo": "0826",
@@ -14593,7 +16073,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.447807488737,
+    "longitud": -3.6940677398641
   },
   {
     "codigo": "0827",
@@ -14609,7 +16091,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.447830962031,
+    "longitud": -3.6940731041578
   },
   {
     "codigo": "0828",
@@ -14625,7 +16109,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.447884032044,
+    "longitud": -3.6940717627525
   },
   {
     "codigo": "0829",
@@ -14641,7 +16127,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.656109928868,
+    "longitud": -0.77773560146278
   },
   {
     "codigo": "0830",
@@ -14663,7 +16151,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.758564603371,
+    "longitud": -5.3738687213429
   },
   {
     "codigo": "0831",
@@ -14685,7 +16175,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.080496114989,
+    "longitud": -5.5028406677187
   },
   {
     "codigo": "0832",
@@ -14707,7 +16199,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.26991690504,
+    "longitud": -5.3723747919101
   },
   {
     "codigo": "0833",
@@ -14729,7 +16223,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.757515273017,
+    "longitud": -5.5116326960004
   },
   {
     "codigo": "0834",
@@ -14751,7 +16247,9 @@
         "potencia": "7.4",
         "estado": "Faulted"
       }
-    ]
+    ],
+    "latitud": 36.079570821202,
+    "longitud": -5.5039876136381
   },
   {
     "codigo": "0835",
@@ -14773,7 +16271,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.431618119984,
+    "longitud": -6.2257973339599
   },
   {
     "codigo": "0836",
@@ -14795,7 +16295,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.058569468062,
+    "longitud": -5.6639248034824
   },
   {
     "codigo": "0837",
@@ -14817,7 +16319,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.443254347888,
+    "longitud": -5.7479876569495
   },
   {
     "codigo": "0838",
@@ -14839,7 +16343,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.444333189811,
+    "longitud": -5.7483470600798
   },
   {
     "codigo": "0839",
@@ -14861,7 +16367,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.472016842756,
+    "longitud": -6.2013949328098
   },
   {
     "codigo": "0840",
@@ -14883,7 +16391,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.443774594533,
+    "longitud": -5.7479474170303
   },
   {
     "codigo": "0841",
@@ -14905,7 +16415,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.590075234339,
+    "longitud": -6.2426063439339
   },
   {
     "codigo": "0842",
@@ -14927,7 +16439,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 36.115996099458,
+    "longitud": -5.4364924711652
   },
   {
     "codigo": "0843",
@@ -14949,7 +16463,9 @@
         "potencia": "22",
         "estado": "Preparing"
       }
-    ]
+    ],
+    "latitud": 37.11399959422,
+    "longitud": -6.7679354768291
   },
   {
     "codigo": "0844",
@@ -14971,7 +16487,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.252843088648,
+    "longitud": -6.9680950832155
   },
   {
     "codigo": "0845",
@@ -14993,7 +16511,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.838866793829,
+    "longitud": -6.4266258854304
   },
   {
     "codigo": "0846",
@@ -15015,7 +16535,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.154651622918,
+    "longitud": -6.8737939799591
   },
   {
     "codigo": "0847",
@@ -15037,7 +16559,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.254964007097,
+    "longitud": -6.9681385239747
   },
   {
     "codigo": "0848",
@@ -15059,7 +16583,9 @@
         "potencia": "7.4",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 42.73694900338,
+    "longitud": -0.75090151761233
   },
   {
     "codigo": "0849",
@@ -15081,7 +16607,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.635000472442,
+    "longitud": -1.0024167049828
   },
   {
     "codigo": "0850",
@@ -15103,7 +16631,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.634962383843,
+    "longitud": -1.0023080755274
   },
   {
     "codigo": "0851",
@@ -15119,7 +16649,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.584126081466,
+    "longitud": -2.8469036914445
   },
   {
     "codigo": "0852",
@@ -15141,7 +16673,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 43.467338304287,
+    "longitud": -3.669830189389
   },
   {
     "codigo": "0853",
@@ -15163,7 +16697,9 @@
         "potencia": "3.7",
         "estado": "Charging"
       }
-    ]
+    ],
+    "latitud": 40.424295,
+    "longitud": -3.69929
   },
   {
     "codigo": "0854",
@@ -15185,7 +16721,9 @@
         "potencia": "11",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 37.43504778732,
+    "longitud": -4.6099653321439
   },
   {
     "codigo": "0855",
@@ -15207,7 +16745,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.060661980209,
+    "longitud": -1.6448052645831
   },
   {
     "codigo": "0856",
@@ -15229,7 +16769,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.060669936703,
+    "longitud": -1.6449447798099
   },
   {
     "codigo": "0857",
@@ -15251,7 +16793,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.060415050042,
+    "longitud": -1.6443667234339
   },
   {
     "codigo": "0858",
@@ -15273,7 +16817,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.060458860302,
+    "longitud": -1.6443506301813
   },
   {
     "codigo": "0859",
@@ -15295,7 +16841,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.060506653279,
+    "longitud": -1.6443345369286
   },
   {
     "codigo": "0860",
@@ -15317,7 +16865,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.060546480732,
+    "longitud": -1.6443264903023
   },
   {
     "codigo": "0861",
@@ -15339,7 +16889,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.060590290901,
+    "longitud": -1.6443077148409
   },
   {
     "codigo": "0862",
@@ -15361,7 +16913,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.060636590255,
+    "longitud": -1.6442916215228
   },
   {
     "codigo": "0863",
@@ -15377,7 +16931,9 @@
         "potencia": "3.2",
         "estado": "Unavailable"
       }
-    ]
+    ],
+    "latitud": 41.636940508137,
+    "longitud": -0.89951380805811
   },
   {
     "codigo": "0864",
@@ -15393,7 +16949,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.637028710573,
+    "longitud": -0.8995781810687
   },
   {
     "codigo": "0865",
@@ -15409,7 +16967,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.563907897001,
+    "longitud": -0.50966418229453
   },
   {
     "codigo": "0866",
@@ -15425,7 +16985,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.563866411288,
+    "longitud": -0.5096045031493
   },
   {
     "codigo": "0867",
@@ -15441,7 +17003,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.563764178519,
+    "longitud": -0.50975940071053
   },
   {
     "codigo": "0868",
@@ -15457,7 +17021,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.563738002953,
+    "longitud": -0.5097097798482
   },
   {
     "codigo": "0869",
@@ -15473,7 +17039,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.364844117229,
+    "longitud": -3.586906561433
   },
   {
     "codigo": "0870",
@@ -15489,7 +17057,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.364844117229,
+    "longitud": -3.586906561433
   },
   {
     "codigo": "0871",
@@ -15505,7 +17075,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.364844117229,
+    "longitud": -3.586906561433
   },
   {
     "codigo": "0872",
@@ -15521,7 +17093,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.364844117229,
+    "longitud": -3.586906561433
   },
   {
     "codigo": "0873",
@@ -15537,7 +17111,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.364844117229,
+    "longitud": -3.586906561433
   },
   {
     "codigo": "0874",
@@ -15559,7 +17135,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.729112445451,
+    "longitud": 0.09242772883638
   },
   {
     "codigo": "0884",
@@ -15611,7 +17189,9 @@
         "potencia": "22",
         "estado": "Preparing"
       }
-    ]
+    ],
+    "latitud": 40.436260394729,
+    "longitud": -3.6227755648354
   },
   {
     "codigo": "0885",
@@ -15627,7 +17207,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.640237002843,
+    "longitud": -0.99131941172545
   },
   {
     "codigo": "0886",
@@ -15649,7 +17231,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.640200743947,
+    "longitud": -0.99122623938312
   },
   {
     "codigo": "0887",
@@ -15671,7 +17255,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.640307661419,
+    "longitud": -0.99126107367895
   },
   {
     "codigo": "0888",
@@ -15693,7 +17279,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.640349254728,
+    "longitud": -0.99124028656095
   },
   {
     "codigo": "0889",
@@ -15715,7 +17303,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.640386337897,
+    "longitud": -0.99120608839907
   },
   {
     "codigo": "0890",
@@ -15737,7 +17327,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.640426928909,
+    "longitud": -0.99118396017608
   },
   {
     "codigo": "0891",
@@ -15759,7 +17351,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.640465515403,
+    "longitud": -0.99115646753506
   },
   {
     "codigo": "0892",
@@ -15781,7 +17375,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.796563569777,
+    "longitud": -0.74344440497171
   },
   {
     "codigo": "0893",
@@ -15797,7 +17393,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.796226166197,
+    "longitud": -1.9897441507246
   },
   {
     "codigo": "0894",
@@ -15819,7 +17417,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.796178174815,
+    "longitud": -1.9897039175882
   },
   {
     "codigo": "0898",
@@ -15841,7 +17441,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 41.51568680434,
+    "longitud": 1.2918730666345
   },
   {
     "codigo": "0899",
@@ -15905,7 +17507,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.468166483026,
+    "longitud": -3.6264348099183
   },
   {
     "codigo": "0900",
@@ -15921,7 +17525,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.465735343986,
+    "longitud": -3.8064370569303
   },
   {
     "codigo": "0910",
@@ -15943,7 +17549,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.465747903898,
+    "longitud": -3.8064107773074
   },
   {
     "codigo": "0995",
@@ -15965,7 +17573,9 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 42.8176381,
+    "longitud": -1.6017532
   },
   {
     "codigo": "0997",
@@ -15987,7 +17597,9 @@
         "potencia": "7.4",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 40.424872,
+    "longitud": -3.689286
   },
   {
     "codigo": "0998",
@@ -16009,6 +17621,8 @@
         "potencia": "22",
         "estado": "Available"
       }
-    ]
+    ],
+    "latitud": 38.703333,
+    "longitud": -0.477778
   }
 ]

@@ -155,6 +155,8 @@ def buscar_por_localidad(localidad):
                 "codigo": punto.get("codigo"),
                 "nombre": punto.get("nombre"),
                 "direccion": punto.get("direccion"),
+                "latitud": punto.get("latitud"),
+                "longitud": punto.get("longitud"),
                 "precio_kwh": punto.get("precio_kwh"),
                 "gratuito": punto.get("gratuito"),
                 "estado_tarifa": punto.get("estado_tarifa"),
