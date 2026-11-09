@@ -188,11 +188,27 @@ def hay_toma_libre(cargador):
     return False
 
 
+def comprobar_iberdrola(cupr_id):
+
+    cargador = consultar_cargador(cupr_id)
+
+    if cargador is None:
+
+        print(
+            f"[VIGILANCIA] No aparece el cargador {cupr_id}.",
+            flush=True
+        )
+
+        return False
+
+    return hay_toma_libre(cargador)
+
+
 # --------------------------------------------------
 # VIGILAR CARGADOR
 # --------------------------------------------------
 
-def _vigilar(cupr_id, nombre, direccion, localidad):
+def _vigilar(clave, comprobar, operador, nombre, direccion, localidad):
 
     duracion = DURACION_HORAS * 60 * 60
     intervalo = INTERVALO_MINUTOS * 60
@@ -203,12 +219,12 @@ def _vigilar(cupr_id, nombre, direccion, localidad):
     try:
 
         print(
-            f"[VIGILANCIA] Iniciada: {nombre} ({cupr_id})",
+            f"[VIGILANCIA] Iniciada: {nombre} ({clave})",
             flush=True
         )
 
         enviar_telegram(
-            "🟢 Vigilancia Iberdrola iniciada.\n\n"
+            f"🟢 Vigilancia {operador} iniciada.\n\n"
             f"{nombre}\n"
             f"{direccion}\n"
             f"{localidad}\n\n"
@@ -225,16 +241,7 @@ def _vigilar(cupr_id, nombre, direccion, localidad):
                     flush=True
                 )
 
-                cargador = consultar_cargador(cupr_id)
-
-                if cargador is None:
-
-                    print(
-                        f"[VIGILANCIA] No aparece el cargador {cupr_id}.",
-                        flush=True
-                    )
-
-                elif hay_toma_libre(cargador):
+                if comprobar():
 
                     print(
                         f"[VIGILANCIA] ¡Hay una toma libre en {nombre}!",
@@ -261,7 +268,7 @@ def _vigilar(cupr_id, nombre, direccion, localidad):
             except Exception as error:
 
                 print(
-                    f"[VIGILANCIA] Error consultando Iberdrola: {repr(error)}",
+                    f"[VIGILANCIA] Error consultando {operador}: {repr(error)}",
                     flush=True
                 )
 
@@ -299,41 +306,65 @@ def _vigilar(cupr_id, nombre, direccion, localidad):
 
         with vigilancia_lock:
 
-            if vigilancias_activas.get(cupr_id) is current_thread():
-                vigilancias_activas.pop(cupr_id, None)
+            if vigilancias_activas.get(clave) is current_thread():
+                vigilancias_activas.pop(clave, None)
 
 
 # --------------------------------------------------
 # INICIAR VIGILANCIA
 # --------------------------------------------------
 
-def iniciar_vigilancia(cupr_id, nombre, direccion="", localidad=""):
+def _lanzar_vigilancia(clave, comprobar, operador, nombre, direccion, localidad):
 
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         raise RuntimeError(
             "Faltan las credenciales de Telegram."
         )
 
-    cupr_id = int(cupr_id)
-
     with vigilancia_lock:
 
-        hilo_actual = vigilancias_activas.get(cupr_id)
+        hilo_actual = vigilancias_activas.get(clave)
 
         if hilo_actual and hilo_actual.is_alive():
             return False
 
         hilo = Thread(
             target=_vigilar,
-            args=(cupr_id, nombre, direccion, localidad),
+            args=(clave, comprobar, operador, nombre, direccion, localidad),
             daemon=True
         )
 
-        vigilancias_activas[cupr_id] = hilo
+        vigilancias_activas[clave] = hilo
 
         hilo.start()
 
     return True
+
+
+def iniciar_vigilancia(cupr_id, nombre, direccion="", localidad=""):
+
+    cupr_id = int(cupr_id)
+
+    return _lanzar_vigilancia(
+        cupr_id,
+        lambda: comprobar_iberdrola(cupr_id),
+        "Iberdrola",
+        nombre,
+        direccion,
+        localidad
+    )
+
+
+def iniciar_vigilancia_fenie(codigo, comprobar, nombre, direccion=""):
+
+    return _lanzar_vigilancia(
+        ("fenie", codigo),
+        comprobar,
+        "Feníe",
+        nombre,
+        direccion,
+        ""
+    )
 
 
 # --------------------------------------------------

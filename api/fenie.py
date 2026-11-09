@@ -6,6 +6,9 @@ import time
 
 import requests
 from fastapi import APIRouter, HTTPException, Query
+from pydantic import BaseModel
+
+from vigilancia import iniciar_vigilancia_fenie
 
 
 router = APIRouter(prefix="/api/fenie", tags=["Feníe Energía"])
@@ -31,6 +34,10 @@ ESTADOS_NO_DISPONIBLES = {
     "Faulted",
     "Unavailable",
 }
+
+
+class SolicitudVigilanciaFenie(BaseModel):
+    codigo: str
 
 
 def normalizar(texto):
@@ -90,6 +97,19 @@ def consultar_estado(conector_id, sesion):
             flush=True
         )
         return None
+
+
+def hay_conector_libre(conectores):
+    """Indica si alguno de los conectores está disponible ahora mismo."""
+    with requests.Session() as sesion:
+        for conector in conectores:
+            if consultar_estado(conector.get("id"), sesion) == "Available":
+                return True
+
+            # Pequeña pausa para no sobrecargar el servicio externo.
+            time.sleep(0.15)
+
+    return False
 
 
 def buscar_por_localidad(localidad):
@@ -180,6 +200,50 @@ def buscar_por_localidad(localidad):
         "localidad": localidad,
         "total": len(resultados),
         "cargadores": resultados
+    }
+
+
+@router.post("/vigilancia")
+def activar_vigilancia_fenie(solicitud: SolicitudVigilanciaFenie):
+    # Los datos del punto se toman del catálogo, no de la petición.
+    punto = next(
+        (
+            p for p in cargar_catalogo()
+            if p.get("codigo") == solicitud.codigo
+        ),
+        None
+    )
+
+    if punto is None:
+        raise HTTPException(
+            status_code=404,
+            detail="No se encuentra el cargador de Feníe."
+        )
+
+    conectores = punto.get("conectores", [])
+
+    try:
+        iniciada = iniciar_vigilancia_fenie(
+            solicitud.codigo,
+            lambda: hay_conector_libre(conectores),
+            punto.get("nombre") or solicitud.codigo,
+            punto.get("direccion") or ""
+        )
+
+    except RuntimeError as error:
+        print(f"[ERROR FENIE] Vigilancia: {error}", flush=True)
+        raise HTTPException(
+            status_code=503,
+            detail="No se ha podido iniciar la vigilancia."
+        )
+
+    return {
+        "ok": True,
+        "mensaje": (
+            "Vigilancia iniciada correctamente."
+            if iniciada
+            else "Este cargador ya está siendo vigilado."
+        )
     }
 
 

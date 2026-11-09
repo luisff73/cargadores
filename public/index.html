@@ -789,10 +789,10 @@
     `;
                 }).join("");
                 const botonVigilancia =
-                    c.operador !== "fenie" && c.disponible === false
+                    c.disponible === false
                         ? `
                         <button class="boton-vigilancia"
-                            onclick="activarVigilancia(${JSON.stringify(c.cuprId)}, this)">
+                            onclick="activarVigilancia(${escapar(JSON.stringify(idVigilancia(c)))}, this)">
                             Avisarme cuando haya una libre
                         </button>
                     `
@@ -854,10 +854,17 @@
 
             }).join("");
         }
-        async function activarVigilancia(cuprId, boton) {
+        // Identificador único: Feníe usa "codigo" e Iberdrola "cuprId".
+        function idVigilancia(c) {
+            return c.operador === "fenie"
+                ? `fenie:${c.codigo}`
+                : String(c.cuprId);
+        }
+
+        async function activarVigilancia(id, boton) {
 
             const cargador = cargadores.find(
-                c => String(c.cuprId) === String(cuprId)
+                c => idVigilancia(c) === id
             );
 
             if (!cargador) {
@@ -870,18 +877,25 @@
 
             try {
 
-                const respuesta = await fetch("/api/vigilancia", {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-                    body: JSON.stringify({
-                        cuprId: cargador.cuprId,
-                        nombre: cargador.nombre,
-                        direccion: cargador.direccion || "",
-                        localidad: cargador.localidad || ""
-                    })
-                });
+                const esFenie = cargador.operador === "fenie";
+
+                const respuesta = await fetch(
+                    esFenie ? "/api/fenie/vigilancia" : "/api/vigilancia",
+                    {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify(esFenie
+                            ? { codigo: cargador.codigo }
+                            : {
+                                cuprId: cargador.cuprId,
+                                nombre: cargador.nombre,
+                                direccion: cargador.direccion || "",
+                                localidad: cargador.localidad || ""
+                            })
+                    }
+                );
 
                 const datos = await respuesta.json();
 
