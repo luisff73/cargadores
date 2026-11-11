@@ -5,10 +5,10 @@ import unicodedata
 import time
 
 import requests
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, HTTPException, Query, Request
 from pydantic import BaseModel
 
-from vigilancia import iniciar_vigilancia_fenie
+from vigilancia import ErrorVigilancia, iniciar_vigilancia_fenie
 
 
 router = APIRouter(prefix="/api/fenie", tags=["Feníe Energía"])
@@ -38,6 +38,7 @@ ESTADOS_NO_DISPONIBLES = {
 
 class SolicitudVigilanciaFenie(BaseModel):
     codigo: str
+    telefono: str
 
 
 def normalizar(texto):
@@ -204,7 +205,10 @@ def buscar_por_localidad(localidad):
 
 
 @router.post("/vigilancia")
-def activar_vigilancia_fenie(solicitud: SolicitudVigilanciaFenie):
+def activar_vigilancia_fenie(
+    solicitud: SolicitudVigilanciaFenie,
+    request: Request
+):
     # Los datos del punto se toman del catálogo, no de la petición.
     punto = next(
         (
@@ -226,23 +230,21 @@ def activar_vigilancia_fenie(solicitud: SolicitudVigilanciaFenie):
         iniciada = iniciar_vigilancia_fenie(
             solicitud.codigo,
             lambda: hay_conector_libre(conectores),
+            solicitud.telefono,
+            request.client.host if request.client else "desconocida",
             punto.get("nombre") or solicitud.codigo,
             punto.get("direccion") or ""
         )
 
-    except RuntimeError as error:
-        print(f"[ERROR FENIE] Vigilancia: {error}", flush=True)
-        raise HTTPException(
-            status_code=503,
-            detail="No se ha podido iniciar la vigilancia."
-        )
+    except ErrorVigilancia as error:
+        raise HTTPException(status_code=error.estado, detail=str(error))
 
     return {
         "ok": True,
         "mensaje": (
-            "Vigilancia iniciada correctamente."
+            "Vigilancia iniciada. Te hemos enviado un WhatsApp."
             if iniciada
-            else "Este cargador ya está siendo vigilado."
+            else "Este cargador ya está vigilado para ese número."
         )
     }
 

@@ -458,7 +458,7 @@
             <label for="localidad">¿Dónde quieres buscar?</label>
 
             <div class="controles">
-                <input type="text" id="localidad" placeholder="Ejemplo: Ontinyent" value="Ontinyent">
+                <input type="text" id="localidad" placeholder="Ejemplo: Ontinyent">
 
                 <button id="btnBuscar" onclick="buscarCargadores()">
                     Buscar cargadores
@@ -872,6 +872,14 @@
                 return;
             }
 
+            const telefono = prompt(
+                "Introduce tu número de WhatsApp (por ejemplo, 612345678):"
+            )?.trim();
+
+            if (!telefono) {
+                return;
+            }
+
             boton.disabled = true;
             boton.textContent = "Iniciando vigilancia...";
 
@@ -887,13 +895,8 @@
                             "Content-Type": "application/json"
                         },
                         body: JSON.stringify(esFenie
-                            ? { codigo: cargador.codigo }
-                            : {
-                                cuprId: cargador.cuprId,
-                                nombre: cargador.nombre,
-                                direccion: cargador.direccion || "",
-                                localidad: cargador.localidad || ""
-                            })
+                            ? { codigo: cargador.codigo, telefono }
+                            : { cuprId: cargador.cuprId, telefono })
                     }
                 );
 

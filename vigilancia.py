@@ -1,5 +1,6 @@
 
 import os
+import re
 import time
 import requests
 
@@ -16,11 +17,18 @@ BASE_DIR = Path(__file__).resolve().parent
 
 load_dotenv(BASE_DIR / ".env")
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+WAHA_URL = os.getenv("WAHA_URL", "").rstrip("/")
+WAHA_API_KEY = os.getenv("WAHA_API_KEY")
+WAHA_SESSION = os.getenv("WAHA_SESSION", "default")
 
 DURACION_HORAS = 4
 INTERVALO_MINUTOS = 3
+
+# Evitan que la web se use para enviar mensajes masivos desde el número.
+MAX_VIGILANCIAS_TOTALES = 30
+MAX_VIGILANCIAS_POR_TELEFONO = 3
+MAX_ACTIVACIONES_POR_IP = 10
+VENTANA_IP_SEGUNDOS = 60 * 60
 
 URL_WEB = (
     "https://www.iberdrola.es/movilidad-electrica/"
@@ -54,42 +62,75 @@ HEADERS = {
 # --------------------------------------------------
 
 vigilancias_activas = {}
+activaciones_por_ip = {}
 vigilancia_lock = Lock()
 
 
+class ErrorVigilancia(Exception):
+    """Error con un mensaje apto para mostrar al usuario."""
+
+    def __init__(self, mensaje, estado):
+        super().__init__(mensaje)
+        self.estado = estado
+
+
 # --------------------------------------------------
-# TELEGRAM
+# WHATSAPP (WAHA)
 # --------------------------------------------------
 
-def enviar_telegram(mensaje):
+def normalizar_telefono(texto):
+    """Devuelve el número internacional solo con dígitos, sin el +."""
+    limpio = re.sub(r"[\s().-]", "", texto or "")
 
-    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
-        raise RuntimeError(
-            "Faltan las credenciales de Telegram."
-        )
+    if limpio.startswith("+"):
+        digitos = limpio[1:]
+    elif limpio.startswith("00"):
+        digitos = limpio[2:]
+    elif re.fullmatch(r"[67]\d{8}", limpio):
+        digitos = "34" + limpio
+    elif re.fullmatch(r"34[67]\d{8}", limpio):
+        digitos = limpio
+    else:
+        digitos = ""
 
-    url = (
-        f"https://api.telegram.org/"
-        f"bot{TELEGRAM_TOKEN}/sendMessage"
-    )
+    if not re.fullmatch(r"[1-9]\d{7,14}", digitos):
+        raise ErrorVigilancia("El número de WhatsApp no es válido.", 400)
 
-    respuesta = requests.post(
-        url,
-        json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": mensaje
-        },
+    return digitos
+
+
+def _cabeceras_waha():
+    return {"X-Api-Key": WAHA_API_KEY}
+
+
+def numero_tiene_whatsapp(telefono):
+
+    respuesta = requests.get(
+        f"{WAHA_URL}/api/contacts/check-exists",
+        params={"phone": telefono, "session": WAHA_SESSION},
+        headers=_cabeceras_waha(),
         timeout=20
     )
 
     respuesta.raise_for_status()
 
-    datos = respuesta.json()
+    return respuesta.json().get("numberExists") is True
 
-    if not datos.get("ok"):
-        raise RuntimeError(
-            "Telegram no ha confirmado el envío."
-        )
+
+def enviar_whatsapp(telefono, mensaje):
+
+    respuesta = requests.post(
+        f"{WAHA_URL}/api/sendText",
+        json={
+            "session": WAHA_SESSION,
+            "chatId": f"{telefono}@c.us",
+            "text": mensaje
+        },
+        headers=_cabeceras_waha(),
+        timeout=20
+    )
+
+    respuesta.raise_for_status()
 
 
 # --------------------------------------------------
@@ -208,7 +249,7 @@ def comprobar_iberdrola(cupr_id):
 # VIGILAR CARGADOR
 # --------------------------------------------------
 
-def _vigilar(clave, comprobar, operador, nombre, direccion, localidad):
+def _vigilar(clave, comprobar, operador, nombre, direccion, localidad, telefono):
 
     duracion = DURACION_HORAS * 60 * 60
     intervalo = INTERVALO_MINUTOS * 60
@@ -219,17 +260,8 @@ def _vigilar(clave, comprobar, operador, nombre, direccion, localidad):
     try:
 
         print(
-            f"[VIGILANCIA] Iniciada: {nombre} ({clave})",
+            f"[VIGILANCIA] Iniciada: {nombre}",
             flush=True
-        )
-
-        enviar_telegram(
-            f"🟢 Vigilancia {operador} iniciada.\n\n"
-            f"{nombre}\n"
-            f"{direccion}\n"
-            f"{localidad}\n\n"
-            f"Comprobación cada {INTERVALO_MINUTOS} minutos.\n"
-            f"Duración máxima: {DURACION_HORAS} horas."
         )
 
         while time.monotonic() < final:
@@ -248,7 +280,8 @@ def _vigilar(clave, comprobar, operador, nombre, direccion, localidad):
                         flush=True
                     )
 
-                    enviar_telegram(
+                    enviar_whatsapp(
+                        telefono,
                         "🔌 ¡YA HAY UNA TOMA LIBRE!\n\n"
                         f"{nombre}\n"
                         f"{direccion}\n"
@@ -277,7 +310,8 @@ def _vigilar(clave, comprobar, operador, nombre, direccion, localidad):
             if restante > 0:
                 time.sleep(min(intervalo, restante))
 
-        enviar_telegram(
+        enviar_whatsapp(
+            telefono,
             "⏹ Vigilancia finalizada por tiempo.\n\n"
             f"{nombre}\n"
             "No se ha detectado ninguna toma libre."
@@ -296,7 +330,8 @@ def _vigilar(clave, comprobar, operador, nombre, direccion, localidad):
         )
 
         try:
-            enviar_telegram(
+            enviar_whatsapp(
+                telefono,
                 f"⚠️ Error en la vigilancia de {nombre}."
             )
         except Exception:
@@ -314,67 +349,131 @@ def _vigilar(clave, comprobar, operador, nombre, direccion, localidad):
 # INICIAR VIGILANCIA
 # --------------------------------------------------
 
-def _lanzar_vigilancia(clave, comprobar, operador, nombre, direccion, localidad):
-
-    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
-        raise RuntimeError(
-            "Faltan las credenciales de Telegram."
+def _registrar_activacion(clave, telefono, ip):
+    """Comprueba los límites. Debe llamarse con vigilancia_lock adquirido."""
+    if len(vigilancias_activas) >= MAX_VIGILANCIAS_TOTALES:
+        raise ErrorVigilancia(
+            "Hay demasiadas vigilancias activas. Inténtalo más tarde.",
+            429
         )
+
+    del_telefono = sum(1 for c in vigilancias_activas if c[1] == telefono)
+
+    if del_telefono >= MAX_VIGILANCIAS_POR_TELEFONO:
+        raise ErrorVigilancia(
+            "Este número ya tiene el máximo de vigilancias activas.",
+            429
+        )
+
+    ahora = time.monotonic()
+    historial = [
+        momento for momento in activaciones_por_ip.get(ip, [])
+        if ahora - momento < VENTANA_IP_SEGUNDOS
+    ]
+
+    if len(historial) >= MAX_ACTIVACIONES_POR_IP:
+        activaciones_por_ip[ip] = historial
+        raise ErrorVigilancia(
+            "Has activado demasiadas vigilancias. Inténtalo más tarde.",
+            429
+        )
+
+    historial.append(ahora)
+    activaciones_por_ip[ip] = historial
+
+
+def _lanzar_vigilancia(
+    id_cargador, comprobar, operador, nombre, direccion, localidad,
+    telefono, ip
+):
+
+    if not WAHA_URL or not WAHA_API_KEY:
+        print("[VIGILANCIA] Falta WAHA_URL o WAHA_API_KEY.", flush=True)
+        raise ErrorVigilancia("No se ha podido iniciar la vigilancia.", 503)
+
+    telefono = normalizar_telefono(telefono)
+    clave = (id_cargador, telefono)
+
+    hilo = Thread(
+        target=_vigilar,
+        args=(clave, comprobar, operador, nombre, direccion, localidad, telefono),
+        daemon=True
+    )
 
     with vigilancia_lock:
 
-        hilo_actual = vigilancias_activas.get(clave)
-
-        if hilo_actual and hilo_actual.is_alive():
+        if clave in vigilancias_activas:
             return False
 
-        hilo = Thread(
-            target=_vigilar,
-            args=(clave, comprobar, operador, nombre, direccion, localidad),
-            daemon=True
-        )
+        _registrar_activacion(clave, telefono, ip)
 
+        # Reserva el hueco mientras se envía el primer mensaje.
         vigilancias_activas[clave] = hilo
 
-        hilo.start()
+    # El primer envío se hace aquí para poder informar de un fallo al usuario.
+    try:
+
+        if not numero_tiene_whatsapp(telefono):
+            raise ErrorVigilancia("Ese número no tiene WhatsApp.", 400)
+
+        enviar_whatsapp(
+            telefono,
+            f"🟢 Vigilancia {operador} iniciada.\n\n"
+            f"{nombre}\n"
+            f"{direccion}\n"
+            f"{localidad}\n\n"
+            f"Comprobación cada {INTERVALO_MINUTOS} minutos.\n"
+            f"Duración máxima: {DURACION_HORAS} horas."
+        )
+
+    except Exception as error:
+
+        with vigilancia_lock:
+            vigilancias_activas.pop(clave, None)
+
+        if isinstance(error, ErrorVigilancia):
+            raise
+
+        print(
+            f"[VIGILANCIA] Error enviando WhatsApp: {repr(error)}",
+            flush=True
+        )
+
+        raise ErrorVigilancia(
+            "No se ha podido enviar el WhatsApp. Inténtalo más tarde.",
+            503
+        )
+
+    hilo.start()
 
     return True
 
 
-def iniciar_vigilancia(cupr_id, nombre, direccion="", localidad=""):
+def iniciar_vigilancia(cupr_id, telefono, ip, nombre, direccion="", localidad=""):
 
     cupr_id = int(cupr_id)
 
     return _lanzar_vigilancia(
-        cupr_id,
+        f"iberdrola:{cupr_id}",
         lambda: comprobar_iberdrola(cupr_id),
         "Iberdrola",
         nombre,
         direccion,
-        localidad
+        localidad,
+        telefono,
+        ip
     )
 
 
-def iniciar_vigilancia_fenie(codigo, comprobar, nombre, direccion=""):
+def iniciar_vigilancia_fenie(codigo, comprobar, telefono, ip, nombre, direccion=""):
 
     return _lanzar_vigilancia(
-        ("fenie", codigo),
+        f"fenie:{codigo}",
         comprobar,
         "Feníe",
         nombre,
         direccion,
-        ""
+        "",
+        telefono,
+        ip
     )
-
-
-# --------------------------------------------------
-# CONSULTAR SI YA ESTÁ VIGILADO
-# --------------------------------------------------
-
-def esta_vigilado(cupr_id):
-
-    with vigilancia_lock:
-
-        hilo = vigilancias_activas.get(int(cupr_id))
-
-        return hilo is not None and hilo.is_alive()

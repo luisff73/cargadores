@@ -16,3 +16,6 @@ cargadores_encontrados.csv
 .vercel/
 .DS_Store
 Thumbs.db
+# Servicio de WhatsApp (Node)
+whatsapp-node/node_modules/
+whatsapp-node/sesion/

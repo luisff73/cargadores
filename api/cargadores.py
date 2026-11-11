@@ -10,7 +10,7 @@ from pydantic import BaseModel
 from api.fenie import router as fenie_router
 from fastapi.staticfiles import StaticFiles
 from buscador import (RADIO_KM,crear_sesion,obtener_coordenadas,crear_limites,buscar_cargadores,consultar_disponibilidad,extraer_datos)
-from vigilancia import (iniciar_vigilancia,esta_vigilado)
+from vigilancia import (iniciar_vigilancia,ErrorVigilancia)
 
 # Ruta de la página web
 FRONTEND = Path(__file__).resolve().parent.parent / "public"
@@ -29,9 +29,12 @@ app.mount("/iconos",StaticFiles(directory=str(FRONTEND / "iconos")),name="iconos
 
 class SolicitudVigilancia(BaseModel):
     cuprId: int
-    nombre: str
-    direccion: str = ""
-    localidad: str = ""
+    telefono: str
+
+
+# Datos de los cargadores buscados. El texto del WhatsApp sale de aquí
+# para que nadie pueda enviar contenido propio a través de la API.
+cargadores_conocidos = {}
 
 # --------------------------------------------------
 # CABECERAS DE SEGURIDAD HTTP
@@ -195,6 +198,10 @@ def buscar(
             for cargador in cargadores
         ]
 
+        for resultado in resultados:
+            if resultado["cuprId"] != "":
+                cargadores_conocidos[int(resultado["cuprId"])] = resultado
+
         print("[LOG] 7. Ordenando resultados...", flush=True)
         resultados.sort(
             key=lambda c: (
@@ -236,32 +243,35 @@ def buscar(
 @app.post("/api/vigilancia")
         
 
-def activar_vigilancia(solicitud: SolicitudVigilancia):
+def activar_vigilancia(solicitud: SolicitudVigilancia, request: Request):
+
+    datos = cargadores_conocidos.get(solicitud.cuprId)
+
+    if datos is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Cargador no encontrado. Vuelve a hacer la búsqueda."
+        )
 
     try:
         iniciada = iniciar_vigilancia(
             solicitud.cuprId,
-            solicitud.nombre,
-            solicitud.direccion,
-            solicitud.localidad
+            solicitud.telefono,
+            request.client.host if request.client else "desconocida",
+            datos["nombre"],
+            datos["direccion"],
+            datos["localidad"]
         )
 
-        if not iniciada:
-            return {
-                "ok": True,
-                "mensaje": "Este cargador ya está siendo vigilado."
-            }
+    except ErrorVigilancia as error:
+        raise HTTPException(status_code=error.estado, detail=str(error))
 
-        return {
-            "ok": True,
-            "mensaje": "Vigilancia iniciada correctamente."
-        }
-
-    except (ValueError, RuntimeError) as error:
-        print(f"[ERROR] Vigilancia: {error}", flush=True)
-
-        raise HTTPException(
-            status_code=503,
-            detail="No se ha podido iniciar la vigilancia."
+    return {
+        "ok": True,
+        "mensaje": (
+            "Vigilancia iniciada. Te hemos enviado un WhatsApp."
+            if iniciada
+            else "Este cargador ya está vigilado para ese número."
         )
+    }
 
